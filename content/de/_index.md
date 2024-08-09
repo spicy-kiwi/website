@@ -8,9 +8,13 @@ cascade:
   featured_image: '/images/background.jpg'
 ---
 
-# Spicy Kiwi
+## Willkommen
 
-Hier entsteht etwas. Was es wird, weiß ich auch noch nicht.
+Willkommen auf Spicy Kiwi - einem weiteren Blog zum Thema Kochen. Hier findest du bis auf Weiteres nur ein paar [Rezepte](/rezepte).
+Künftig wird es hier auch noch Tipps und Tricks rund ums Kochen geben.
 
-thx.
+Wir ernähren uns größtenteils vegetarisch, es wird aber sicher auch das eine oder andere Rezept mit Fleisch, Geflügel oder Fisch geben.
 
+Bis dahin, viel Spaß beim Kochen!
+
+Anderer Jan
