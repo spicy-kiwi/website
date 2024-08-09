@@ -1,0 +1,40 @@
+- ingredient: Pasta
+  amount: 320
+  unit: g
+- ingredient: Ajvar
+  amount: 200
+  unit: g
+- ingredient: Cherrytomaten
+  amount: 250
+  unit: g
+- ingredient: Kräuterfrischkäse
+  amount: 150
+  unit: g
+- ingredient: Basilikum
+  amount: 1
+  unit: p
+- ingredient: Tomatenmark
+  amount: 1
+  unit: tbsp
+- ingredient: Paprika (scharf)
+  amount: .5
+  unit: tsp
+- ingredient: Paprika (süß)
+  amount: .5
+  unit: tsp
+- ingredient: Paprika (geräuchert)
+  amount: .5
+  unit: tsp
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+- ingredient: Knoblauchzehe
+  amount: 2
+  unit: p
+- ingredient: Olivenöl
+  amount: 2
+  unit: tbsp
+- ingredient: Salz
+  amount: nach Bedarf
+- ingredient: Pfeffer
+  amount: nach Bedarf

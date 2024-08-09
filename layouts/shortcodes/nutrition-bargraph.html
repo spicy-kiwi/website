@@ -1,0 +1,17 @@
+<div class="nutritionBargraph">
+    <label for="Kalorien">Kalorien: <span class="right unitcalories">{{ .Get "calories" }} / 1040</span></label>
+    <br/>
+    <progress id="Kalorien" value="{{ .Get "calories" }}" max="1040"> {{ .Get "calories" }}%</progress>
+
+    <label for="Kohlenhydrate">Kohlenhydrate: <span class="right unitg">{{ .Get "carbonhydrates" }} / 76</span></label>
+    <br/>
+    <progress id="Kohlenhydrate" value="{{ .Get "carbonhydrates" }}" max="76"><span class="unitg">{{ .Get "carbonhydrates" }}</span></progress>
+
+    <label for="Protein">Protein: <span class="right unitg">{{ .Get "protein" }} / 63</span></label>
+    <br/>
+    <progress id="Protein" value="{{ .Get "protein" }}" max="63"> {{ .Get "protein" }}%</progress>
+
+    <label for="Fett">Fett: <span class="right unitg">{{ .Get "fat" }} / 50</span></label>
+    <br/>
+    <progress id="Fett" value="{{ .Get "fat" }}" max="50"> {{ .Get "fat" }}%</progress>
+</div>

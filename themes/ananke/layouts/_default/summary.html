@@ -1,0 +1,41 @@
+<div class="recipe">
+    <a href="{{ .RelPermalink }}" class="link black dim" title="{{ (i18n "showRecipeFor") }} {{ .Title }}">
+        <div class="image">
+            {{ if .Params.featured_image }}
+                <img title="{{ (i18n "showRecipeFor") }} {{ .Title }}"
+                     src="{{ .Params.featured_image }}" alt="{{ .Title }}"
+                     class="featured-image">
+            {{ end }}
+            {{ if not .Params.featured_image }}
+                <img src="https://placekitten.com/300/300" alt="{{ .Title }}"
+                     class="featured-image">
+            {{ end }}
+            <div class="footer">
+                <small>
+                    {{ if .Params.stars }}
+                        <span class="badge unitStars">{{ .Params.stars }}</span>
+                    {{ end }}
+                    {{ if .Params.duration }}
+                        <span class="badge unitMinutes">
+                            {{ .Params.duration }}
+                        </span>
+                    {{ end }}
+                </small>
+            </div>
+        </div>
+        <div class="text">
+            <h2>
+                {{ .Title }}
+            </h2>
+            <p>
+
+                {{ .Description }}
+            </p>
+            <p>
+                <a href="{{ .RelPermalink }}"
+                   title="{{ (i18n "showRecipeFor") }} {{ .Title }}">{{ $.Param "read_more_copy" | default (i18n "showRecipe") }}</a>
+            </p>
+
+        </div>
+    </a>
+</div>

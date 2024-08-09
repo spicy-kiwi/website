@@ -1,0 +1,30 @@
+title = "Spicy 🌶️ Kiwi"
+baseURL = "https://gohugo-theme-ananke.pages.dev"
+languageCode = "de-de"
+theme = ["ananke"]
+
+DefaultContentLanguage = "de"
+SectionPagesMenu = "main"
+Paginate = 16
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+[languages.de]
+title = "Spicy 🌶️ Kiwi"
+weight = 1
+contentDir = "content/de"
+
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+author = "Anderer Jan"
+favicon = "/favicon.ico"
+site_logo = ""
+description = "The last theme you'll ever need. Maybe."
+background_color_class = "bg-dark-gray"
+recent_posts_number = 1

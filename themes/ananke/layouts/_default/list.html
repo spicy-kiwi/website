@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+        {{- .Content -}}
+    </section>
+    <div class="mw8 center">
+        <section class="flex-ns flex-wrap justify-around mt5">
+            {{ range .Paginator.Pages }}
+                <div class="w-25-l">
+                    {{ .Render "summary" }}
+                </div>
+            {{ end }}
+        </section>
+        {{- template "_internal/pagination.html" . -}}
+    </div>
+{{ end }}

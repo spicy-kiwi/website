@@ -1,0 +1,140 @@
+
+.unitp:after {
+    content: " Stück";
+}
+
+.badge {
+    background: red;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 3px;
+}
+
+.unitStars:before {
+    content: "⭐";
+}
+
+.unitMinutes:before {
+    content: "⏱️";
+}
+
+.unitMinutes:after {
+    content: "min";
+}
+
+.unitcalories:after {
+    content: "kcal";
+}
+
+.unitCooked:before {
+    content: "🥗";
+}
+
+.unitCooked:after {
+    content: "x";
+}
+
+.unitDifficulty:before {
+    content: "🧑‍🍳";
+}
+
+.unitg:after {
+    content: "g";
+}
+
+.unitml:after {
+    content: "ml";
+}
+
+.unitl:after {
+    content: "l";
+}
+
+.unittsp:after {
+    content: " TL";
+}
+
+.unittbsp:after {
+    content: " EL";
+}
+
+
+/* RECIPE BOX */
+.recipe {
+    margin: .5rem;
+    background: white;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.recipe .image {
+    position: relative;
+    display: inline-block;
+}
+
+.recipe .image > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.recipe .image > .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 .5rem .5rem; /* Match the border radius of the image */
+}
+
+.recipe .image > .footer .badge {
+    background: rgba(255, 255, 255, 0.75); /* Semi-transparent background */
+    color: black;
+}
+
+.recipe h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe .text {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.nutritionBargraph .powered {
+    text-align: right;
+}
+
+.nutritionBargraph {
+    border-radius: .5rem;
+    padding: .5rem;
+    background: rgb(64, 64, 63);
+    background: linear-gradient(180deg, rgba(64, 64, 63, 1) 0%, rgba(38, 38, 39, 1) 100%);
+    color: white;
+}
+
+.nutritionBargraph progress {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+progress {
+    padding: 0;
+    margin: 0;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    background-color: #464646; /* For other browsers */
+}
+
+progress::-moz-progress-bar {
+    background-color: #01acf1; /* For other browsers */
+}
+
+.right {
+    float: right;
+}

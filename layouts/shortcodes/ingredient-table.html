@@ -1,0 +1,20 @@
+<!-- layouts/shortcodes/ingredient-table.html -->
+{{ $recipe := .Get "recipe" }}
+{{ $ingredients := index .Site.Data $recipe }}
+
+<table id="ingredientsTable" data-originalServings="{{.Get "servingsCount"}}">
+    <thead>
+    <tr>
+        <th>Zutat</th>
+        <th>Menge</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range $ingredients }}
+        <tr>
+            <td class="ingredient">{{ .ingredient }}</td>
+            <td data-original="{{.amount}}" class="amount unit{{ .unit }}">{{ .amount }}</td>
+        </tr>
+    {{ end }}
+    </tbody>
+</table>
