@@ -12,7 +12,7 @@
     <tbody>
     {{ range $ingredients }}
         <tr>
-            <td class="ingredient">{{ .ingredient }}</td>
+            <td class="ingredientLink pointer" data-ing="{{ .link }}">{{ .ingredient }}</td>
             <td data-original="{{.amount}}" class="amount unit{{ .unit }}">{{ .amount }}</td>
         </tr>
     {{ end }}

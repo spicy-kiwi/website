@@ -4,10 +4,6 @@
 }
 
 .badge {
-    background: red;
-    border-radius: 6px;
-    padding: 4px;
-    margin: 3px;
 }
 
 .unitStars:before {
@@ -137,4 +133,16 @@ progress::-moz-progress-bar {
 
 .right {
     float: right;
+}
+
+.checked {
+    opacity: 0.7;
+}
+.checked:hover {
+    opacity: 1;
+}
+
+ol > li::marker {
+    text-decoration: line-through;
+    font-size: 1.5em;
 }
