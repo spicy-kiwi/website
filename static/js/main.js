@@ -77,7 +77,7 @@ $('document').ready(function() {
         }
 
         // On all other elements, remove bg-light-green class
-        $('a[href^="#"]').removeClass('bg-light-green');
+        $('a[href$="#"]').removeClass('bg-light-green');
 
         let elm = $('a[href$="#' + ing + '"]');
 
