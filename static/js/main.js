@@ -79,7 +79,7 @@ $('document').ready(function() {
         // On all other elements, remove bg-light-green class
         $('a[href^="#"]').removeClass('bg-light-green');
 
-        let elm = $('a[href="#' + ing + '"]');
+        let elm = $('a[href$="#' + ing + '"]');
 
         $('html, body').animate({
             scrollTop: elm.parent('li').offset().top
