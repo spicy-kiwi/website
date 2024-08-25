@@ -1,0 +1,55 @@
+- ingredient: Olivenöl
+  amount: 1
+  unit: tbsp
+  link: ing1
+- ingredient: Rote Zwiebeln
+  amount: 2
+  unit: p
+  link: ing2
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing3
+- ingredient: Risotto-Reis
+  amount: 150
+  unit: g
+  link: ing4
+- ingredient: Weißwein
+  amount: 125
+  unit: ml
+  link: ing5
+- ingredient: Braune Champignons
+  amount: 250
+  unit: g
+  link: ing6
+- ingredient: Getrocknete Steinpize
+  amount: 50
+  unit: g
+  link: ing7
+- ingredient: Gemüsebrühe
+  amount: 800
+  unit: ml
+  link: ing8
+- ingredient: Parmesan
+  amount: 40
+  unit: g
+  link: ing9
+- ingredient: Estragon
+  amount: 1
+  unit: tbsp
+  link: ing10
+- ingredient: Rosmarin
+  amount: 1
+  unit: tbsp
+  link: ing11
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing12
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing13
+- ingredient: Butter
+  amount: 50
+  unit: g
+  link: ing14
+
