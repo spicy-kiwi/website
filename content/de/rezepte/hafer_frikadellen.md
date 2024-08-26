@@ -3,7 +3,7 @@ date: 2024-08-08T12:00:00-05:00
 description: "Unser Standard-Teig für selbst gemachte Pizza."
 featured_image: "/images/rezepte/hafer_frikadellen.jpg"
 
-tags: [ "Pizza", "Teig" ]
+tags: [ "Vegetarisch", "Alternative" ]
 title: "Vegetarische Frikadellen"
 layout: "recipe"
 category: "Backen"
@@ -53,8 +53,6 @@ flavourProfile: {
 # Rewe: We add our recipes there and link to them?  Also we could create a button to order ingredients?
 ---
 
-{{<recipe-head stars="4" duration="25" difficulty="1"  recipe="hafer_frikadellen" trello="https://trello.com/c/baGbwUTp/69-haferbratlinge-frikadellen">}}
-
 {{<ingredient-table servingsCount="4" recipe="hafer_frikadellen" image="/images/rezepte/hafer_frikadellen.jpg">}}
 
 ## Anleitung
@@ -63,12 +61,3 @@ flavourProfile: {
 3. [ ] Etwas Pflanzenöl in einer beschichtete Bratpfanne auf mittlere Hitze vorheizen.
 4. [ ] Mit der Hand kleine Fladen vom Teig formen und in der Pfanne für circa fünf Minuten von jeder Seite abraten.
 
-
-## Warum wir das gerne essen
-Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
-
-
-{{<nutrition-bargraph calories="493" carbonhydrates="64" protein="14" fat="19">}}
-
-
-{{<recipe-footer>}}
