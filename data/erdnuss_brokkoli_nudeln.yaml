@@ -1,0 +1,35 @@
+
+- ingredient: Brokkoli
+  amount: 200
+  unit: g
+  link: ing1
+- ingredient: Erdnussbutter (Crunchy)
+  amount: 3
+  unit: tbsp
+  link: ing2
+- ingredient: Sojasoße
+  amount: 3
+  unit: tbsp
+  link: ing3
+- ingredient: Geröstetes Sesamöl
+  amount: 2
+  unit: tbsp
+  link: ing4
+- ingredient: Chiliflocken
+  amount: 0.5
+  unit: tsp
+  link: ing
+- ingredient: Nudeln
+  amount: 250
+  unit: g
+  link: ing6
+- ingredient: Pflanzenöl
+  amount: 1
+  unit: tbsp
+  link: ing7
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing9
