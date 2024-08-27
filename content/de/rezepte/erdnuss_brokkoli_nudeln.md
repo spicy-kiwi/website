@@ -53,8 +53,6 @@ flavourProfile: {
 # Rewe: We add our recipes there and link to them?  Also we could create a button to order ingredients?
 ---
 
-{{<recipe-head stars="3" duration="30" difficulty="1"  recipe="erdnuss_brokkoli_nudeln" trello="https://trello.com/c/QB8Al4Xu/63-erdnuss-brokkoli-nudeln">}}
-
 {{<ingredient-table servingsCount="4" recipe="erdnuss_brokkoli_nudeln" image="/images/rezepte/erdnuss_brokkoli_nudeln.jpg">}}
 
 ## Anleitung
