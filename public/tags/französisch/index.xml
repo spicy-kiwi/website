@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🇫🇷 Französisch on Spicy 🌶️ Kiwi</title>
+    <link>https://gohugo-theme-ananke.pages.dev/tags/franz%C3%B6sisch/</link>
+    <description>Recent content in 🇫🇷 Französisch on Spicy 🌶️ Kiwi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 30 Jul 2023 12:00:00 -0500</lastBuildDate><atom:link href="https://gohugo-theme-ananke.pages.dev/tags/franz%C3%B6sisch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quiche: Champignons</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_lauch_champignon/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_lauch_champignon/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+    <item>
+      <title>Quiche: Mangold</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_mangold/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_mangold/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+    <item>
+      <title>Quiche: Pak Choi</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_pak_choi/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/quiche_pak_choi/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+  </channel>
+</rss>

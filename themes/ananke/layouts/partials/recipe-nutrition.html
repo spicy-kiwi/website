@@ -1,0 +1,25 @@
+
+{{ if and .Params.calories .Params.carbonhydrates .Params.protein .Params.fat }}
+    <section>
+        <div class="card nutritionBargraph">
+            <label for="Kalorien">Kalorien: <span class="right unitcalories">{{ .Params.calories }} / 1040</span></label>
+            <br/>
+            <progress id="Kalorien" value="{{ .Params.calories }}" max="1040"> {{ .Params.calories }}%</progress>
+
+            <label for="Kohlenhydrate">Kohlenhydrate: <span class="right unitg">{{ .Params.carbonhydrates }} / 76</span></label>
+            <br/>
+            <progress id="Kohlenhydrate" value="{{ .Params.carbonhydrates }}" max="76"><span class="unitg">{{ .Params.carbonhydrates }}</span></progress>
+
+            <label for="Protein">Protein: <span class="right unitg">{{ .Params.protein }} / 63</span></label>
+            <br/>
+            <progress id="Protein" value="{{ .Params.protein }}" max="63"> {{ .Params.protein }}%</progress>
+
+            <label for="Fett">Fett: <span class="right unitg">{{ .Params.fat }} / 50</span></label>
+            <br/>
+            <progress id="Fett" value="{{ .Params.fat }}" max="50"> {{ .Params.fat }}%</progress>
+            <div class="card-footer text-end">
+                <a href="" class="btn btn-sm btn-primary text-white">Habe ich gegessen 🥗</a>
+            </div>
+        </div>
+    </section>
+{{ end }}

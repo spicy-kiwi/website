@@ -1,0 +1,23 @@
+.unitp:after {
+    content: " Stück";
+}
+
+.unitg:after {
+    content: "g";
+}
+
+.unitml:after {
+    content: "ml";
+}
+
+.unitl:after {
+    content: "l";
+}
+
+.unittsp:after {
+    content: " TL";
+}
+
+.unittbsp:after {
+    content: " EL";
+}

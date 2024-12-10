@@ -1,0 +1,18 @@
+
+- ingredient: Weizenmehl
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Wasser
+  amount: 300
+  unit: ml
+  link: ing2
+- ingredient: Salz
+  amount: 2
+  unit: tsp
+  link: ing3
+- ingredient: Frischhefe
+  amount: 5
+  unit: g
+  link: ing4
+  

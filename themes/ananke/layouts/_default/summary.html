@@ -1,6 +1,9 @@
 <div class="recipe">
     <a href="{{ .RelPermalink }}" class="link black dim" title="{{ (i18n "showRecipeFor") }} {{ .Title }}">
         <div class="image">
+            <div class="header text-end">
+                <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
+            </div>
             {{ if .Params.featured_image }}
                 <img title="{{ (i18n "showRecipeFor") }} {{ .Title }}"
                      src="{{ .Params.featured_image }}" alt="{{ .Title }}"
@@ -13,12 +16,13 @@
             <div class="footer">
                 <small>
                     {{ if .Params.stars }}
-                        <span class="badge unitStars">{{ .Params.stars }}</span>
+                        <span class="badge bg-light unitStars">{{ .Params.stars }}</span>
                     {{ end }}
                     {{ if .Params.duration }}
-                        <span class="badge unitMinutes">
-                            {{ .Params.duration }}
-                        </span>
+                        <span class="badge bg-light unitMinutes">{{ .Params.duration }}</span>
+                    {{ end }}
+                    {{ if .Params.difficulty }}
+                        <span class="badge bg-light unitDifficulty">{{ .Params.difficulty }}</span>
                     {{ end }}
                 </small>
             </div>

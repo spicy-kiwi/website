@@ -1,0 +1,48 @@
+<section>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 recipe">
+                    <div class="image">
+                        <div class="header text-end">
+                            <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
+                        </div>
+                        <img src="/images/rezepte/{{ .Params.recipeName }}.jpg" class="featured-image" />
+
+                        <div class="footer">
+                            <small>
+								{{ if .Params.stars }}
+									<span class="badge badge-sm bg-light unitStars">{{ .Params.stars }}</span>
+								{{ end }}
+								{{ if .Params.duration }}
+									<span class="badge badge-sm bg-light unitMinutes">{{ .Params.duration }}</span>
+								{{ end }}
+								{{ if .Params.difficulty }}
+									<span class="badge badge-sm bg-light unitDifficulty">{{ .Params.difficulty }}</span>
+								{{ end }}
+								{{ if .Params.cooked }}
+									<span class="badge badge-sm bg-light unitTimesCooked">{{ .Params.cooked }}</span>
+								{{ end }}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="#ingredients">Zutaten</a></li>
+                        <li><a href="#anleitung">Anleitung</a></li>
+                        <li><a href="#dekoration">Dekoration</a></li>
+                        <li><a href="#ernährungsinfos">Ernährungsinfos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-end">
+            <button class="btn btn-sm btn-primary text-white">Teilen🔗</button>
+            <button class="btn btn-sm btn-primary text-white">Drucken🖨️</button>
+			{{ if .Params.trello }}
+				<a href="{{ .Params.trello }}" class="btn btn-sm btn-primary text-white">Planen🗓️</a>
+			{{ end }}
+        </div>
+    </div>
+</section>

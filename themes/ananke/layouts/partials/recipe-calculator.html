@@ -1,0 +1,54 @@
+<!-- layouts/shortcodes/ingredient-table.html -->
+{{ $recipe := .Params.recipeName }}
+
+{{ if not .Params.servingscount}}
+    <div class="alert alert-warning" role="alert">
+        recipe has no servingscount
+    </div>
+{{ end }}
+
+{{ if not .Params.recipeName }}
+    <div class="alert alert-danger" role="alert">
+        recipe has no recipeName
+    </div>
+{{ end }}
+
+
+{{ if $recipe }}
+    {{ $ingredients := index .Site.Data $recipe }}
+    <hr />
+    
+    <section>
+        <h2>Zutaten</h2>
+    
+    
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Für</span>
+            <input type="number" class="form-control" id="servings" recipeName="{{ .Params.recipeName }}" value="{{ .Params.servingscount }}" min="1" step=".5" />
+            <span class="input-group-text" id="basic-addon2">Portionen</span>
+        </div>
+    
+        <table id="ingredientsTable" data-originalServings="{{ .Params.servingscount }}"
+               class="table table-sm table-striped">
+            <thead>
+            <tr>
+                <th>Zutat</th>
+                <th>Menge</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{ range $ingredients }}
+                <tr>
+                    <td class="ingredientLink pointer" data-ing="{{ .link }}">{{ .ingredient }}</td>
+                    <td data-original="{{.amount}}" class="amount unit{{ .unit }}">{{ .amount }}</td>
+                </tr>
+            {{ end }}
+            <tr>
+                <td colspan="2" class="text-center">
+                    <a href="" class="btn btn-sm btn-primary text-white">Zutaten bestellen 🛒</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+{{ end }}

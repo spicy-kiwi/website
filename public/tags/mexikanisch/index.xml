@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🇲🇽 Mexikanisch on Spicy 🌶️ Kiwi</title>
+    <link>https://gohugo-theme-ananke.pages.dev/tags/mexikanisch/</link>
+    <description>Recent content in 🇲🇽 Mexikanisch on Spicy 🌶️ Kiwi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 30 Jul 2023 12:00:00 -0500</lastBuildDate><atom:link href="https://gohugo-theme-ananke.pages.dev/tags/mexikanisch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chili con Carne</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/chili_con_carne/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/chili_con_carne/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+    <item>
+      <title>Chili sin Carne</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/chili_sin_carne/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/chili_sin_carne/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+    <item>
+      <title>Mexikanischer Reis-Salat</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/mexikanischer_reis_salat/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/mexikanischer_reis_salat/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+    <item>
+      <title>Quesedillas</title>
+      <link>https://gohugo-theme-ananke.pages.dev/rezepte/quesedillas/</link>
+      <pubDate>Sun, 30 Jul 2023 12:00:00 -0500</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/rezepte/quesedillas/</guid>
+      <description>Zutaten Anleitung Variation </description>
+    </item>
+    
+  </channel>
+</rss>

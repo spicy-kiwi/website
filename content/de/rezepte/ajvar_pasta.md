@@ -3,59 +3,32 @@ date: 2024-08-08T12:00:00-05:00
 description: "Eine schnelle und einfache Pasta mit Ajvar und Frischkäse. Perfekt für den Feierabend."
 featured_image: "/images/rezepte/ajvar_pasta.jpg"
 
-tags: [ "Nudeln", "Pasta", "Einfach", "Schnell", "vegetarisch", "Herzhaft" ]
+tags: [ "Pasta", "Einfach", "Schnell", "Herzhaft", "fleisch", "vegan", "vegetarisch", "🇧🇷Brasilianisch", "🇨🇳Chinesisch", "🇩🇪deutsch", "🇪🇸Spanisch", "🇫🇷Französisch", "🇬🇷Griechisch", "🇮🇩Indonesisch", "🇮🇳Indisch", "🇮🇹 italienisch", "🇯🇲Jamaikan", "🇯🇵Japanisch", "🇰🇷Koreanisch", "🇲🇦Marokkanisch", "🇲🇽Mexikanisch", "🇵🇱Polnisch", "🇵🇹Portugiesisch", "🇷🇺Russisch", "🇹🇭Thailändisch", "🇹🇷Türkisch", "🇻🇳Vietnamesisch" ]
 title: "Ajvar Pasta"
 layout: "recipe"
 category: "Pasta"
 permalink: "/rezepte/ajvar-pasta/"
 published: true
+post_content_classes: "aaa"
 
 # Absolute required metadata
+recipeName: "ajvar_pasta"
 stars: 4
 duration: 25
 difficulty: 1
 cooked: 42
 
-meal: [ "Lunch", "Dinner" ]
-# Can be filtered for, make it easier to search for a specific meal type.
+# Ingredients calculator
+servingsCount: 4
 
-nutrition: [ "Vegan", "Vegetarian" ]
-# Can be filtered for, make it easier for people with a specific dietary preference.
-
-preparation_method: [ "Cooking", "Frying", "Simmering", "Baking" ]
-# Can be filtered for
-
-tools: [ "Knife", "Cutting board", "Pan", "Pot", "Vegetable masher", "abdeckbaren Pfanne" ]
-# Just a list of things we may link.
-
-# Flavour-profile information, make it easier to search for a specific taste.
-flavourProfile: {
-  sweet: 0,
-  sour: 0,
-  salty: 0,
-  bitter: 0,
-  umami: 0,
-  spicy: 0
-}
-# Maybe show some kind of spider web graph with the flavour profile?
-
-# Calories calculator?
-# Maybe funnel data from YAZIO into our recipes?
-# Maybe even link to the recipe in YAZIO?
+# Nutritional values per serving
+calories: 400
+carbonhydrates: 200
+protein: 20
+fat: 34
 
 
-# cooperations?
-# YAZIO: We add the recipes to YAZIO, we get nutrition data?
-# Westwing: We use plates and cutlery from Westwing?
-# F.A. Dick: we use kitchen knifes from them? We link back?
-# Hoffmann: We use copperware from them? We link back?
-# Rewe: We add our recipes there and link to them? 
 ---
-
-## Zutaten
-
-{{<ingredient-input initialValue="4">}}
-{{<ingredient-table servingsCount="4" recipe="ajvar_pasta">}}
 
 ## Anleitung
 1. [ ] [Knoblauch](#ing8) und [Rote Zwiebeln](#ing1) fein hacken
@@ -73,11 +46,15 @@ flavourProfile: {
 12. [ ] Nach zehn weiteren Minuten ist die Soße fertig und kann mit [Pfeffer](#ing11), [Salz](#ing10) und ggf. [Chili](#ing12) abgeschmeckt werden.
 13. [ ] Ideal: Einen Teil der Garzeit der Nudeln in der Soße ziehen lassen.
 
-## Ernährungsinfos
-
-{{<nutrition-bargraph calories="493" carbonhydrates="64" protein="14" fat="19">}}
 
 ## Dekoration
 
 - frischer Basilikum
 - Parmesan
+- angeröstete Cherrytomaten
+
+## Warum wir das gerne essen
+Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+
+
+

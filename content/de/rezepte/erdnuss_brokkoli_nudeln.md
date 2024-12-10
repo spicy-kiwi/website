@@ -3,7 +3,7 @@ date: 2024-08-08T12:00:00-05:00
 description: "Unser Standard-Teig für selbst gemachte Pizza."
 featured_image: "/images/rezepte/erdnuss_brokkoli_nudeln.jpg"
 
-tags: [ "Vegetarisch", "Alternative" ]
+tags: [ "Vegetarisch", "Vegan", "Alternative" ]
 title: "Brokkoli-Erdnuss-Nudeln"
 layout: "recipe"
 category: "Backen"
@@ -12,7 +12,7 @@ published: true
 post_content_classes: "aaa"
 
 # Absolute required metadata
-recipeName: "hafer_frikadellen"
+recipeName: "erdnuss_brokkoli_nudeln"
 stars: 4
 duration: 40
 difficulty: 2
@@ -53,7 +53,6 @@ flavourProfile: {
 # Rewe: We add our recipes there and link to them?  Also we could create a button to order ingredients?
 ---
 
-{{<ingredient-table servingsCount="4" recipe="erdnuss_brokkoli_nudeln" image="/images/rezepte/erdnuss_brokkoli_nudeln.jpg">}}
 
 ## Anleitung
 1. [ ] Röschen vom [Brokkoli](#ing1) schneiden und in einer beschichteten Pfanne mit etwas [Pflanzenöl](#ing7) anbraten.
