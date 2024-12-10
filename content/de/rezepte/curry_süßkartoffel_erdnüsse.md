@@ -4,7 +4,7 @@ description: "One of the first risotto recpies I ever made. It's a great one-pot
 featured_image: "/images/rezepte/curry_süßkartoffel_erdnüsse.jpg"
 
 tags: ["kochen", "one-pot", "quiche", "vegetarisch"]
-title: "Indisches Curry mit Süßkartoffel und Erdnüssen"
+title: "Curry mit Süßkartoffel und Erdnüssen"
 
 # Absolute required metadata
 recipeName: "curry_süßkartoffel_erdnüsse"
@@ -16,7 +16,17 @@ cooked: 42
 ---
 
 # Zutaten
-
+1EL Kokosöl
+1 Zwiebel
+2 Knoblauchzehen
+1 Stk. Ingwer
+500g Süßkartoffeln
+3 EL rote Thai-Curry-Paste
+1 EL Cremige Erdnussbutter
+400 ml Kokosmilch
+1 Limette
+200g Spinat
+Salz und Pfeffer
 
 # Anleitung
 
