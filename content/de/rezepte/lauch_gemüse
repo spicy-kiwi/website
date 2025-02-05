@@ -1,0 +1,31 @@
+---
+date: 2024-08-08T12:00:00-05:00
+description: "Vielseitige Beilage"
+
+featured_image: "/images/rezepte/lauch_gemüse.jpg"
+
+tags: [ "Vegetarisch", "Beilage" ]
+title: "Lauchgemüse"
+layout: "recipe"
+permalink: "/rezepte/lauch_gemüse/"
+published: true
+post_content_classes: "aaa"
+
+recipeName: "lauch_gemüse"
+stars: 4
+duration: 40
+difficulty: 2
+
+# Ingredients calculator
+servingsCount: 4
+---
+
+
+## Anleitung
+1. [ ] [Lauch](#ing1) in mittelbreite Ringe schneiden.
+2. [ ] Den in Ringe geschnittenen [Lauch](#ing1) gründlich waschen und mit einer Salatschleuder trocknen.
+3. [ ] [Butter](#ing2) in einer Bratpfanne schmelzen.
+4. [ ] Den [Lauch](#ing1) hinzugeben und abgedeckt etwa 10-15 Minuten dünsten. Mehrmals rühren.
+5. [ ] Mit dem [Mehl](#ing3) bestreuen und anschließend die [Milch](#ing4) und die [Gemüsebrühe](#ing5) dazugeben.
+6. [ ] Nochmals aufkochen und mit [Pfeffer](#ing6) und [Salz](#ing7) abschmecken.
+
