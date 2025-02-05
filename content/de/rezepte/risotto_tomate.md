@@ -1,7 +1,7 @@
 ---
 date: 2023-07-30T12:00:00-05:00
 description: "One of the first risotto recpies I ever made. It's a great one-pot meal that's vegetarian and delicious."
-featured_image: "/images/rezepte/risotto_tomate_feta.jpg"
+featured_image: "/images/rezepte/risotto_tomate.jpg"
 
 # Absolute required metadata
 recipeName: "risotto_tomate"
