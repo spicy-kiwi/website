@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_rosenkohl.jpg"
 recipeName: "risotto_rosenkohl"
 
 tags: ["🇮🇹 Italienisch", "kochen", "one-pot", "risotto", "vegetarisch"]
-title: "Risotto: Frühling"
+title: "Risotto: Rosenkohl"
 
 stars: 4
 duration: 50
