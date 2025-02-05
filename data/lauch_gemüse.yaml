@@ -1,0 +1,26 @@
+- ingredient: Lauch
+  amount: 300
+  unit: g
+  link: ing1
+- ingredient: Butter
+  amount: 20
+  unit: g
+  link: ing2
+- ingredient: Mehl
+  amount: 20
+  unit: g
+  link: ing3
+- ingredient: Milch
+  amount: 150
+  unit: ml
+  link: ing4
+- ingredient: Gemüsebrühe
+  amount: 125
+  unit: ml
+  link: ing5
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing6
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing7
