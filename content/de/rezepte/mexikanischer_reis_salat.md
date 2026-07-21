@@ -13,6 +13,9 @@ stars: 4
 duration: 40
 difficulty: 1
 cooked: 1
+
+# Ingredients calculator
+servingsCount: 4
 ---
 
 ## Anleitung
