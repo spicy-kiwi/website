@@ -7,9 +7,10 @@
   amount: 250
   unit: g
   link: kidneybohnen
-- ingredient: Petersilie
+- ingredient: Petersilie (Bund)
   amount: 1
   link: petersilie
+  unit: p
 - ingredient: Reis
   amount: 350
   unit: g
@@ -45,6 +46,8 @@
 - ingredient: Paprika
   amount: 3
   link: paprika
+  unit: p
 - ingredient: Limetten
   amount: 2
+  unit: p
   link: limetten
