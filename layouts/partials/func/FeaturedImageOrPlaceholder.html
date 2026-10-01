@@ -1,0 +1,19 @@
+{{/*
+  FeaturedImageOrPlaceholder
+
+  Returns the page's featured_image if the referenced file actually exists
+  in /static, otherwise falls back to the local placeholder image. This
+  keeps the grid/card geometry intact for recipes that don't have a real
+  photo yet (e.g. imported from Trello but not downloaded).
+
+  @context . Page
+  @return string RelPermalink-style path to an image.
+*/}}
+{{ $placeholder := "/images/rezepte/platzhalter.svg" }}
+{{ $result := $placeholder }}
+{{ with .Params.featured_image }}
+  {{ if os.FileExists (printf "static%s" .) }}
+    {{ $result = . }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

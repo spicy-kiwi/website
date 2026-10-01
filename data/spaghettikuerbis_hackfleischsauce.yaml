@@ -1,0 +1,33 @@
+- ingredient: Rinderhack
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Knoblauchzehen
+  amount: 3
+  unit: pcs
+  link: ing3
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing5
+- ingredient: Gehackte Tomaten (Dose)
+  amount: 800
+  unit: g
+  link: ing6
+- ingredient: Lorbeerblatt
+  amount: 1
+  unit: pcs
+  link: ing7
+- ingredient: Spaghettikürbis
+  amount: 1800
+  unit: g
+  link: ing8
+- ingredient: Geriebener Käse
+  amount: nach Bedarf
+  link: ing9

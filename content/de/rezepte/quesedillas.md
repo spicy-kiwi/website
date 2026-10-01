@@ -1,22 +1,26 @@
 ---
 date: 2024-08-08T12:00:00-05:00
-description: "Everybody's favourite. Schnell, einfach, lecker."
-featured_image: "/images/rezepte/quesedillas.jpg"
+description: "Knusprige Tortilla-Wraps gefüllt mit Käse, Bohnen und Gemüse."
+featured_image: "/images/rezepte/quesedillas.webp"
 
-tags: [ "Einfach", "Schnell", "Herzhaft", "🇲🇽mexikanisch" ]
+tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "👌 Einfach", "⏰ Schnell"]
 title: "Quesedillas"
 layout: "recipe"
 category: "Pasta"
 permalink: "/rezepte/quesedillas/"
-published: true
+isPublished: true
 post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "quesedillas"
+trello: "https://trello.com/c/2KcCXtFi"
 stars: 4
 duration: 25
 difficulty: 1
 cooked: 42
+
+# Ingredients calculator
+servingsCount: 4
 ---
 
 ## Anleitung

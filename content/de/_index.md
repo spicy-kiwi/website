@@ -1,5 +1,5 @@
 ---
-title: " 🌶️Spicy Kiwi🥝"
+title: "🌶️Spicy Kiwi🥝"
 
 description: "Cooking. Living."
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
@@ -10,11 +10,12 @@ cascade:
 
 ## Willkommen
 
-Willkommen auf Spicy Kiwi - einem weiteren Blog zum Thema Kochen. Hier findest du bis auf Weiteres nur ein paar [Rezepte](/rezepte).
-Künftig wird es hier auch noch Tipps und Tricks rund ums Kochen geben.
+Hier sammeln wir die Rezepte, die wir selbst gern kochen. Meistens vegetarisch, ab und zu auch mit Fleisch, Geflügel oder Fisch.
 
-Wir ernähren uns größtenteils vegetarisch, es wird aber sicher auch das eine oder andere Rezept mit Fleisch, Geflügel oder Fisch geben.
+Alle Rezepte findest du unter [Rezepte](/rezepte).
 
-Bis dahin, viel Spaß beim Kochen!
+>[...] weil meine Freundin Vegetarier ist, was mich auch zu so einer Art Vegetarier macht.
 
-Anderer Jan
+Samuel L. Jackson als Jules Winfield in "Pulp Fiction"
+
+Jan

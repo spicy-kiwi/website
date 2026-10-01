@@ -1,0 +1,11 @@
+- ingredient: Basmatireis
+  amount: 150
+  unit: g
+  link: ing1
+- ingredient: TK-Erbsen
+  amount: 1000
+  unit: g
+  link: ing2
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing3

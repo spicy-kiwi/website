@@ -1,0 +1,12 @@
+- ingredient: Reis
+  amount: 240
+  unit: g
+  link: ing1
+- ingredient: Wasser
+  amount: 475
+  unit: ml
+  link: ing2
+- ingredient: Salz
+  amount: 1
+  unit: tsp
+  link: ing3

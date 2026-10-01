@@ -1,0 +1,38 @@
+- ingredient: Gekochtes Hähnchen (gewürfelt)
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Mayonnaise
+  amount: 475
+  unit: ml
+  link: ing2
+- ingredient: Dijon-Senf
+  amount: 120
+  unit: ml
+  link: ing3
+- ingredient: Getrockneter Dill
+  amount: 1
+  unit: tbsp
+  link: ing4
+- ingredient: Zwiebelpulver
+  amount: 1
+  unit: tsp
+  link: ing5
+- ingredient: Knoblauchpulver
+  amount: 0.5
+  unit: tsp
+  link: ing6
+- ingredient: Salatgurke
+  amount: 1
+  unit: p
+  link: ing7
+- ingredient: Hartgekochte Eier
+  amount: 4
+  unit: pcs
+  link: ing8
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing10

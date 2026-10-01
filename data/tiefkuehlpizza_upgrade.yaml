@@ -1,0 +1,11 @@
+- ingredient: Tiefkühl-Käsepizza
+  amount: 1
+  unit: p
+  link: ing1
+- ingredient: Lieblingsbeläge
+  amount: nach Bedarf
+  link: ing2
+- ingredient: Mozzarella (gerieben)
+  amount: 100
+  unit: g
+  link: ing3

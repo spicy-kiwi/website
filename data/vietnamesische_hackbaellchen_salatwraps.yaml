@@ -1,0 +1,44 @@
+- ingredient: Rinderhack
+  amount: 675
+  unit: g
+  link: ing1
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing2
+- ingredient: Sojasauce
+  amount: 3
+  unit: tbsp
+  link: ing3
+- ingredient: Ingwer (gerieben)
+  amount: 0.75
+  unit: tsp
+  link: ing4
+- ingredient: Ramen- oder Reisnudeln
+  amount: 1
+  unit: p
+  link: ing5
+- ingredient: Sesamöl
+  amount: 1
+  unit: tbsp
+  link: ing6
+- ingredient: Kopfsalat- oder Eisbergsalatblätter
+  amount: 1
+  unit: p
+  link: ing7
+- ingredient: Frühlingszwiebeln
+  amount: 3
+  unit: pcs
+  link: ing8
+- ingredient: Möhren
+  amount: 100
+  unit: g
+  link: ing9
+- ingredient: Hoisin-Sauce
+  amount: 3
+  unit: tbsp
+  link: ing10
+- ingredient: Aprikosenkonfitüre
+  amount: 2
+  unit: tbsp
+  link: ing11

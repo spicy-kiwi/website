@@ -1,0 +1,24 @@
+- ingredient: Getrocknete Hibiskusblüten (Sorrel)
+  amount: 60
+  unit: g
+  link: ing1
+- ingredient: Ingwer
+  amount: 30
+  unit: g
+  link: ing2
+- ingredient: Nelken
+  amount: 6
+  unit: pcs
+  link: ing3
+- ingredient: Zimtstange
+  amount: 1
+  unit: pcs
+  link: ing4
+- ingredient: Wasser
+  amount: 1500
+  unit: ml
+  link: ing5
+- ingredient: Zucker
+  amount: 150
+  unit: g
+  link: ing6

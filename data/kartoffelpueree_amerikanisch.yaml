@@ -1,0 +1,19 @@
+- ingredient: Mehligkochende Kartoffeln
+  amount: 2300
+  unit: g
+  link: ing1
+- ingredient: Salz (für das Kochwasser)
+  amount: 4
+  unit: tbsp
+  link: ing2
+- ingredient: Butter
+  amount: 115
+  unit: g
+  link: ing3
+- ingredient: Milch
+  amount: 475
+  unit: ml
+  link: ing4
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing5

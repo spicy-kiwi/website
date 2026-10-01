@@ -1,0 +1,31 @@
+{{- $items := slice -}}
+{{- range where site.RegularPages "Section" "rezepte" -}}
+  {{- $recipe := .Params.recipeName -}}
+  {{- $ingredients := slice -}}
+  {{- if $recipe -}}
+    {{- range index hugo.Data $recipe -}}
+      {{- with .ingredient -}}
+        {{- $ingredients = $ingredients | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $items | append (dict
+        "title" .Title
+        "url" .RelPermalink
+        "section" "Rezept"
+        "description" (.Params.description | default "")
+        "tags" (delimit .Params.tags ", ")
+        "ingredients" (delimit $ingredients ", ")
+      ) -}}
+{{- end -}}
+{{- range where site.RegularPages "Section" "zutaten" -}}
+  {{- $items = $items | append (dict
+        "title" .Title
+        "url" .RelPermalink
+        "section" "Zutat"
+        "description" (.Params.description | default "")
+        "tags" ""
+        "ingredients" ""
+      ) -}}
+{{- end -}}
+{{- $items | jsonify -}}

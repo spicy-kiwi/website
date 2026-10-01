@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     {{ hugo.Generator }}
-    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-    {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+    {{ $production := hugo.IsProduction }}
     {{ $public := not .Params.private }}
     {{ if and $production $public }}
       <meta name="robots" content="index, follow">
@@ -52,7 +51,17 @@
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
 
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+    {{/* Die internen Templates oben lesen .Params.images bzw. Page-Bundle-
+         Resources - beides nutzen wir nicht (unsere Bilder liegen als
+         normale /static-Dateien, referenziert über featured_image). Ohne
+         diesen Block bliebe og:image/twitter:image auf jeder Seite leer,
+         auch wenn ein echtes Foto existiert. GetFeaturedImage.html liefert
+         immer eine absolute URL - echtes Foto oder sonst den Platzhalter. */}}
+    {{ $ogImage := partial "func/GetFeaturedImage.html" . }}
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+
+    {{ if hugo.IsProduction }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}

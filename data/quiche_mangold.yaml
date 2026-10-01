@@ -1,0 +1,49 @@
+- ingredient: Mehl
+  amount: 250
+  unit: g
+  link: ing1
+- ingredient: Kalte Butter
+  amount: 125
+  unit: g
+  link: ing2
+- ingredient: Ei
+  amount: 1
+  unit: pcs
+  link: ing3
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Mangold
+  amount: 400
+  unit: g
+  link: ing5
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing6
+- ingredient: Knoblauch
+  amount: 1
+  unit: p
+  link: ing7
+- ingredient: Eier
+  amount: 3
+  unit: pcs
+  link: ing8
+- ingredient: Sahne
+  amount: 200
+  unit: ml
+  link: ing9
+- ingredient: Geriebener Käse
+  amount: 100
+  unit: g
+  link: ing10
+- ingredient: Muskat
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing12
+- ingredient: Öl
+  amount: 1
+  unit: tbsp
+  link: ing13

@@ -1,0 +1,24 @@
+- ingredient: Frischkäse (natur)
+  amount: 200
+  unit: g
+  link: ing1
+- ingredient: Getrocknete Jalapenos (geschrotet)
+  amount: 3
+  unit: g
+  link: ing2
+- ingredient: Zwiebel
+  amount: 3
+  unit: g
+  link: ing3
+- ingredient: Getrocknetes Knoblauchpulver
+  amount: 1
+  unit: g
+  link: ing4
+- ingredient: Salz
+  amount: 2
+  unit: g
+  link: ing5
+- ingredient: Wasser
+  amount: 40
+  unit: ml
+  link: ing6

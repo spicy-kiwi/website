@@ -1,0 +1,39 @@
+<div class="recipe recipe-summary">
+    <a href="{{ .RelPermalink }}" class="link black dim" title="{{ (i18n "showRecipeFor") }} {{ .Title }}">
+        <div class="image">
+            <div class="header text-end">
+                <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
+            </div>
+            <img title="{{ (i18n "showRecipeFor") }} {{ .Title }}"
+                 src="{{ partial "func/FeaturedImageOrPlaceholder.html" . }}"
+                 alt="{{ .Title }}"
+                 class="featured-image">
+            <div class="footer">
+                <small>
+                    {{ if .Params.stars }}
+                        <span class="badge bg-light unitStars">{{ .Params.stars }}</span>
+                    {{ end }}
+                    {{ if .Params.duration }}
+                        <span class="badge bg-light unitMinutes">{{ .Params.duration }}</span>
+                    {{ end }}
+                    {{ if .Params.difficulty }}
+                        <span class="badge bg-light unitDifficulty">{{ .Params.difficulty }}</span>
+                    {{ end }}
+                </small>
+            </div>
+        </div>
+        <div class="text">
+            <h2>
+                {{ .Title }}
+            </h2>
+            <p>
+
+                {{ .Description }}
+            </p>
+            <p>
+                <span class="read-more">{{ $.Param "read_more_copy" | default (i18n "showRecipe") }}</span>
+            </p>
+
+        </div>
+    </a>
+</div>

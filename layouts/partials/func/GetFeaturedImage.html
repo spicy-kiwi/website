@@ -1,0 +1,43 @@
+{{/*
+	GetFeaturedImage (project override)
+
+	This partial gets the url for featured image for a given page.
+
+	If a featured_image was set in the page's front matter AND the file
+	actually exists in /static, that is used.
+
+	If not set, or the file is missing, this will search page resources to
+	find an image that contains the word "cover", and if found, returns the
+	path to that resource.
+
+	If no featured_image was resolved this way either, falls back to the
+	local placeholder image so headers never point at a broken/missing file.
+
+	@return RelPermalink to featured image (never empty).
+
+*/}}
+
+{{ $linkToCover := "" }}
+{{ $matches := "feature,cover" }}
+{{ with .Params.featured_image }}
+  {{ if os.FileExists (printf "static%s" .) }}
+    {{ $linkToCover = trim . "/" | absURL }}
+    {{ with $.Resources.GetMatch . }}
+      {{ $linkToCover = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $linkToCover }}
+  {{ with .Resources.ByType "image" }}
+    {{ with .GetMatch (printf "**{%s}*" $matches) }}
+      {{ $linkToCover = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $linkToCover }}
+  {{ $linkToCover = "/images/rezepte/platzhalter.svg" | absURL }}
+{{ end }}
+
+{{ return $linkToCover }}

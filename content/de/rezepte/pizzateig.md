@@ -1,14 +1,14 @@
 ---
 date: 2024-08-08T12:00:00-05:00
-description: "Unser Standard-Teig für selbst gemachte Pizza."
-featured_image: "/images/rezepte/pizzateig.jpg"
+description: "Locker-knuspriger Grundteig für selbst gemachte Pizza."
+featured_image: "/images/rezepte/pizzateig.webp"
 
-tags: [ "Pizza", "Teig" ]
+tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌿 Vegan", "🍕 Pizza", "🥖 Teig", "👌 Einfach", "⏰ Schnell"]
 title: "Pizzateig"
 layout: "recipe"
 category: "Backen"
 permalink: "/rezepte/pizzateig/"
-published: true
+isPublished: true
 post_content_classes: "aaa"
 
 # Ingredients calculator
@@ -16,6 +16,7 @@ servingsCount: 4
 
 # Absolute required metadata
 recipeName: "pizzateig"
+trello: "https://trello.com/c/IeERYylc"
 stars: 4
 duration: 25
 difficulty: 1

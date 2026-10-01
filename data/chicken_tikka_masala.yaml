@@ -1,0 +1,68 @@
+- ingredient: Hähnchenschenkel (gewürfelt)
+  amount: 675
+  unit: g
+  link: ing1
+- ingredient: Salz
+  amount: 1.5
+  unit: tsp
+  link: ing2
+- ingredient: Ghee (oder Butter)
+  amount: 0.5
+  unit: tbsp
+  link: ing3
+- ingredient: Zwiebel
+  amount: 0.5
+  unit: p
+  link: ing4
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing5
+- ingredient: Ingwer (gerieben)
+  amount: 1
+  unit: tsp
+  link: ing6
+- ingredient: Koriander (gemahlen)
+  amount: 1
+  unit: tsp
+  link: ing7
+- ingredient: Kreuzkümmel
+  amount: 1
+  unit: tsp
+  link: ing8
+- ingredient: Kurkuma
+  amount: 0.5
+  unit: tsp
+  link: ing9
+- ingredient: Garam Masala
+  amount: 0.5
+  unit: tsp
+  link: ing10
+- ingredient: Cayennepfeffer
+  amount: 0.25
+  unit: tsp
+  link: ing11
+- ingredient: Kardamom (gemahlen)
+  amount: 0.25
+  unit: tsp
+  link: ing12
+- ingredient: Gewürfelte Tomaten (Dose)
+  amount: 400
+  unit: g
+  link: ing13
+- ingredient: Blumenkohl
+  amount: 300
+  unit: g
+  link: ing14
+- ingredient: Kokosmilch
+  amount: 400
+  unit: ml
+  link: ing15
+- ingredient: TK-Erbsen
+  amount: 100
+  unit: g
+  link: ing16
+- ingredient: Koriander (frisch)
+  amount: 1
+  unit: p
+  link: ing17

@@ -1,0 +1,46 @@
+- ingredient: Tortelloni (frisch)
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Sahne (leicht)
+  amount: 250
+  unit: ml
+  link: ing2
+- ingredient: Olivenöl
+  amount: 1
+  unit: tbsp
+  link: ing3
+- ingredient: Babyspinat
+  amount: 100
+  unit: g
+  link: ing4
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing5
+- ingredient: Getrocknete Tomaten
+  amount: 7
+  unit: pcs
+  link: ing6
+- ingredient: Kirschtomaten
+  amount: 100
+  unit: g
+  link: ing7
+- ingredient: Parmesan
+  amount: 30
+  unit: g
+  link: ing8
+- ingredient: Salz
+  amount: 0.5
+  unit: tsp
+  link: ing9
+- ingredient: Pfeffer
+  amount: 0.5
+  unit: tsp
+  link: ing10
+- ingredient: Muskat
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Pastawasser
+  amount: nach Bedarf
+  link: ing12

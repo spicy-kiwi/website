@@ -1,0 +1,24 @@
+- ingredient: Schweineschulter (Boston Butt)
+  amount: 3200
+  unit: g
+  link: ing1
+- ingredient: Zwiebeln
+  amount: 2
+  unit: p
+  link: ing2
+- ingredient: Getrockneter Thymian
+  amount: 3
+  unit: tbsp
+  link: ing3
+- ingredient: Grobes Salz
+  amount: 60
+  unit: g
+  link: ing4
+- ingredient: Pfeffer
+  amount: 3
+  unit: tbsp
+  link: ing5
+- ingredient: Öl
+  amount: 2
+  unit: tbsp
+  link: ing6

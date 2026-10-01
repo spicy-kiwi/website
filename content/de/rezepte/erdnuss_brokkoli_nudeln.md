@@ -1,21 +1,25 @@
 ---
 date: 2024-08-08T12:00:00-05:00
-description: "Unser Standard-Teig für selbst gemachte Pizza."
-featured_image: "/images/rezepte/erdnuss_brokkoli_nudeln.jpg"
+description: "Asiatische Nudeln mit Brokkoli in cremiger Erdnusssoße."
+featured_image: "/images/rezepte/erdnuss_brokkoli_nudeln.webp"
 
-tags: [ "Vegetarisch", "Vegan", "Alternative" ]
+tags: ["🥢 Asiatisch", "🌱 Vegetarisch", "🌿 Vegan", "🍝 Nudeln"]
 title: "Brokkoli-Erdnuss-Nudeln"
 layout: "recipe"
 category: "Backen"
 permalink: "/rezepte/erdnuss_brokkoli_nudeln/"
-published: true
+isPublished: true
 post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "erdnuss_brokkoli_nudeln"
+trello: "https://trello.com/c/QB8Al4Xu"
 stars: 4
 duration: 40
 difficulty: 2
+
+# Ingredients calculator
+servingsCount: 4
 
 meal: [ "Lunch", "Dinner" ]
 # Can be filtered for, make it easier to search for a specific meal type.
@@ -55,7 +59,7 @@ flavourProfile: {
 
 
 ## Anleitung
-1. [ ] Röschen vom [Brokkoli](#ing1) schneiden und in einer beschichteten Pfanne mit etwas [Pflanzenöl](#ing7) anbraten.
+1. [ ] [Zwiebeln](#ing10) fein hacken und Röschen vom [Brokkoli](#ing1) schneiden, beides in einer beschichteten Pfanne mit etwas [Pflanzenöl](#ing7) anbraten.
 2. [ ] [Nudeln](#ing6) nach Anleitung kochen.
 3. [ ] Währenddessen die [Erdnussbutter](#ing2) kurz in der Mikrowelle erhitzen.
 4. [ ] Anschließend [Sojasoße](#ing3), [Sesamöl](#ing4) und [Chiliflocken](#ing5) in die [Erdnussbutter](#ing2) mischen.

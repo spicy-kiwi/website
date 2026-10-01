@@ -1,0 +1,21 @@
+- ingredient: TK-Erbsen
+  amount: 400
+  unit: g
+  link: ing1
+- ingredient: Eier
+  amount: 4
+  unit: pcs
+  link: ing2
+- ingredient: Butter
+  amount: 20
+  unit: g
+  link: ing3
+- ingredient: Minze
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing5
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing6

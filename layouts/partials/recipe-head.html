@@ -1,0 +1,63 @@
+<section>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 recipe">
+                    <div class="image">
+                        <div class="header text-end">
+                            <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
+                        </div>
+                        <img src="{{ partial "func/FeaturedImageOrPlaceholder.html" . }}" class="featured-image" alt="{{ .Title }}" />
+
+                        <div class="footer">
+                            <small>
+								{{ if .Params.stars }}
+									<span class="badge badge-sm bg-light unitStars">{{ .Params.stars }}</span>
+								{{ end }}
+								{{ if .Params.duration }}
+									<span class="badge badge-sm bg-light unitMinutes">{{ .Params.duration }}</span>
+								{{ end }}
+								{{ if .Params.difficulty }}
+									<span class="badge badge-sm bg-light unitDifficulty">{{ .Params.difficulty }}</span>
+								{{ end }}
+								{{ if .Params.cooked }}
+									<span class="badge badge-sm bg-light unitTimesCooked">{{ .Params.cooked }}</span>
+								{{ end }}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    {{/* Statisch zur Build-Zeit ermittelt: Ein Sprungmarken-Link
+                         wird nur gerendert, wenn sein Ziel auf der Seite auch
+                         tatsächlich existiert. "Zutaten" kommt immer aus
+                         recipe-calculator.html (siehe single.html), sobald
+                         diese Partial überhaupt eingebunden ist (recipeName
+                         gesetzt) - daher ohne weitere Prüfung. */}}
+                    <ul>
+                        <li><a href="#zutaten">Zutaten</a></li>
+                        {{ if in .Content "id=\"anleitung\"" }}
+                            <li><a href="#anleitung">Anleitung</a></li>
+                        {{ end }}
+                        {{ if in .Content "id=\"variation\"" }}
+                            <li><a href="#variation">Variation</a></li>
+                        {{ end }}
+                        {{ if in .Content "id=\"dekoration\"" }}
+                            <li><a href="#dekoration">Dekoration</a></li>
+                        {{ end }}
+                        {{ if and .Params.calories .Params.carbonhydrates .Params.protein .Params.fat }}
+                            <li><a href="#ernährungsinfos">Ernährungsinfos</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-end">
+            <button class="btn btn-sm btn-primary text-white">Teilen🔗</button>
+            <button class="btn btn-sm btn-primary text-white">Drucken🖨️</button>
+			{{ if .Params.trello }}
+				<a href="{{ .Params.trello }}" class="btn btn-sm btn-primary text-white">Planen🗓️</a>
+			{{ end }}
+        </div>
+    </div>
+</section>

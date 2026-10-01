@@ -1,0 +1,11 @@
+- ingredient: Eiernudeln
+  amount: 1
+  unit: p
+  link: ing1
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing2
+- ingredient: Butter oder Öl
+  amount: 1
+  unit: tbsp
+  link: ing3

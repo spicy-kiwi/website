@@ -1,0 +1,45 @@
+- ingredient: Paprikaschoten
+  amount: 4
+  unit: p
+  link: ing1
+- ingredient: Olivenöl
+  amount: 1
+  unit: tbsp
+  link: ing2
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing3
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Butter
+  amount: 3
+  unit: tbsp
+  link: ing5
+- ingredient: Zwiebel
+  amount: 0.5
+  unit: p
+  link: ing6
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing7
+- ingredient: Gezupftes Grillhähnchen
+  amount: 700
+  unit: g
+  link: ing8
+- ingredient: Buffalo-Sauce
+  amount: 120
+  unit: ml
+  link: ing9
+- ingredient: Gouda (gerieben)
+  amount: 225
+  unit: g
+  link: ing10
+- ingredient: Ranch-Dressing
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Schnittlauch
+  amount: 2
+  unit: tbsp
+  link: ing12

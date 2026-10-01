@@ -1,0 +1,50 @@
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing1
+- ingredient: Knoblauchzehe
+  amount: 2
+  unit: pcs
+  link: ing2
+- ingredient: Paprika
+  amount: 1
+  unit: p
+  link: ing3
+- ingredient: Öl
+  amount: 1
+  unit: tbsp
+  link: ing4
+- ingredient: Kidneybohnen
+  amount: 400
+  unit: g
+  link: ing5
+- ingredient: Mais
+  amount: 200
+  unit: g
+  link: ing6
+- ingredient: Kreuzkümmel
+  amount: 1
+  unit: tsp
+  link: ing7
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Tortillas
+  amount: 8
+  unit: pcs
+  link: ing10
+- ingredient: Geriebener Käse
+  amount: 200
+  unit: g
+  link: ing11
+- ingredient: Rote Enchilada-Soße
+  amount: 400
+  unit: ml
+  link: ing12
+- ingredient: Koriander
+  amount: 1
+  unit: p
+  link: ing13

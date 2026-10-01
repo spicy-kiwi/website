@@ -1,22 +1,5 @@
-# # Hi there
-We are evolving...
-
-### Introduction
-We are evolving...
-
-### Contribution Guideline
-We are evolving...
-
-### Useful Resources
-We are evolving...
-
-### Fun Facts
-We are evolving...
-
-### Contributors
-We are evolving...
-
-### Issue Reporting
-We are evolving...
-
-### Have a 🥝
+rm -rf /docker/hugo/input/*
+cp -r /docker/spicykiwi/* /docker/hugo/input
+docker compose up
+rm -rf /docker/webserver/var/www/spicy.nox.kiwi/*
+mv /docker/hugo/output/* /docker/webserver/var/www/spicy.nox.kiwi/

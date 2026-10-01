@@ -1,0 +1,47 @@
+- ingredient: Belugalinsen (ungekocht)
+  amount: 250
+  unit: g
+  link: ing1
+- ingredient: Kirschtomaten
+  amount: 200
+  unit: g
+  link: ing2
+- ingredient: Paprika (rot und gelb)
+  amount: 2
+  unit: pcs
+  link: ing3
+- ingredient: Salatgurke
+  amount: 0.5
+  unit: p
+  link: ing4
+- ingredient: Frühlingszwiebeln
+  amount: 3
+  unit: pcs
+  link: ing5
+- ingredient: Petersilie
+  amount: 10
+  unit: g
+  link: ing6
+- ingredient: Zitrone (Bio)
+  amount: 1
+  unit: pcs
+  link: ing7
+- ingredient: Honig
+  amount: 1
+  unit: tsp
+  link: ing8
+- ingredient: Senf
+  amount: 1
+  unit: tsp
+  link: ing9
+- ingredient: Olivenöl
+  amount: 10
+  unit: tbsp
+  link: ing10
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Feta
+  amount: 100
+  unit: g
+  link: ing12

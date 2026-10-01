@@ -1,0 +1,17 @@
+- ingredient: Würstchen nach Wahl
+  amount: 4
+  unit: pcs
+  link: ing1
+- ingredient: Hot-Dog-Brötchen
+  amount: 4
+  unit: pcs
+  link: ing2
+- ingredient: Senf
+  amount: nach Bedarf
+  link: ing3
+- ingredient: Ketchup
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Röstzwiebeln
+  amount: nach Bedarf
+  link: ing5

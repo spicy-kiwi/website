@@ -1,0 +1,69 @@
+- ingredient: Schalotten
+  amount: 120
+  unit: g
+  link: ing1
+- ingredient: Sauerkraut (Dose)
+  amount: 520
+  unit: g
+  link: ing2
+- ingredient: Butter
+  amount: 30
+  unit: g
+  link: ing3
+- ingredient: Kümmelsaat
+  amount: 0.5
+  unit: tsp
+  link: ing4
+- ingredient: Lorbeerblatt
+  amount: 1
+  unit: pcs
+  link: ing5
+- ingredient: Flüssiger Honig
+  amount: 2
+  unit: tbsp
+  link: ing6
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing7
+- ingredient: Weißer Portwein
+  amount: 200
+  unit: ml
+  link: ing8
+- ingredient: Quittensaft
+  amount: 150
+  unit: ml
+  link: ing9
+- ingredient: Schlagsahne
+  amount: 250
+  unit: g
+  link: ing10
+- ingredient: Gemüsebrühe
+  amount: 250
+  unit: ml
+  link: ing11
+- ingredient: Mehl
+  amount: 1
+  unit: tbsp
+  link: ing12
+- ingredient: Majoran
+  amount: 4
+  unit: p
+  link: ing13
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing14
+- ingredient: Zucker
+  amount: nach Bedarf
+  link: ing15
+- ingredient: Fleischtomate
+  amount: 1
+  unit: p
+  link: ing16
+- ingredient: Lasagneplatten
+  amount: 9
+  unit: pcs
+  link: ing17
+- ingredient: Gruyère
+  amount: 150
+  unit: g
+  link: ing18

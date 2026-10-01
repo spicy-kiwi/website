@@ -1,17 +1,17 @@
 ---
 date: 2024-08-08T12:00:00-05:00
-description: "Herzafte Frikos ohne Fleisch, aber mit ganz viel Geschmack"
+description: "Vegetarische Frikadellen aus Haferflocken, Käse und Curry – knusprig gebraten."
+featured_image: "/images/rezepte/hafer_frikadellen.webp"
 
-featured_image: "/images/rezepte/hafer_frikadellen.jpg"
-
-tags: [ "Vegetarisch", "Alternative" ]
+tags: ["🌱 Vegetarisch", "🫘 Fleischersatz"]
 title: "Vegetarische Frikadellen"
 layout: "recipe"
 permalink: "/rezepte/vegetarische_frikadellen/"
-published: true
+isPublished: true
 post_content_classes: "aaa"
 
 recipeName: "hafer_frikadellen"
+trello: "https://trello.com/c/baGbwUTp"
 stars: 4
 duration: 40
 difficulty: 2

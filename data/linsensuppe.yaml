@@ -1,0 +1,46 @@
+- ingredient: Kartoffeln
+  amount: 400
+  unit: g
+  link: ing1
+- ingredient: Suppengrün (Bund)
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Speckwürfel
+  amount: 150
+  unit: g
+  link: ing3
+- ingredient: Tellerlinsen
+  amount: 350
+  unit: g
+  link: ing4
+- ingredient: Brühe
+  amount: 2000
+  unit: ml
+  link: ing5
+- ingredient: Lorbeerblätter
+  amount: 2
+  unit: pcs
+  link: ing6
+- ingredient: Majoran
+  amount: 1
+  unit: tsp
+  link: ing7
+- ingredient: Weißweinessig
+  amount: 2
+  unit: tsp
+  link: ing8
+- ingredient: Petersilie (gehackt)
+  amount: 2
+  unit: tbsp
+  link: ing9
+- ingredient: Wiener Würstchen
+  amount: 4
+  unit: pcs
+  link: ing10
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing12

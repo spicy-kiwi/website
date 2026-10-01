@@ -1,0 +1,34 @@
+- ingredient: Pasta
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Öl
+  amount: 1
+  unit: tbsp
+  link: ing2
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing3
+- ingredient: Milde italienische Bratwurst
+  amount: 450
+  unit: g
+  link: ing4
+- ingredient: Gewürfelte Tomaten (Dose)
+  amount: 410
+  unit: g
+  link: ing5
+- ingredient: Sahne
+  amount: 240
+  unit: ml
+  link: ing6
+- ingredient: Parmesan
+  amount: 100
+  unit: g
+  link: ing7
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing9

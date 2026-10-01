@@ -1,0 +1,55 @@
+- ingredient: Auberginen
+  amount: 2
+  unit: p
+  link: ing1
+- ingredient: Zwiebeln
+  amount: 2
+  unit: p
+  link: ing2
+- ingredient: Knoblauch
+  amount: 3
+  unit: p
+  link: ing3
+- ingredient: Ingwer
+  amount: 1
+  unit: p
+  link: ing4
+- ingredient: Kreuzkümmel
+  amount: 1
+  unit: tsp
+  link: ing5
+- ingredient: Currypulver
+  amount: 2
+  unit: tsp
+  link: ing6
+- ingredient: Garam Masala
+  amount: 0.25
+  unit: tsp
+  link: ing7
+- ingredient: Gehackte Tomaten
+  amount: 400
+  unit: g
+  link: ing8
+- ingredient: Kokosmilch
+  amount: 400
+  unit: ml
+  link: ing9
+- ingredient: Butter
+  amount: 1
+  unit: tbsp
+  link: ing10
+- ingredient: Tomatenmark
+  amount: 2
+  unit: tbsp
+  link: ing11
+- ingredient: Koriander gemahlen
+  amount: 1
+  unit: tsp
+  link: ing12
+- ingredient: Koriander (frisch)
+  amount: 1
+  unit: p
+  link: ing13
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing14

@@ -1,7 +1,10 @@
 - ingredient: Butter
   amount: 50
   unit: g
-- ingredient: Zwiebeln
+- ingredient: Olivenöl
+  amount: 1
+  unit: tbsp
+- ingredient: Schalotten
   amount: 2
   unit: p
 - ingredient: Parmesan

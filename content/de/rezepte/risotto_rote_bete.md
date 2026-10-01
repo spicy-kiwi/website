@@ -1,29 +1,36 @@
 ---
 date: 2023-07-30T12:00:00-05:00
-description: "Hier ist ein leckeres Rezept."
-featured_image: "/images/rezepte/risotto_rote_bete.jpg"
+description: "Pinkes Risotto mit Roter Bete und Feta."
+featured_image: "/images/rezepte/risotto_rote_bete.webp"
 
 # Absolute required metadata
 recipeName: "risotto_rote_bete"
 
-tags: ["🇮🇹 Italienisch", "kochen", "one-pot", "risotto", "vegetarisch"]
-title: "Risotto: Rote Bete"
+trello: "https://trello.com/c/4GWbheMQ"
+tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+title: "Risotto mit Roter Bete und Feta"
 
 stars: 4
 duration: 50
 difficulty: 2
 cooked: 42
+
+# Ingredients calculator
+servingsCount: 4
 ---
 
-## Zutaten
-
-### Risotto-Basis
-
-### Variation
-
 ## Anleitung
-1. **Risotto-Basis** zubereiten
+1. [ ] Die [Rote Bete](#ing7) schälen und in kleine Würfel schneiden.
+2. [ ] Die [Schalotten](#ing2) fein hacken.
+3. [ ] Die Hälfte der [Butter](#ing1) und das [Olivenöl](#ing11) in einem Topf erhitzen und die [Schalotten](#ing2) darin glasig andünsten.
+4. [ ] Die gewürfelte [Rote Bete](#ing7) zugeben und kurz mitschwitzen.
+5. [ ] Den [Risotto-Reis](#ing4) zugeben und kurz mitrösten, bis er ebenfalls leicht glasig ist.
+6. [ ] Mit dem [Weißwein](#ing5) ablöschen und ab sofort sorgfältig rühren.
+7. [ ] Nach und nach die heiße [Gemüsebrühe](#ing6) angießen und weiter rühren, bis der [Risotto-Reis](#ing4) bissfest und schön pink gefärbt ist (ca. 20-25 Min.).
+8. [ ] Die restliche [Butter](#ing1) und den [Parmesan](#ing3) unterrühren.
+9. [ ] Mit [Salz](#ing9) und [Pfeffer](#ing10) abschmecken.
+10. [ ] Den [Feta](#ing8) grob zerbröseln und über dem angerichteten Risotto verteilen.
 
 ## Variation
 - Geht gut mit Walnüssen
-- 
+- Ein Spritzer Zitronensaft bringt Frische in die erdige Süße der Roten Bete

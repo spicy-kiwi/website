@@ -103,7 +103,7 @@ $('document').ready(function() {
     // add badge classes
     $('a[href^="#"]').addClass('badge bg-light-gray');
 
-    // Jump to ingredient in recipe when clicking on ingredient in ingredients list
+    // Jump DOWN to ingredient in recipe when clicking on ingredient in ingredients list
     $('td.ingredientLink').click(function() {
         let ing = $(this).data('ing');
         if(!ing) {

@@ -1,0 +1,47 @@
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing1
+- ingredient: Knoblauchzehe
+  amount: 1
+  unit: pcs
+  link: ing2
+- ingredient: Kirschtomaten
+  amount: 200
+  unit: g
+  link: ing3
+- ingredient: Gehackte Kräuter (Petersilie/Basilikum)
+  amount: 1
+  unit: tbsp
+  link: ing4
+- ingredient: Mozzarella
+  amount: 125
+  unit: g
+  link: ing5
+- ingredient: Sahne
+  amount: 100
+  unit: ml
+  link: ing6
+- ingredient: Gehackte Tomaten (Dose)
+  amount: 400
+  unit: g
+  link: ing7
+- ingredient: Tomatenmark
+  amount: 2
+  unit: tbsp
+  link: ing8
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Tortellini (Kühlregal)
+  amount: 600
+  unit: g
+  link: ing10
+- ingredient: Mais
+  amount: 20
+  unit: g
+  link: ing11
+- ingredient: Erbsen (TK)
+  amount: 20
+  unit: g
+  link: ing12

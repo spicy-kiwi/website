@@ -75,6 +75,26 @@
     border-radius: .5rem;
 }
 
+/* Rezeptübersicht: alle Karten-Fotos einheitlich quadratisch und gleich groß
+   darstellen, damit weder das Seitenverhältnis noch die native Auflösung
+   des Originalfotos (z.B. der kleine Platzhalter) die Kartengröße bestimmt.
+   ".image" ist normalerweise inline-block ohne eigene Breite und würde sich
+   sonst je Bild auf dessen Intrinsic-Größe schrumpfen. */
+.recipe-summary .image {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    flex: none; /* Bild darf vom Flexbox-Layout nie gestaucht werden,
+                   sonst passt die quadratische Höhe nicht mehr und der
+                   Text darunter rutscht optisch unter das Bild. */
+}
+
+.recipe-summary .image > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 
 .recipe .image > .header {
 
@@ -106,6 +126,69 @@
 .recipe .text {
     padding-left: .5rem;
     padding-right: .5rem;
+}
+
+/* Rezeptübersicht: responsives Grid, das sich selbst an die verfügbare
+   Breite anpasst (mobil eine Spalte, Tablet mehrere, Desktop noch mehr) -
+   ganz ohne feste Breakpoint-Klassen. Grid-Items werden pro Zeile per
+   Default (align-items: stretch) automatisch gleich hoch. */
+#recipeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+/* Die eigentliche Höhenangleichung: Die Grid-Zelle ist bereits gleich hoch,
+   jetzt muss die Karte selbst (und ihr Inhalt) diese Höhe auch ausfüllen. */
+#recipeGrid > .recipe-filter-item {
+    display: flex;
+    min-width: 0;
+}
+
+.recipe-summary {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0; /* Abstand übernimmt jetzt der Grid-"gap" */
+}
+
+.recipe-summary > a {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    text-decoration: none;
+}
+
+.recipe-summary .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+}
+
+/* "Rezept ansehen"-Link immer unten an die Karte andocken, egal wie lang
+   die Beschreibung im Einzelfall ist. */
+.recipe-summary .text p:last-child {
+    margin-top: auto;
+    padding-top: .5rem;
+}
+
+/* War früher ein zweiter, verschachtelter <a> innerhalb des Karten-Links -
+   ungültiges HTML, das der Browser stillschweigend "repariert" hat, indem
+   er den äußeren Link vorzeitig schloss. Das riss .text aus dem Flexbox-
+   Verbund und verursachte die Überlappung mit dem Bild. Jetzt nur noch
+   ein optisch wie ein Link gestyltes <span>, die ganze Karte ist ohnehin
+   schon klickbar. */
+.recipe-summary .read-more {
+    color: #0645ad;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    #recipeGrid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .nutritionBargraph .powered {

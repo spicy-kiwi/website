@@ -1,0 +1,51 @@
+- ingredient: Geriebene Möhren
+  amount: 375
+  unit: g
+  link: ing1
+- ingredient: Mehl
+  amount: 250
+  unit: g
+  link: ing2
+- ingredient: Backpulver
+  amount: 2
+  unit: tsp
+  link: ing3
+- ingredient: Zucker
+  amount: 250
+  unit: g
+  link: ing4
+- ingredient: Zimt
+  amount: 1
+  unit: tsp
+  link: ing5
+- ingredient: Öl
+  amount: 250
+  unit: ml
+  link: ing6
+- ingredient: Eier
+  amount: 4
+  unit: pcs
+  link: ing7
+- ingredient: Gemahlene Mandeln
+  amount: 200
+  unit: g
+  link: ing8
+- ingredient: Fett für die Form
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Frischkäse
+  amount: 300
+  unit: g
+  link: ing10
+- ingredient: Puderzucker
+  amount: 100
+  unit: g
+  link: ing11
+- ingredient: Vanillezucker
+  amount: 1
+  unit: p
+  link: ing12
+- ingredient: Zitronensaft
+  amount: 1
+  unit: tsp
+  link: ing13

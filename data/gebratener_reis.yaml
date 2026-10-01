@@ -1,0 +1,44 @@
+- ingredient: Reis
+  amount: 300
+  unit: g
+  link: ing1
+- ingredient: Zwiebeln
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Ingwer
+  amount: 1
+  unit: p
+  link: ing3
+- ingredient: Knoblauch
+  amount: 2
+  unit: pcs
+  link: ing4
+- ingredient: Sambal Oelek
+  amount: 1
+  unit: tbsp
+  link: ing5
+- ingredient: Sojasoße (hell)
+  amount: 2
+  unit: tbsp
+  link: ing6
+- ingredient: Reisessig
+  amount: 1
+  unit: tbsp
+  link: ing7
+- ingredient: Chiliflocken
+  amount: 0.5
+  unit: tsp
+  link: ing8
+- ingredient: Eier
+  amount: 2
+  unit: pcs
+  link: ing9
+- ingredient: Asia-Gemüsemischung (TK)
+  amount: 200
+  unit: g
+  link: ing10
+- ingredient: Sojasoße (dunkel)
+  amount: 1
+  unit: tbsp
+  link: ing11

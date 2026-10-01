@@ -1,0 +1,56 @@
+- ingredient: Baby Back Ribs (Rippchen)
+  amount: 3
+  unit: p
+  link: ing1
+- ingredient: Brauner Zucker
+  amount: 170
+  unit: g
+  link: ing2
+- ingredient: Grobes Salz
+  amount: 4.5
+  unit: tbsp
+  link: ing3
+- ingredient: Chilipulver
+  amount: 1.5
+  unit: tbsp
+  link: ing4
+- ingredient: Schwarzer Pfeffer
+  amount: 0.75
+  unit: tsp
+  link: ing5
+- ingredient: Cayennepfeffer
+  amount: 0.75
+  unit: tsp
+  link: ing6
+- ingredient: Old-Bay-Gewürz
+  amount: 0.75
+  unit: tsp
+  link: ing7
+- ingredient: Thymian
+  amount: 0.75
+  unit: tsp
+  link: ing8
+- ingredient: Zwiebelpulver
+  amount: 0.75
+  unit: tsp
+  link: ing9
+- ingredient: Weißwein
+  amount: 350
+  unit: ml
+  link: ing10
+- ingredient: Weißweinessig
+  amount: 3
+  unit: tbsp
+  link: ing11
+- ingredient: Worcestersauce
+  amount: 2
+  unit: tbsp
+  link: ing12
+- ingredient: Honig
+  amount: 2
+  unit: tbsp
+  link: ing13
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: pcs
+  link: ing14

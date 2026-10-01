@@ -1,0 +1,31 @@
+{{ define "main" }}
+    {{/* Intro-Text pro Tag ohne Emoji: "🇩🇪 Deutsch" -> partials/tag-intro/deutsch.html */}}
+    {{ $intro := printf "tag-intro/%s.html" (.Title | lower | replaceRE "^[^\\p{L}]+" "") }}
+    {{ if or (templates.Exists (printf "partials/%s" $intro)) .Content }}
+        <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+            {{ if templates.Exists (printf "partials/%s" $intro) }}
+                {{ partial $intro . }}
+            {{ else }}
+                {{- .Content -}}
+            {{ end }}
+        </section>
+    {{ end }}
+
+    <div class="mw9 center ph3">
+        <div class="tag-filter-bar">
+            <div class="tag-filter-head">
+                <strong>{{ len .Pages }} Einträge mit „{{ .Title }}“</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="mw9 center ph3">
+        <section class="mt3" id="recipeGrid">
+            {{ range .Pages }}
+                <div class="recipe-filter-item">
+                    {{ .Render "summary" }}
+                </div>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

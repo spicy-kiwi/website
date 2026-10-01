@@ -1,0 +1,17 @@
+- ingredient: Gemüse nach Wahl
+  amount: 600
+  unit: g
+  link: ing1
+- ingredient: Butter oder Öl
+  amount: 2
+  unit: tbsp
+  link: ing2
+- ingredient: Kräuter/Gewürze nach Wahl
+  amount: nach Bedarf
+  link: ing3
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing4
+- ingredient: Antihaft-Spray
+  amount: nach Bedarf
+  link: ing5

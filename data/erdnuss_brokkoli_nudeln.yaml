@@ -18,7 +18,7 @@
 - ingredient: Chiliflocken
   amount: 0.5
   unit: tsp
-  link: ing
+  link: ing5
 - ingredient: Nudeln
   amount: 250
   unit: g
@@ -33,3 +33,7 @@
 - ingredient: Salz
   amount: nach Bedarf
   link: ing9
+- ingredient: Zwiebeln
+  amount: 1
+  unit: p
+  link: ing10

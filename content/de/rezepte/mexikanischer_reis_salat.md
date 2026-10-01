@@ -1,14 +1,15 @@
 ---
 date: 2026-06-18T12:00:00-05:00
-description: "Mexikanischer Reis-Salat. Für heiße Sommertage."
-featured_image: "/images/rezepte/mexikanischer_reis_salat.jpg"
+description: "Frischer mexikanischer Reissalat mit Limette, Bohnen und Mais."
+featured_image: "/images/rezepte/mexikanischer_reis_salat.webp"
 
-tags: ["🇲🇽 Mexikanisch", "kalt", "Salat","one-pot", "vegetarisch"]
+tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🌿 Vegan", "🍚 Reis", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
 title: "Mexikanischer Reis-Salat"
 
 # Absolute required metadata
 recipeName: "mexikanischer_reis_salat"
 
+trello: "https://trello.com/c/jr1F8iNH"
 stars: 4
 duration: 40
 difficulty: 1

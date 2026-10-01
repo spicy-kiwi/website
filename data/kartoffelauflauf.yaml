@@ -1,0 +1,27 @@
+- ingredient: Kartoffeln
+  amount: 1000
+  unit: g
+  link: ing1
+- ingredient: Karotten
+  amount: 200
+  unit: g
+  link: ing2
+- ingredient: Lauch
+  amount: 150
+  unit: g
+  link: ing3
+- ingredient: Sahne
+  amount: 300
+  unit: ml
+  link: ing4
+- ingredient: Eier
+  amount: 3
+  unit: pcs
+  link: ing5
+- ingredient: Salz, Pfeffer und Muskat
+  amount: nach Bedarf
+  link: ing6
+- ingredient: Geriebener Käse
+  amount: 150
+  unit: g
+  link: ing7

@@ -1,18 +1,19 @@
 ---
 date: 2024-08-08T12:00:00-05:00
-description: "Eine schnelle und einfache Pasta mit Ajvar und Frischkäse. Perfekt für den Feierabend."
-featured_image: "/images/rezepte/ajvar_pasta.jpg"
+description: "Cremige Pasta mit Ajvar, Cherrytomaten und Kräuterfrischkäse."
+featured_image: "/images/rezepte/ajvar_pasta.webp"
 
-tags: [ "Pasta", "Einfach", "Schnell", "Herzhaft", "fleisch", "vegan", "vegetarisch", "🇧🇷Brasilianisch", "🇨🇳Chinesisch", "🇩🇪deutsch", "🇪🇸Spanisch", "🇫🇷Französisch", "🇬🇷Griechisch", "🇮🇩Indonesisch", "🇮🇳Indisch", "🇮🇹 italienisch", "🇯🇲Jamaikan", "🇯🇵Japanisch", "🇰🇷Koreanisch", "🇲🇦Marokkanisch", "🇲🇽Mexikanisch", "🇵🇱Polnisch", "🇵🇹Portugiesisch", "🇷🇺Russisch", "🇹🇭Thailändisch", "🇹🇷Türkisch", "🇻🇳Vietnamesisch" ]
+tags: ["🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
 title: "Ajvar Pasta"
 layout: "recipe"
 category: "Pasta"
 permalink: "/rezepte/ajvar-pasta/"
-published: true
+isPublished: true
 post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "ajvar_pasta"
+trello: "https://trello.com/c/mjfyMngm"
 stars: 4
 duration: 25
 difficulty: 1

@@ -1,0 +1,41 @@
+- ingredient: Spätzle
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Zwiebeln
+  amount: 2
+  unit: p
+  link: ing2
+- ingredient: Öl
+  amount: 2
+  unit: tbsp
+  link: ing3
+- ingredient: Butter
+  amount: 40
+  unit: g
+  link: ing4
+- ingredient: Bergkäse
+  amount: 200
+  unit: g
+  link: ing5
+- ingredient: Sahne
+  amount: 400
+  unit: ml
+  link: ing6
+- ingredient: Petersilie
+  amount: 0.5
+  unit: p
+  link: ing7
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Muskatnuss
+  amount: nach Bedarf
+  link: ing10
+- ingredient: Röstzwiebeln
+  amount: 1
+  unit: p
+  link: ing11

@@ -1,0 +1,42 @@
+- ingredient: Tortellini mit Käsefüllung
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Rucola
+  amount: 50
+  unit: g
+  link: ing2
+- ingredient: Cherrytomaten
+  amount: 200
+  unit: g
+  link: ing3
+- ingredient: Getrocknete Tomaten in Öl
+  amount: 120
+  unit: g
+  link: ing4
+- ingredient: Öl der getrockneten Tomaten
+  amount: 6
+  unit: tbsp
+  link: ing5
+- ingredient: Balsamico-Essig
+  amount: 4
+  unit: tbsp
+  link: ing6
+- ingredient: Knoblauchzehe
+  amount: 1
+  unit: pcs
+  link: ing7
+- ingredient: Basilikum
+  amount: 10
+  unit: pcs
+  link: ing8
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing10
+- ingredient: Parmesan
+  amount: 80
+  unit: g
+  link: ing11

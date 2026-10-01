@@ -1,0 +1,46 @@
+- ingredient: Kokosöl
+  amount: 1
+  unit: tbsp
+  link: ing1
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Knoblauchzehen
+  amount: 2
+  unit: p
+  link: ing3
+- ingredient: Ingwer
+  amount: 1
+  unit: p
+  link: ing4
+- ingredient: Süßkartoffeln
+  amount: 500
+  unit: g
+  link: ing5
+- ingredient: Rote Thai-Curry-Paste
+  amount: 3
+  unit: tbsp
+  link: ing6
+- ingredient: Cremige Erdnussbutter
+  amount: 1
+  unit: tbsp
+  link: ing7
+- ingredient: Kokosmilch
+  amount: 400
+  unit: ml
+  link: ing8
+- ingredient: Limette
+  amount: 1
+  unit: p
+  link: ing9
+- ingredient: Spinat
+  amount: 200
+  unit: g
+  link: ing10
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing12

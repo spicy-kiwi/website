@@ -1,0 +1,33 @@
+- ingredient: Süßkartoffel
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Zwiebeln
+  amount: 2
+  unit: p
+  link: ing2
+- ingredient: Gelbe Currypaste
+  amount: 1.5
+  unit: tbsp
+  link: ing3
+- ingredient: Kokosmilch
+  amount: 250
+  unit: ml
+  link: ing4
+- ingredient: Blattspinat
+  amount: 150
+  unit: g
+  link: ing5
+- ingredient: Zitronengras (eingelegt, optional)
+  amount: nach Bedarf
+  link: ing6
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing7
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Öl
+  amount: 1
+  unit: tbsp
+  link: ing9

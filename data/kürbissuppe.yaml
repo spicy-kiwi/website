@@ -1,0 +1,37 @@
+- ingredient: Hokkaido-Kürbis
+  amount: 800
+  unit: g
+  link: ing1
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Gemüsebrühe
+  amount: 700
+  unit: ml
+  link: ing3
+- ingredient: Kokosmilch
+  amount: 200
+  unit: ml
+  link: ing4
+- ingredient: Olivenöl
+  amount: 2
+  unit: tbsp
+  link: ing5
+- ingredient: Muskat
+  amount: nach Bedarf
+  link: ing6
+- ingredient: Crème fraîche
+  amount: 2
+  unit: tbsp
+  link: ing7
+- ingredient: Petersilie/Koriander
+  amount: 1
+  unit: p
+  link: ing8
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing9
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing10

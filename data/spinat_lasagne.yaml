@@ -1,0 +1,64 @@
+- ingredient: Lasagneblätter
+  amount: 15
+  unit: pcs
+  link: ing1
+- ingredient: Gouda
+  amount: 100
+  unit: g
+  link: ing2
+- ingredient: Parmesan
+  amount: 50
+  unit: g
+  link: ing3
+- ingredient: Passierte Tomaten
+  amount: 700
+  unit: g
+  link: ing4
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing5
+- ingredient: Knoblauchzehe
+  amount: 2
+  unit: pcs
+  link: ing6
+- ingredient: Olivenöl
+  amount: 1
+  unit: tbsp
+  link: ing7
+- ingredient: Tomatenmark
+  amount: 3
+  unit: tbsp
+  link: ing8
+- ingredient: Oregano
+  amount: 1.5
+  unit: tsp
+  link: ing9
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing10
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing11
+- ingredient: Zucker
+  amount: nach Bedarf
+  link: ing12
+- ingredient: Spinat
+  amount: 600
+  unit: g
+  link: ing13
+- ingredient: Schmand
+  amount: 200
+  unit: g
+  link: ing14
+- ingredient: Frischkäse
+  amount: 150
+  unit: g
+  link: ing15
+- ingredient: Olivenöl (für Spinat)
+  amount: 1
+  unit: tbsp
+  link: ing16
+- ingredient: Muskatnuss
+  amount: nach Bedarf
+  link: ing17

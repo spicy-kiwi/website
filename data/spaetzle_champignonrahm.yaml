@@ -1,0 +1,33 @@
+- ingredient: Spätzle
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Champignons
+  amount: 400
+  unit: g
+  link: ing2
+- ingredient: Zwiebel
+  amount: 1
+  unit: p
+  link: ing3
+- ingredient: Sahne
+  amount: 200
+  unit: ml
+  link: ing4
+- ingredient: Butter
+  amount: 30
+  unit: g
+  link: ing5
+- ingredient: Petersilie
+  amount: 1
+  unit: p
+  link: ing6
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing7
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Muskat
+  amount: nach Bedarf
+  link: ing9

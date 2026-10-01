@@ -1,0 +1,24 @@
+- ingredient: Hähnchen (Brust oder Schenkel)
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Öl
+  amount: 60
+  unit: ml
+  link: ing2
+- ingredient: Essig oder Zitronensaft
+  amount: 120
+  unit: ml
+  link: ing3
+- ingredient: Sojasauce
+  amount: 60
+  unit: ml
+  link: ing4
+- ingredient: Zucker
+  amount: 2
+  unit: tbsp
+  link: ing5
+- ingredient: Kräuter und Gewürze nach Wahl
+  amount: 2
+  unit: tbsp
+  link: ing6

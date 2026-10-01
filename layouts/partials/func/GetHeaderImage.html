@@ -1,0 +1,48 @@
+{{/*
+	GetHeaderImage (project override)
+
+	This partial gets the url for the wide (21:9) header/hero background
+	image of a page, as opposed to GetFeaturedImage.html, which returns the
+	square (1:1) card/grid thumbnail.
+
+	If a header_image was set in the page's front matter AND the file
+	actually exists in /static, that is used.
+
+	If not set, or the file is missing, falls back to the page's
+	featured_image (same resolution logic as GetFeaturedImage.html) so
+	pages that only have one photo still show something sensible.
+
+	If neither resolves, falls back to the local placeholder image so
+	headers never point at a broken/missing file.
+
+	@return RelPermalink to header image (never empty).
+
+*/}}
+
+{{ $link := "" }}
+
+{{ with .Params.header_image }}
+  {{ if os.FileExists (printf "static%s" .) }}
+    {{ $link = trim . "/" | absURL }}
+    {{ with $.Resources.GetMatch . }}
+      {{ $link = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $link }}
+  {{ with .Params.featured_image }}
+    {{ if os.FileExists (printf "static%s" .) }}
+      {{ $link = trim . "/" | absURL }}
+      {{ with $.Resources.GetMatch . }}
+        {{ $link = .RelPermalink }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $link }}
+  {{ $link = "/images/rezepte/platzhalter-header.svg" | absURL }}
+{{ end }}
+
+{{ return $link }}

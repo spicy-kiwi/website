@@ -1,0 +1,31 @@
+- ingredient: Gnocchi
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Olivenöl
+  amount: 3
+  unit: tbsp
+  link: ing2
+- ingredient: Cherrytomaten
+  amount: 200
+  unit: g
+  link: ing3
+- ingredient: Getrocknete Tomaten
+  amount: 80
+  unit: g
+  link: ing4
+- ingredient: Mozzarella
+  amount: 125
+  unit: g
+  link: ing5
+- ingredient: Rucola
+  amount: 50
+  unit: g
+  link: ing6
+- ingredient: Balsamico
+  amount: 3
+  unit: tbsp
+  link: ing7
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing8

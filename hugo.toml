@@ -1,5 +1,5 @@
 title = "Spicy 🌶️ Kiwi"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://spicy.nox.kiwi/"
 languageCode = "de-de"
 theme = ["ananke"]
 
@@ -20,6 +20,14 @@ contentDir = "content/de"
 changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
 author = "Anderer Jan"

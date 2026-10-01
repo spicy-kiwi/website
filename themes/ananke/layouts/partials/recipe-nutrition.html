@@ -1,6 +1,7 @@
 
 {{ if and .Params.calories .Params.carbonhydrates .Params.protein .Params.fat }}
     <section>
+        <h2 id="ernährungsinfos">Ernährungsinfos</h2>
         <div class="card nutritionBargraph">
             <label for="Kalorien">Kalorien: <span class="right unitcalories">{{ .Params.calories }} / 1040</span></label>
             <br/>

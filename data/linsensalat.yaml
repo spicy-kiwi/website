@@ -1,0 +1,31 @@
+- ingredient: Braune oder grüne Linsen (gegart)
+  amount: 400
+  unit: g
+  link: ing1
+- ingredient: Paprika
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Rote Zwiebel
+  amount: 1
+  unit: p
+  link: ing3
+- ingredient: Senf
+  amount: 1
+  unit: tbsp
+  link: ing4
+- ingredient: Essig
+  amount: 3
+  unit: tbsp
+  link: ing5
+- ingredient: Öl
+  amount: 4
+  unit: tbsp
+  link: ing6
+- ingredient: Salz und Pfeffer
+  amount: nach Bedarf
+  link: ing7
+- ingredient: Petersilie
+  amount: 1
+  unit: p
+  link: ing8

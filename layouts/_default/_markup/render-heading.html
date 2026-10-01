@@ -1,0 +1,12 @@
+{{- if eq .Anchor "anleitung" -}}
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+  <h{{ .Level }} id="{{ .Anchor }}">{{ .Text }}</h{{ .Level }}>
+  {{/* Wird von /js/wake-lock.js eingeblendet, falls der Browser es unterstützt */}}
+  <div class="form-check form-switch small" id="wakeLock" hidden>
+    <input class="form-check-input" type="checkbox" id="wakeLockToggle">
+    <label class="form-check-label" for="wakeLockToggle">Bildschirm anlassen</label>
+  </div>
+</div>
+{{- else -}}
+<h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}>{{ .Text }}</h{{ .Level }}>
+{{- end -}}

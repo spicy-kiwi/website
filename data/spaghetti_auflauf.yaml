@@ -1,0 +1,27 @@
+- ingredient: Spaghetti
+  amount: 450
+  unit: g
+  link: ing1
+- ingredient: Tomatensauce
+  amount: 700
+  unit: g
+  link: ing2
+- ingredient: Frischkäse
+  amount: 225
+  unit: g
+  link: ing3
+- ingredient: Sauerrahm oder Crème fraîche
+  amount: 225
+  unit: g
+  link: ing4
+- ingredient: Mozzarella (gerieben)
+  amount: 450
+  unit: g
+  link: ing5
+- ingredient: Peperoni-Salami
+  amount: 170
+  unit: g
+  link: ing6
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing7

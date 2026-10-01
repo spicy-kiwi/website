@@ -1,0 +1,34 @@
+- ingredient: Gnocchi
+  amount: 500
+  unit: g
+  link: ing1
+- ingredient: Zucchini
+  amount: 1
+  unit: p
+  link: ing2
+- ingredient: Kirschtomaten
+  amount: 200
+  unit: g
+  link: ing3
+- ingredient: Knoblauch
+  amount: 2
+  unit: pcs
+  link: ing4
+- ingredient: Olivenöl
+  amount: 2
+  unit: tbsp
+  link: ing5
+- ingredient: Parmesan
+  amount: 40
+  unit: g
+  link: ing6
+- ingredient: Basilikum
+  amount: 1
+  unit: p
+  link: ing7
+- ingredient: Salz
+  amount: nach Bedarf
+  link: ing8
+- ingredient: Pfeffer
+  amount: nach Bedarf
+  link: ing9

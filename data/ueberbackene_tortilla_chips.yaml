@@ -1,0 +1,25 @@
+- ingredient: Tortilla-Chips
+  amount: 200
+  unit: g
+  link: ing1
+- ingredient: Schwarze Bohnen
+  amount: 240
+  unit: g
+  link: ing2
+- ingredient: Jalapenos
+  amount: 4
+  unit: tbsp
+  link: ing3
+- ingredient: Geriebener Käse
+  amount: 200
+  unit: g
+  link: ing4
+- ingredient: Guacamole
+  amount: nach Bedarf
+  link: ing5
+- ingredient: Sauerrahm
+  amount: nach Bedarf
+  link: ing6
+- ingredient: Salsa
+  amount: nach Bedarf
+  link: ing7
