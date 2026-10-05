@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Alles vom Blech: geröstete Kartoffeln, Spargel und geräucherte Bratwurst mit Kräutern."
 featured_image: "/images/rezepte/ofenpfanne_kartoffeln_wuerstchen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/ofenpfanne_kartoffeln_wuerstchen.webp"
 recipeName: "ofenpfanne_kartoffeln_wuerstchen"
 trello: "https://trello.com/c/ZTfohRuv"
 
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "🔥 Ofen", "👌 Einfach"]
+tags: ["Amerikanisch", "Fleisch", "Ofen", "Einfach"]
 title: "Ofenpfanne mit Kartoffeln und Würstchen"
 
 stars: 4

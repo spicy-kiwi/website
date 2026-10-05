@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:16:44+01:00
 description: "Vegetarisches Chili mit Bohnen, Mais und viel Gewürz – würzig und sättigend."
 featured_image: "/images/rezepte/chili_sin_carne.webp"
 
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🌿 Vegan", "🫘 Fleischersatz", "🫕 One-Pot", "🌶️ Scharf", "👌 Einfach"]
+tags: ["Mexikanisch", "Vegetarisch", "Vegan", "Fleischersatz", "One-Pot", "Scharf", "Einfach"]
 title: "Chili sin Carne"
 
 # Absolute required metadata

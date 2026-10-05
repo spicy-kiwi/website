@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:39+01:00
 description: "Blitzschnelles Homeoffice-Lunch aus grünen Erbsen und Spiegelei."
 featured_image: "/images/rezepte/erbsen_ei.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/erbsen_ei.webp"
 recipeName: "erbsen_ei"
 trello: "https://trello.com/c/7xCxXrze"
 
-tags: ["🌱 Vegetarisch", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Einfach", "Schnell"]
 title: "Erbsen & Ei"
 
 stars: 4

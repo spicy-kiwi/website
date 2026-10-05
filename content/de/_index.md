@@ -1,11 +1,25 @@
 ---
 title: "🌶️Spicy Kiwi🥝"
 
-description: "Cooking. Living."
+description: "Rezepte, die wir selbst gern kochen: meist vegetarisch, oft schnell und alltagstauglich. Risotto, Pasta, Suppen und Currys - Schritt für Schritt erklärt."
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
 cascade:
-  featured_image: '/images/background.jpg'
+  featured_image: '/images/background.webp'
+
+# Karussell auf der Startseite.
+# recipes: Dateinamen aus content/de/rezepte (ohne .md), in dieser Reihenfolge.
+# visible: wie viele Karten gleichzeitig zu sehen sind (auf dem Handy weniger).
+carousel:
+  visible: 3
+  recipes:
+    - risotto_birne_gorgonzola
+    - pürierte_linsensuppe
+    - erdnuss_brokkoli_nudeln
+    - ajvar_pasta
+    - cigköfte
+    - kritharaki_feta_auflauf
+    - minestrone
 ---
 
 ## Willkommen

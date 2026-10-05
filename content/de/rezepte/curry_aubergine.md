@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:16:47+01:00
 description: "Cremiges Auberginen-Curry mit Kokosmilch, Ingwer und Knoblauch."
 featured_image: "/images/rezepte/curry_aubergine.webp"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🍛 Curry", "🫕 One-Pot"]
+tags: ["Indisch", "Vegetarisch", "Curry", "One-Pot"]
 title: "Curry Aubergine"
 
 # Absolute required metadata

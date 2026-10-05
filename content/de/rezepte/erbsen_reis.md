@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-07-30T14:52:21+02:00
 description: "Simples Mealprep-Gericht aus Basmatireis und grünen Erbsen."
 featured_image: "/images/rezepte/erbsen_reis.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/erbsen_reis.webp"
 recipeName: "erbsen_reis"
 trello: "https://trello.com/c/P74Y1rak"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍚 Reis", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Reis", "Einfach", "Schnell"]
 title: "Erbsen & Reis"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-02-18T16:08:36+01:00
 description: "Fruchtiges Risotto mit Cherrytomaten und pikanten Kapern."
 featured_image: "/images/rezepte/risotto_tomate_kapern.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_tomate_kapern.webp"
 recipeName: "risotto_tomate_kapern"
 
 trello: "https://trello.com/c/2cC7DFyp"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Cherrytomaten und Kapern"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-12-09T14:25:54+01:00
 description: "Deftige weiße Bohnensuppe mit Wurzelgemüse, Tomaten und Kreuzkümmel."
 featured_image: "/images/rezepte/weisse_bohnensuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/weisse_bohnensuppe.webp"
 recipeName: "weisse_bohnensuppe"
 trello: "https://trello.com/c/KnQ0LuhO"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Suppe", "One-Pot", "Einfach"]
 title: "Weiße Bohnensuppe"
 
 stars: 4

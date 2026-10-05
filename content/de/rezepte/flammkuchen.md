@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:59:22+01:00
 description: "Knuspriger Flammkuchen in zwei Varianten: klassisch mit Speck oder mit Räucherlachs."
 featured_image: "/images/rezepte/flammkuchen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/flammkuchen.webp"
 recipeName: "flammkuchen"
 trello: "https://trello.com/c/Qw9RbSxw"
 
-tags: ["🇫🇷 Französisch", "🥩 Fleisch", "🐟 Fisch", "🔥 Ofen"]
+tags: ["Französisch", "Fleisch", "Fisch", "Ofen"]
 title: "Flammkuchen"
 
 stars: 4

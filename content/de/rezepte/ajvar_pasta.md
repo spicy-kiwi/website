@@ -1,15 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-03-13T15:16:36+01:00
 description: "Cremige Pasta mit Ajvar, Cherrytomaten und Kräuterfrischkäse."
 featured_image: "/images/rezepte/ajvar_pasta.webp"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Ajvar Pasta"
-layout: "recipe"
-category: "Pasta"
-permalink: "/rezepte/ajvar-pasta/"
-isPublished: true
-post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "ajvar_pasta"
@@ -21,14 +16,6 @@ cooked: 42
 
 # Ingredients calculator
 servingsCount: 4
-
-# Nutritional values per serving
-calories: 400
-carbonhydrates: 200
-protein: 20
-fat: 34
-
-
 ---
 
 ## Anleitung

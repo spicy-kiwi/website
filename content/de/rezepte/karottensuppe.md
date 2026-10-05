@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:01:14+01:00
 description: "Cremige Karottensuppe mit Ingwer und einem Hauch Sahne."
 featured_image: "/images/rezepte/karottensuppe.webp"
 
-tags: ["🌱 Vegetarisch", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Suppe", "One-Pot", "Einfach"]
 title: "Karottensuppe"
 
 # Absolute required metadata

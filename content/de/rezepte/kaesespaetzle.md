@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-22T17:31:16+01:00
 description: "Cremige Käsespätzle mit Bergkäse, Sahne und knusprigen Röstzwiebeln."
 featured_image: "/images/rezepte/kaesespaetzle.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kaesespaetzle.webp"
 recipeName: "kaesespaetzle"
 
 trello: "https://trello.com/c/nVyGqWcD"
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Käsespätzle"
 
 stars: 4

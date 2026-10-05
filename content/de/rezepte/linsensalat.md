@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:22:15+02:00
 description: "Schneller Linsensalat mit Paprika, roten Zwiebeln und Senf-Dressing."
 featured_image: "/images/rezepte/linsensalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/linsensalat.webp"
 recipeName: "linsensalat"
 trello: "https://trello.com/c/WEzhjhBJ"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Linsensalat"
 
 stars: 4

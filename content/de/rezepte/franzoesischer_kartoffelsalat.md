@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:25:00+02:00
 description: "Warm marinierter französischer Kartoffelsalat mit Schalotten und Senf-Vinaigrette."
 featured_image: "/images/rezepte/franzoesischer_kartoffelsalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/franzoesischer_kartoffelsalat.webp"
 recipeName: "franzoesischer_kartoffelsalat"
 trello: "https://trello.com/c/If260mFN"
 
-tags: ["🇫🇷 Französisch", "🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Französisch", "Vegetarisch", "Vegan", "Salat", "Kalt", "Einfach"]
 title: "Französischer Kartoffelsalat"
 
 stars: 4

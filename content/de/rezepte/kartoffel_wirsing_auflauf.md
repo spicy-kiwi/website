@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-14T13:27:27+01:00
 description: "Cremiger Auflauf aus Kartoffeln und Wirsing, mit Käse überbacken."
 featured_image: "/images/rezepte/kartoffel_wirsing_auflauf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffel_wirsing_auflauf.webp"
 recipeName: "kartoffel_wirsing_auflauf"
 trello: "https://trello.com/c/nbEfbmbh"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Deutsch", "Vegetarisch", "Auflauf", "Ofen"]
 title: "Kartoffel-Wirsing-Auflauf"
 
 stars: 4

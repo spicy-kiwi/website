@@ -1,24 +1,18 @@
 <div class="recipe recipe-summary">
+    {{/* Merken-Button steht außerhalb des Links: Buttons in Links sind ungültiges HTML */}}
+    <div class="favourite">
+        <button type="button" data-rid="{{ .Params.recipeName }}" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen" aria-label="{{ .Title }} auf die Merkliste setzen" aria-pressed="false">🖤</button>
+    </div>
     <a href="{{ .RelPermalink }}" class="link black dim" title="{{ (i18n "showRecipeFor") }} {{ .Title }}">
         <div class="image">
-            <div class="header text-end">
-                <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
-            </div>
             <img title="{{ (i18n "showRecipeFor") }} {{ .Title }}"
-                 src="{{ partial "func/FeaturedImageOrPlaceholder.html" . }}"
+                 {{- $img := partial "func/CardImage.html" . -}}src="{{ $img.url }}" width="{{ $img.width }}" height="{{ $img.height }}"
                  alt="{{ .Title }}"
+                 loading="lazy" decoding="async"
                  class="featured-image">
             <div class="footer">
                 <small>
-                    {{ if .Params.stars }}
-                        <span class="badge bg-light unitStars">{{ .Params.stars }}</span>
-                    {{ end }}
-                    {{ if .Params.duration }}
-                        <span class="badge bg-light unitMinutes">{{ .Params.duration }}</span>
-                    {{ end }}
-                    {{ if .Params.difficulty }}
-                        <span class="badge bg-light unitDifficulty">{{ .Params.difficulty }}</span>
-                    {{ end }}
+                    {{ partial "recipe-badges.html" (dict "page" . "cooked" false) }}
                 </small>
             </div>
         </div>

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Deftiger Nudelauflauf mit Tomatensauce, cremigem Frischkäse und Peperoni-Salami."
 featured_image: "/images/rezepte/spaghetti_auflauf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spaghetti_auflauf.webp"
 recipeName: "spaghetti_auflauf"
 trello: "https://trello.com/c/oSaAKhec"
 
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Amerikanisch", "Fleisch", "Nudeln", "Auflauf", "Ofen"]
 title: "Spaghetti-Auflauf"
 
 stars: 4

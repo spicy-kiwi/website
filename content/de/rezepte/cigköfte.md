@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-10-24T13:34:20+02:00
 description: "Vegetarische Cigköfte aus Bulgur und Tomaten, in Salatblätter eingerollt."
 featured_image: "/images/rezepte/cigköfte.webp"
 
@@ -7,8 +7,8 @@ featured_image: "/images/rezepte/cigköfte.webp"
 recipeName: "cigköfte"
 trello: "https://trello.com/c/Y1USf7jZ"
 
-tags: ["🇹🇷 Türkisch", "🌱 Vegetarisch", "🌿 Vegan"]
-title: "Cigköfte (vegetarisch)"
+tags: ["Türkisch", "Vegetarisch", "Vegan"]
+title: "Çiğ Köfte (vegetarisch)"
 
 stars: 4
 duration: 40

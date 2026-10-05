@@ -1,0 +1,7 @@
+{{ $dir := "" }}
+{{ if true }}
+  {{ with  site.Language.Direction }}
+     {{ $dir = . }}
+  {{ end }}
+{{ end }}
+{{ return $dir }}

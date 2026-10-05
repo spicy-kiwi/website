@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:17:53+02:00
 description: "Würziger Blumenkohlsalat mit Curry-Joghurt-Dressing, Rosinen und Mandelblättchen."
 featured_image: "/images/rezepte/blumenkohlsalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/blumenkohlsalat.webp"
 recipeName: "blumenkohlsalat"
 trello: "https://trello.com/c/Yk7xdwkp"
 
-tags: ["🌱 Vegetarisch", "🍛 Curry", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Curry", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Blumenkohlsalat"
 
 stars: 4

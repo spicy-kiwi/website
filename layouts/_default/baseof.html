@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default site.Language.Lang }}" dir="{{ partialCached "func/GetLanguageDirection" "GetLanguageDirection" | default "ltr" | string }}">
+  <head>
+    <meta charset="utf-8">
+    {{/* Titel und Beschreibung: partials/func/PageTitle.html und MetaDescription.html */}}
+    <title>{{ block "title" . }}{{ partial "func/PageTitle.html" . }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ $description := partial "func/MetaDescription.html" . }}
+    <meta name="description" content="{{ $description }}">
+    {{ hugo.Generator }}
+    {{ $production := hugo.IsProduction }}
+    {{ $public := not .Params.private }}
+    {{ if and $production $public }}
+      <meta name="robots" content="index, follow">
+    {{ else }}
+      <meta name="robots" content="noindex, nofollow">
+    {{ end }}
+    {{ with .Params.author | default .Site.Params.author }}
+      <meta name="author" content = "
+        {{- if reflect.IsSlice . -}}
+          {{ delimit . ", " | plainify }}
+        {{- else -}}
+          {{ . | plainify }}
+        {{- end -}}
+      ">
+    {{ end }}
+
+    {{ partial "site-style.html" . }}
+    {{ partial "site-scripts.html" . }}
+
+    {{ block "favicon" . }}
+      {{ partialCached "site-favicon.html" . }}
+    {{ end }}
+
+    {{ if .OutputFormats.Get "RSS" }}
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      {{ end }}
+    {{ end }}
+    {{ partial "bundle-css.html" . }}
+
+    {{/* Folgeseiten der Seitennummerierung (/page/2/ …) verweisen auf sich selbst, nicht auf Seite 1 */}}
+    {{ $pager := partial "func/PagerInfo.html" . }}
+    {{ if .Params.canonicalUrl }}
+      <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else }}
+      <link rel="canonical" href="{{ $pager.url | default .Permalink }}">
+    {{ end }}
+
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{/* statt _internal/twitter_cards.html: das kennt unser featured_image nicht und setzt immer "summary" */}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
+    <meta name="twitter:description" content="{{ $description }}">
+
+    {{/* Die internen Templates oben lesen .Params.images bzw. Page-Bundle-
+         Resources - beides nutzen wir nicht (unsere Bilder liegen als
+         normale /static-Dateien, referenziert über featured_image). Ohne
+         diesen Block bliebe og:image/twitter:image auf jeder Seite leer,
+         auch wenn ein echtes Foto existiert. GetFeaturedImage.html liefert
+         immer eine absolute URL - echtes Foto oder sonst den Platzhalter. */}}
+    {{ $ogImage := partial "func/GetFeaturedImage.html" . }}
+    {{/* Ohne eigenes Foto: der breite Platzhalter passt besser ins Vorschau-Format (1,91:1) */}}
+    {{ if strings.Contains $ogImage "/platzhalter" }}
+      {{ $ogImage = "images/rezepte/platzhalter-header.webp" | absURL }}
+    {{ end }}
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+
+    {{ if hugo.IsProduction }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
+    {{/* Bootstrap im <head> statt am Ende vom <body>: sonst springt das Layout beim Laden (CLS).
+         Steht weiterhin nach allen anderen Stylesheets, damit die Reihenfolge gleich bleibt. */}}
+    {{/* Bootstrap selbst gehostet, gekürzt auf die genutzten Klassen (scripts/bootstrap-subset.py).
+         params.bootstrapFull = true lädt das komplette Bootstrap, z. B. zum Ausprobieren neuer Elemente. */}}
+    {{ $bootstrap := cond (site.Params.bootstrapFull | default false) "vendor/bootstrap-5.0.2.min.css" "css/bootstrap-subset.css" }}
+    {{ with resources.Get $bootstrap | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+    {{ else }}
+      {{ errorf "Bootstrap-CSS %q fehlt. Bitte ausführen: python3 scripts/bootstrap-subset.py" $bootstrap }}
+    {{ end }}
+  </head>
+
+  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}">
+
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    <main class="pb7" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+    {{/* jQuery selbst gehostet (assets/vendor), kein Kontakt zu code.jquery.com */}}
+    {{ with resources.Get "vendor/jquery-3.7.1.min.js" | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+    {{ end }}
+  </body>
+</html>

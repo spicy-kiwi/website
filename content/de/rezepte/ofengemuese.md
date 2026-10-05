@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Geröstetes Ofengemüse nach Wahl - leicht karamellisiert und aromatisch."
 featured_image: "/images/rezepte/ofengemuese.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/ofengemuese.webp"
 recipeName: "ofengemuese"
 trello: "https://trello.com/c/WyDrPDBH"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥔 Beilage", "🔥 Ofen", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Beilage", "Ofen", "Einfach"]
 title: "Ofengemüse"
 
 stars: 4

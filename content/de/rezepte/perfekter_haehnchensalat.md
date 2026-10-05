@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Cremiger Hähnchensalat mit Ei und Gurke - ideal zum Vorbereiten."
 featured_image: "/images/rezepte/perfekter_haehnchensalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/perfekter_haehnchensalat.webp"
 recipeName: "perfekter_haehnchensalat"
 
 trello: "https://trello.com/c/DM6oU1Qt"
-tags: ["🥩 Fleisch", "🥗 Salat", "🧊 Kalt", "📦 Meal Prep", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Salat", "Kalt", "Meal Prep", "Einfach", "Schnell"]
 title: "Perfekter Hähnchensalat"
 
 stars: 4

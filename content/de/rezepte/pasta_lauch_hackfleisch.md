@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-20T18:33:53+02:00
 description: "Cremige Nudeln mit Rinderhack und Lauch in Sahnesoße."
 featured_image: "/images/rezepte/pasta_lauch_hackfleisch.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/pasta_lauch_hackfleisch.webp"
 recipeName: "pasta_lauch_hackfleisch"
 
 trello: "https://trello.com/c/0TxMcKVA"
-tags: ["🥩 Fleisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Nudeln", "Einfach", "Schnell"]
 title: "Pasta mit Lauch und Hackfleisch"
 
 stars: 4

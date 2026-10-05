@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:10:24+01:00
 description: "Cremige Nudeln mit Lauch und Kräuterfrischkäse – schnell gemacht."
 featured_image: "/images/rezepte/pasta_lauch.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/pasta_lauch.webp"
 recipeName: "pasta_lauch"
 
 trello: "https://trello.com/c/fM8QMX0A"
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "🌾 Risotto", "🫕 One-Pot", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Risotto", "One-Pot", "Einfach", "Schnell"]
 title: "Lauch Pasta"
 
 stars: 4

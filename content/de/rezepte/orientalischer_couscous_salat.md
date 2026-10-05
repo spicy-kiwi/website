@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:32:45+01:00
 description: "Orientalischer Couscous-Salat mit Gurke, Minze und Zitrone."
 featured_image: "/images/rezepte/orientalischer_couscous_salat.webp"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Salat", "Kalt", "Einfach"]
 title: "Orientalischer Couscous Salat"
 
 # Absolute required metadata

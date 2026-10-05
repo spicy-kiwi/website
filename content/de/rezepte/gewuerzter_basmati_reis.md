@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-07-30T14:47:49+02:00
 description: "Aromatischer Basmatireis, mit gerösteten Gewürzen im Ganzen gegart."
 featured_image: "/images/rezepte/gewuerzter_basmati_reis.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gewuerzter_basmati_reis.webp"
 recipeName: "gewuerzter_basmati_reis"
 trello: "https://trello.com/c/YKI61kIa"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🍚 Reis", "🥔 Beilage", "⏰ Schnell"]
+tags: ["Indisch", "Vegetarisch", "Reis", "Beilage", "Schnell"]
 title: "Gewürzter Basmati-Reis"
 
 stars: 4

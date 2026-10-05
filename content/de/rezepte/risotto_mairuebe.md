@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-06-15T17:54:28+02:00
 description: "Mildes Frühlingsrisotto mit zart gedünsteten Mairübchen."
 featured_image: "/images/rezepte/risotto_mairuebe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_mairuebe.webp"
 recipeName: "risotto_mairuebe"
 
 trello: "https://trello.com/c/pyeaztxA"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Mairübchen"
 
 stars: 4

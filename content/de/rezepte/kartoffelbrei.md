@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-08-27T16:27:08+02:00
 description: "Klassisches, cremiges Kartoffelpüree mit Butter und Muskat."
 featured_image: "/images/rezepte/kartoffelbrei.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffelbrei.webp"
 recipeName: "kartoffelbrei"
 trello: "https://trello.com/c/OZXVybWm"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🥔 Beilage", "👌 Einfach"]
+tags: ["Deutsch", "Vegetarisch", "Beilage", "Einfach"]
 title: "Kartoffelbrei"
 
 stars: 4

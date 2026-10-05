@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-01-08T10:11:27+01:00
 description: "Schnelle rote Linsensuppe mit Ingwer und Chili – wärmt von innen."
 featured_image: "/images/rezepte/einfache_rote_linsensuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/einfache_rote_linsensuppe.webp"
 recipeName: "einfache_rote_linsensuppe"
 trello: "https://trello.com/c/XftcN0h9"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Suppe", "Einfach", "Schnell"]
 title: "Einfache rote Linsensuppe"
 
 stars: 4

@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:37:48+01:00
 description: "Scharf-süßes Rinderhack mit Brokkoli in asiatischer Chili-Sojasoße."
 featured_image: "/images/rezepte/firecracker_beef_rindfleisch.webp"
 
-tags: ["🇺🇸 Amerikanisch", "🥢 Asiatisch", "🥩 Fleisch", "🫕 One-Pot", "🍳 Pfanne", "🌶️ Scharf"]
+tags: ["Amerikanisch", "Asiatisch", "Fleisch", "One-Pot", "Pfanne", "Scharf"]
 title: "Firecracker Beef (Rindfleisch)"
 
 # Absolute required metadata

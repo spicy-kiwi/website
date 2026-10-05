@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:03:14+01:00
 description: "Schwäbische Maultaschen-Pfanne mit Champignons, Paprika und Schmand."
 featured_image: "/images/rezepte/maultaschen_pfanne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/maultaschen_pfanne.webp"
 recipeName: "maultaschen_pfanne"
 trello: "https://trello.com/c/qBKfFVe9"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch", "🍳 Pfanne", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Fleisch", "Pfanne", "Einfach", "Schnell"]
 title: "Maultaschen-Pfanne"
 
 stars: 4

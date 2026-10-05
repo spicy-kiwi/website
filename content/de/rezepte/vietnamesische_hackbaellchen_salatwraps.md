@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Würzige Hackbällchen, knackiger Salat und eine süß-herzhafte Hoisin-Sauce zum Selberwickeln."
 featured_image: "/images/rezepte/vietnamesische_hackbaellchen_salatwraps.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/vietnamesische_hackbaellchen_salatwraps.webp"
 recipeName: "vietnamesische_hackbaellchen_salatwraps"
 trello: "https://trello.com/c/1Okef3zq"
 
-tags: ["🇻🇳 Vietnamesisch", "🥩 Fleisch"]
+tags: ["Vietnamesisch", "Fleisch"]
 title: "Vietnamesische Hackbällchen-Salatwraps"
 
 stars: 4

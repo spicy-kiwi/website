@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Weißkohl in cremiger Sahnesoße geschwenkt - ein wärmender Beilagen-Klassiker."
 featured_image: "/images/rezepte/sahniger_weisskohl.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/sahniger_weisskohl.webp"
 recipeName: "sahniger_weisskohl"
 trello: "https://trello.com/c/sDbROC3t"
 
-tags: ["🌱 Vegetarisch", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Beilage", "Einfach", "Schnell"]
 title: "Sahniger Weißkohl"
 
 stars: 3

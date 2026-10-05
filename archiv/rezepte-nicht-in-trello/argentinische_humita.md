@@ -3,7 +3,7 @@ date: 2024-08-08T12:00:00-05:00
 description: "Eine schnelle und einfache Pasta mit Ajvar und Frischkäse. Perfekt für den Feierabend."
 featured_image: "/images/rezepte/argentinische_humita.webp"
 
-tags: [ "🇦🇷argentinisch"]
+tags: ["Argentinisch"]
 title: "Humita"
 layout: "recipe"
 category: "Pasta"

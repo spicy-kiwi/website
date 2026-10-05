@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-03-31T12:08:07+02:00
 description: "Saftiger Karottenkuchen mit gemahlenen Mandeln und cremigem Frischkäse-Frosting."
 featured_image: "/images/rezepte/rüblikuchen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/rüblikuchen.webp"
 recipeName: "rüblikuchen"
 trello: "https://trello.com/c/TYDrMv7A"
 
-tags: ["🇨🇭 Schweizerisch", "🌱 Vegetarisch", "🍰 Süß", "🔥 Ofen"]
+tags: ["Schweizerisch", "Vegetarisch", "Süß", "Ofen"]
 title: "Rüblikuchen"
 
 stars: 4

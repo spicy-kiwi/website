@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-11T15:37:15+02:00
 description: "Klassischer schwäbischer Kartoffelsalat, lauwarm mit Brühe statt Mayo – schlicht und unschlagbar."
 featured_image: "/images/rezepte/bester_kartoffelsalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bester_kartoffelsalat.webp"
 recipeName: "bester_kartoffelsalat"
 trello: "https://trello.com/c/2EDKobqV"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Deutsch", "Vegetarisch", "Vegan", "Salat", "Kalt", "Einfach"]
 title: "Der beste Kartoffelsalat der Welt"
 
 stars: 4

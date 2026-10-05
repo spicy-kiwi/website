@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:39:20+01:00
 description: "Jamaikanisches Festtagsgetränk aus Hibiskusblüten, Ingwer und Gewürzen."
 featured_image: "/images/rezepte/jamaican_sorrel_drink.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/jamaican_sorrel_drink.webp"
 recipeName: "jamaican_sorrel_drink"
 
 trello: "https://trello.com/c/58QOlEsL"
-tags: ["🇯🇲 Jamaikan", "🌱 Vegetarisch", "🌿 Vegan", "🍹 Getränk", "👌 Einfach", "⏰ Schnell"]
+tags: ["Jamaikan", "Vegetarisch", "Vegan", "Getränk", "Einfach", "Schnell"]
 title: "Jamaican Sorrel Drink"
 
 stars: 4

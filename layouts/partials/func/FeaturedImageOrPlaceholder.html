@@ -9,7 +9,7 @@
   @context . Page
   @return string RelPermalink-style path to an image.
 */}}
-{{ $placeholder := "/images/rezepte/platzhalter.svg" }}
+{{ $placeholder := "/images/rezepte/platzhalter.webp" }}
 {{ $result := $placeholder }}
 {{ with .Params.featured_image }}
   {{ if os.FileExists (printf "static%s" .) }}

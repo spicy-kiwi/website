@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-03-15T20:35:04+01:00
 description: "Scharf-krosse Spaghetti aus Bari, direkt in der Tomatenbrühe gegart statt gekocht."
 featured_image: "/images/rezepte/spaghetti_assassina.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spaghetti_assassina.webp"
 recipeName: "spaghetti_assassina"
 trello: "https://trello.com/c/c11Z4gQJ"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌿 Vegan", "🍝 Nudeln", "🌶️ Scharf"]
+tags: ["Italienisch", "Vegetarisch", "Vegan", "Nudeln", "Scharf"]
 title: "Spaghetti all'Assassina"
 
 stars: 4

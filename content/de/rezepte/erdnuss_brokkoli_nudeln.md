@@ -1,15 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-03-28T20:04:33+01:00
 description: "Asiatische Nudeln mit Brokkoli in cremiger Erdnusssoße."
 featured_image: "/images/rezepte/erdnuss_brokkoli_nudeln.webp"
 
-tags: ["🥢 Asiatisch", "🌱 Vegetarisch", "🌿 Vegan", "🍝 Nudeln"]
+tags: ["Asiatisch", "Vegetarisch", "Vegan", "Nudeln"]
 title: "Brokkoli-Erdnuss-Nudeln"
-layout: "recipe"
-category: "Backen"
-permalink: "/rezepte/erdnuss_brokkoli_nudeln/"
-isPublished: true
-post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "erdnuss_brokkoli_nudeln"
@@ -21,33 +16,11 @@ difficulty: 2
 # Ingredients calculator
 servingsCount: 4
 
-meal: [ "Lunch", "Dinner" ]
-# Can be filtered for, make it easier to search for a specific meal type.
-
-nutrition: [ "Vegan" ]
-# Can be filtered for, make it easier for people with a specific dietary preference.
-
-preparation_method: [ "Cooking", "Frying", "Simmering", "Baking" ]
-# Can be filtered for
-
-tools: [ "Knife", "Cutting board", "Pan", "Pot", "Vegetable masher", "abdeckbaren Pfanne" ]
-# Just a list of things we may link.
-
-# Flavour-profile information, make it easier to search for a specific taste.
-flavourProfile: {
-  sweet: 0,
-  sour: 0,
-  salty: 0,
-  bitter: 0,
-  umami: 0,
-  spicy: 0
-}
 # Maybe show some kind of spider web graph with the flavour profile?
 
 # Calories calculator?
 # Maybe funnel data from YAZIO into our recipes?
 # Maybe even link to the recipe in YAZIO?
-
 
 # cooperations?
 # Westwing: We use plates and cutlery from Westwing?

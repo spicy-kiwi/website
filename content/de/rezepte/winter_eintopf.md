@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-05T11:50:01+01:00
 description: "Wärmender Wintereintopf mit Kürbis, Champignons und Kartoffeln in würziger Tomatenbrühe."
 featured_image: "/images/rezepte/winter_eintopf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/winter_eintopf.webp"
 recipeName: "winter_eintopf"
 trello: "https://trello.com/c/QATodBBv"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🌿 Vegan", "🍲 Eintopf", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Deutsch", "Vegetarisch", "Vegan", "Eintopf", "One-Pot", "Einfach"]
 title: "Winter-Eintopf"
 
 stars: 4

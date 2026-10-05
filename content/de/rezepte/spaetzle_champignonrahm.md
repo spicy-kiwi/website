@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:02:06+01:00
 description: "Spätzle in cremiger Champignon-Rahmsoße – deftig und schnell gemacht."
 featured_image: "/images/rezepte/spaetzle_champignonrahm.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spaetzle_champignonrahm.webp"
 recipeName: "spaetzle_champignonrahm"
 trello: "https://trello.com/c/pBAKM1Qz"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Spätzle mit Champignonrahm"
 
 stars: 4

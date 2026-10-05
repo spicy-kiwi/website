@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-03-19T10:19:47+01:00
 description: "Cremiges Gratin aus Kartoffeln und Spinat, überbacken mit Käse."
 featured_image: "/images/rezepte/kartoffel_spinat_gratin.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffel_spinat_gratin.webp"
 recipeName: "kartoffel_spinat_gratin"
 trello: "https://trello.com/c/lJnY0j6A"
 
-tags: ["🌱 Vegetarisch", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Vegetarisch", "Auflauf", "Ofen"]
 title: "Kartoffel-Spinat-Gratin"
 
 stars: 4

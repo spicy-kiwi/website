@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-10-24T13:33:24+02:00
 description: "Knusprige Bratkartoffeln aus der Pfanne, mit Petersilie bestreut."
 featured_image: "/images/rezepte/bratkartoffeln.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bratkartoffeln.webp"
 recipeName: "bratkartoffeln"
 trello: "https://trello.com/c/cFZCrBrb"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Fleisch", "Beilage", "Einfach", "Schnell"]
 title: "Bratkartoffeln"
 
 stars: 4

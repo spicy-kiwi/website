@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-02-23T11:35:01+01:00
 description: "Cremiges Frikassee mit veganem Hähnchen, Champignons und Erbsen in heller Soße."
 featured_image: "/images/rezepte/vegetarisches_hühnerfrikassee.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/vegetarisches_hühnerfrikassee.webp"
 recipeName: "vegetarisches_hühnerfrikassee"
 trello: "https://trello.com/c/Z7MHTr43"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🫘 Fleischersatz"]
+tags: ["Deutsch", "Vegetarisch", "Fleischersatz"]
 title: "Vegetarisches Hühnerfrikassee"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Spaghettikürbis mit würziger Hackfleisch-Tomatensauce statt Nudeln."
 featured_image: "/images/rezepte/spaghettikuerbis_hackfleischsauce.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spaghettikuerbis_hackfleischsauce.webp"
 recipeName: "spaghettikuerbis_hackfleischsauce"
 
 trello: "https://trello.com/c/VTnNzAN3"
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "🫕 One-Pot"]
+tags: ["Amerikanisch", "Fleisch", "One-Pot"]
 title: "Spaghettikürbis mit Hackfleischsauce"
 
 stars: 4

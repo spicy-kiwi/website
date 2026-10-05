@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-01-15T17:54:39+01:00
 description: "Cremige Blumenkohlsuppe mit gerösteten Röschen und Knoblauch."
 featured_image: "/images/rezepte/blumenkohlsuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/blumenkohlsuppe.webp"
 recipeName: "blumenkohlsuppe"
 trello: "https://trello.com/c/byxV4FsI"
 
-tags: ["🌱 Vegetarisch", "🥄 Suppe", "👌 Einfach"]
+tags: ["Vegetarisch", "Suppe", "Einfach"]
 title: "Blumenkohlsuppe"
 
 stars: 4

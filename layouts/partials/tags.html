@@ -1,0 +1,10 @@
+{{/* project override: Tags mit Emoji aus data/tag_icons.yaml anzeigen */}}
+<ul class="pa0">
+  {{ range .GetTerms "tags" }}
+   <li class="list di">
+     <a href="{{ .RelPermalink }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+       {{- partial "func/TagLabel.html" .LinkTitle -}}
+     </a>
+   </li>
+  {{ end }}
+</ul>

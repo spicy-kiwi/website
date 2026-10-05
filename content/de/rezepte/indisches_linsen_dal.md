@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:16:56+01:00
 description: "Würziges indisches Linsen-Dal mit Kokosmilch und frischen Gewürzen."
 featured_image: "/images/rezepte/indisches_linsen_dal.webp"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry", "🫕 One-Pot", "⏰ Schnell"]
+tags: ["Indisch", "Vegetarisch", "Vegan", "Curry", "One-Pot", "Schnell"]
 title: "Indisches Linsen Dal"
 
 # Absolute required metadata

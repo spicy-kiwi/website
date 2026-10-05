@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-18T16:31:08+01:00
 description: "Knusprig gebackene Tortellini vom Blech mit Brokkoli, Kirschtomaten und Ricotta."
 featured_image: "/images/rezepte/tortellini_vom_blech.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/tortellini_vom_blech.webp"
 recipeName: "tortellini_vom_blech"
 trello: "https://trello.com/c/ga4Natq0"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "🔥 Ofen", "👌 Einfach"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Ofen", "Einfach"]
 title: "Tortellini vom Blech"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-02-11T21:43:38+01:00
 description: "Risotto mit grünen Bohnen, Thymian und Crème fraîche."
 featured_image: "/images/rezepte/risotto_gruene_bohnen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_gruene_bohnen.webp"
 recipeName: "risotto_gruene_bohnen"
 
 trello: "https://trello.com/c/IfkooMEV"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit grünen Bohnen"
 
 stars: 4

@@ -1,0 +1,12 @@
+{{/*
+  Gibt den Tag mit Emoji zurück, z. B. "Vegetarisch" -> "🌱 Vegetarisch".
+  Die Emojis stehen in data/tag_icons.yaml. Fehlt ein Eintrag, kommt der Tag ohne Emoji zurück.
+
+  @param string Tag-Name ohne Emoji
+  @return string
+*/}}
+{{ $label := . }}
+{{ with index hugo.Data.tag_icons . }}
+  {{ $label = printf "%s %s" . $label }}
+{{ end }}
+{{ return $label }}

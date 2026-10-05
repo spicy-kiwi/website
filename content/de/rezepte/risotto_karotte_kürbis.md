@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:41:24+01:00
 description: "Herbstliches Risotto mit Karotte und Kürbis."
 featured_image: "/images/rezepte/risotto_karotte_kürbis.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_karotte_kürbis.webp"
 recipeName: "risotto_karotte_kürbis"
 
 trello: "https://trello.com/c/8EPjvvhN"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Karotte und Kürbis"
 
 stars: 4
@@ -33,6 +33,6 @@ servingsCount: 4
 10. [ ] Mit [Salz](#ing9) und [Pfeffer](#ing10) abschmecken.
 
 
-# Variation
+## Variation
 - Für eine cremigere Konsistenz einen Teil des gegarten Kürbis vor dem Servieren pürieren und unterrühren.
 - Mit gerösteten Kürbiskernen und einem Spritzer Kürbiskernöl garnieren.

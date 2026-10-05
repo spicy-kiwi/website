@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-05-08T17:13:59+02:00
 description: "Herzhafte Quiche mit Lauch, Champignons und Käse."
 featured_image: "/images/rezepte/quiche_lauch_champignon.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/quiche_lauch_champignon.webp"
 recipeName: "quiche_lauch_champignon"
 
 trello: "https://trello.com/c/abrl6kro"
-tags: ["🇫🇷 Französisch", "🌱 Vegetarisch", "🥧 Quiche", "🔥 Ofen"]
+tags: ["Französisch", "Vegetarisch", "Quiche", "Ofen"]
 title: "Quiche: Champignons"
 
 stars: 4

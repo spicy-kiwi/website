@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-06-14T12:12:29+02:00
 description: "Cremiger Kartoffel-Gemüse-Auflauf mit Sahne-Ei-Guss und viel Käse."
 featured_image: "/images/rezepte/kartoffelauflauf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffelauflauf.webp"
 recipeName: "kartoffelauflauf"
 trello: "https://trello.com/c/7v6wOGLa"
 
-tags: ["🌱 Vegetarisch", "🥘 Auflauf", "🔥 Ofen", "👌 Einfach"]
+tags: ["Vegetarisch", "Auflauf", "Ofen", "Einfach"]
 title: "Kartoffelauflauf"
 
 stars: 4

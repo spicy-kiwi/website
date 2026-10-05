@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Aromatische Schweinehack-Burger mit frischem Rosmarin und Dijon-Senf."
 featured_image: "/images/rezepte/rosmarin_schweineburger.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/rosmarin_schweineburger.webp"
 recipeName: "rosmarin_schweineburger"
 
 trello: "https://trello.com/c/aRVur7U4"
-tags: ["🥩 Fleisch", "🍔 Burger", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Burger", "Einfach", "Schnell"]
 title: "Rosmarin-Schweineburger"
 
 stars: 3

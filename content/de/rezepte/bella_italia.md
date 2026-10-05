@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-20T18:35:37+02:00
 description: "Bunte italienische Nudelpfanne mit Zucchini, Paprika und Cherrytomaten."
 featured_image: "/images/rezepte/bella_italia.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bella_italia.webp"
 recipeName: "bella_italia"
 trello: "https://trello.com/c/w2Wxbl9k"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Bella Italia"
 
 stars: 4

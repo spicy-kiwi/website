@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:36:27+01:00
 description: "Zarte Hähnchenbrust mit grünem Spargel in einer leichten Sahnesoße."
 featured_image: "/images/rezepte/geflügelpfanne_mit_grünem_spargel.webp"
 
-tags: ["🥩 Fleisch", "🍳 Pfanne", "⏰ Schnell"]
+tags: ["Fleisch", "Pfanne", "Schnell"]
 title: "Geflügelpfanne mit grünem Spargel"
 
 # Absolute required metadata

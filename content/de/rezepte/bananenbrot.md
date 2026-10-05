@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-10-24T13:50:16+02:00
 description: "Saftiges Bananenbrot mit Vanille und Zimt – perfekt für reife Bananen."
 featured_image: "/images/rezepte/bananenbrot.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bananenbrot.webp"
 recipeName: "bananenbrot"
 trello: "https://trello.com/c/f5VsnclM"
 
-tags: ["🌱 Vegetarisch", "🍰 Süß", "🔥 Ofen", "👌 Einfach"]
+tags: ["Vegetarisch", "Süß", "Ofen", "Einfach"]
 title: "Bananenbrot"
 
 stars: 4

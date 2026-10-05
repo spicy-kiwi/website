@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Locker gekochter Reis als Grundrezept - die Basis für unzählige Gerichte."
 featured_image: "/images/rezepte/einfacher_reis.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/einfacher_reis.webp"
 recipeName: "einfacher_reis"
 trello: "https://trello.com/c/Lqng3rlL"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍚 Reis", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Reis", "Beilage", "Einfach", "Schnell"]
 title: "Einfacher Reis"
 
 stars: 3

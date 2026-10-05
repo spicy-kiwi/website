@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:27:32+01:00
 description: "Klassisches Chili con Carne mit Rinderhack, Kidneybohnen und Mais."
 featured_image: "/images/rezepte/chili_con_carne.webp"
 
-tags: ["🇲🇽 Mexikanisch", "🥩 Fleisch", "🫕 One-Pot", "🌶️ Scharf", "👌 Einfach"]
+tags: ["Mexikanisch", "Fleisch", "One-Pot", "Scharf", "Einfach"]
 title: "Chili con Carne"
 
 # Absolute required metadata

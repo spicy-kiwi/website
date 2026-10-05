@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-24T23:32:20+02:00
 description: "Türkisches Fladenbrot mit würzigem, vegetarischem Gemüsebelag."
 featured_image: "/images/rezepte/lahmacun_veggie.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/lahmacun_veggie.webp"
 recipeName: "lahmacun_veggie"
 trello: "https://trello.com/c/u2g8tZpT"
 
-tags: ["🇹🇷 Türkisch", "🌱 Vegetarisch", "🌿 Vegan", "🔥 Ofen"]
+tags: ["Türkisch", "Vegetarisch", "Vegan", "Ofen"]
 title: "Lahmacun (vegetarisch)"
 
 stars: 4

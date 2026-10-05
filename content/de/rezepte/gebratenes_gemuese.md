@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Knackig gebratenes Pfannengemüse nach Wahl - in wenigen Minuten fertig."
 featured_image: "/images/rezepte/gebratenes_gemuese.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gebratenes_gemuese.webp"
 recipeName: "gebratenes_gemuese"
 trello: "https://trello.com/c/k81qKbqw"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥔 Beilage", "🍳 Pfanne", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Beilage", "Pfanne", "Einfach", "Schnell"]
 title: "Gebratenes Gemüse"
 
 stars: 3

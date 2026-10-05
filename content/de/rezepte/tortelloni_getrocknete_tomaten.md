@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-01-10T14:51:28+01:00
 description: "Cremige Tortelloni mit getrockneten Tomaten, Babyspinat und Parmesan."
 featured_image: "/images/rezepte/tortelloni_getrocknete_tomaten.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/tortelloni_getrocknete_tomaten.webp"
 recipeName: "tortelloni_getrocknete_tomaten"
 trello: "https://trello.com/c/VWovKyN2"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Tortelloni mit getrockneten Tomaten"
 
 stars: 4

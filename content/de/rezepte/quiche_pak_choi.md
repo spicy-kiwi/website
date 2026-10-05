@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-06-06T11:15:01+02:00
 description: "Asiatisch angehauchte Quiche mit Pak Choi und Ingwer."
 featured_image: "/images/rezepte/quiche_pak_choi.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/quiche_pak_choi.webp"
 recipeName: "quiche_pak_choi"
 
 trello: "https://trello.com/c/BongYwAv"
-tags: ["🇫🇷 Französisch", "🌱 Vegetarisch", "🥧 Quiche", "🔥 Ofen"]
+tags: ["Französisch", "Vegetarisch", "Quiche", "Ofen"]
 title: "Quiche: Pak Choi"
 
 stars: 4

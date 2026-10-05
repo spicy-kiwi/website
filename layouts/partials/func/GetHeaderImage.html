@@ -15,7 +15,7 @@
 	If neither resolves, falls back to the local placeholder image so
 	headers never point at a broken/missing file.
 
-	@return RelPermalink to header image (never empty).
+	@return relative URL to header image (never empty). Relativ, damit lokale Vorschauen nicht von der Live-Seite laden.
 
 */}}
 
@@ -23,7 +23,7 @@
 
 {{ with .Params.header_image }}
   {{ if os.FileExists (printf "static%s" .) }}
-    {{ $link = trim . "/" | absURL }}
+    {{ $link = trim . "/" | relURL }}
     {{ with $.Resources.GetMatch . }}
       {{ $link = .RelPermalink }}
     {{ end }}
@@ -33,7 +33,7 @@
 {{ if not $link }}
   {{ with .Params.featured_image }}
     {{ if os.FileExists (printf "static%s" .) }}
-      {{ $link = trim . "/" | absURL }}
+      {{ $link = trim . "/" | relURL }}
       {{ with $.Resources.GetMatch . }}
         {{ $link = .RelPermalink }}
       {{ end }}
@@ -42,7 +42,7 @@
 {{ end }}
 
 {{ if not $link }}
-  {{ $link = "/images/rezepte/platzhalter-header.svg" | absURL }}
+  {{ $link = "images/rezepte/platzhalter-header.webp" | relURL }}
 {{ end }}
 
 {{ return $link }}

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Gebratenes Hähnchenfilet mit frischer Tomaten-Bruschetta und Balsamico-Reduktion."
 featured_image: "/images/rezepte/bruschetta_haehnchen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bruschetta_haehnchen.webp"
 recipeName: "bruschetta_haehnchen"
 
 trello: "https://trello.com/c/LTCOwTeH"
-tags: ["🇮🇹 Italienisch", "🥩 Fleisch", "🍳 Pfanne"]
+tags: ["Italienisch", "Fleisch", "Pfanne"]
 title: "Bruschetta-Hähnchen mit italienischen Kräutern"
 
 stars: 4

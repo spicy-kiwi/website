@@ -6,7 +6,7 @@ featured_image: "/images/rezepte/veggy_bolognese.webp"
 # Absolute required metadata
 recipeName: "veggy_bolognese"
 
-tags: [ "Nudeln", "Pasta", "one-pot", "quiche", "vegetarisch"]
+tags: ["Nudeln", "Pasta", "one-pot", "quiche", "vegetarisch"]
 title: "Veggy Bolognese"
 
 stars: 4

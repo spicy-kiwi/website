@@ -1,0 +1,16 @@
+{{ define "title" }}Seite nicht gefunden | {{ site.Params.brand | default "Spicy Kiwi" }}{{ end }}
+{{ define "header" }}
+  <header>
+    <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
+      {{ partial "site-navigation.html" . }}
+      <div class="tc-l pv5 ph3 ph4-ns">
+        <h1 class="f2 f1-l fw2 white-90 mv0 lh-title">Seite nicht gefunden</h1>
+      </div>
+    </div>
+  </header>
+{{ end }}
+{{ define "main" }}
+  <article class="center cf pv5 ph3 measure-wide-l f4 lh-copy">
+    <p>Diese Seite gibt es nicht (mehr). Vielleicht findest du es unter den <a href="{{ "rezepte/" | relURL }}">Rezepten</a> oder über die Suche oben.</p>
+  </article>
+{{ end }}

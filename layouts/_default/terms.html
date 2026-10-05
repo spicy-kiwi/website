@@ -1,0 +1,28 @@
+{{/* Tag-Übersicht /tags/: aufgebaut wie die Rezeptliste (rezepte/list.html), zeigt aber nur die Tags */}}
+{{ define "main" }}
+    {{ with .Content }}
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+        {{- . -}}
+    </section>
+    {{ end }}
+
+    {{ $terms := .Data.Terms.ByCount }}
+
+    <div class="mw9 center ph3">
+        <div class="tag-filter-bar">
+            <div class="tag-filter-head">
+                <strong>{{ len $terms }} Tags</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="mw9 center ph3">
+        <section class="mt3" id="recipeGrid">
+            {{ range $terms }}
+                <div class="recipe-filter-item">
+                    {{ partial "tag-card.html" (dict "page" .Page "count" .Count) }}
+                </div>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

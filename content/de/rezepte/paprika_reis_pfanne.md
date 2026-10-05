@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-12-01T19:16:19+01:00
 description: "Bunte Reispfanne mit Paprika, Zwiebeln und Tomaten – schnell und vegetarisch."
 featured_image: "/images/rezepte/paprika_reis_pfanne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/paprika_reis_pfanne.webp"
 recipeName: "paprika_reis_pfanne"
 trello: "https://trello.com/c/5WJAD6sY"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍚 Reis", "🍳 Pfanne", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Reis", "Pfanne", "Einfach", "Schnell"]
 title: "Paprika-Reis-Pfanne"
 
 stars: 4

@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gnocchi_pfanne.webp"
 recipeName: "gnocchi_pfanne"
 trello: "https://trello.com/c/a0eGZJTJ"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍳 Pfanne", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Pfanne", "Einfach", "Schnell"]
 title: "Gnocchi-Pfanne"
 
 stars: 4

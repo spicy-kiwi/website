@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:04:09+01:00
 description: "Knusprige Fischstäbchen, Remoulade und Salat im Burger-Bun."
 featured_image: "/images/rezepte/fischstaebchen_burger.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/fischstaebchen_burger.webp"
 recipeName: "fischstaebchen_burger"
 
 trello: "https://trello.com/c/mOTRr9ep"
-tags: ["🐟 Fisch", "🍔 Burger", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fisch", "Burger", "Einfach", "Schnell"]
 title: "Fischstäbchen-Burger"
 
 stars: 4

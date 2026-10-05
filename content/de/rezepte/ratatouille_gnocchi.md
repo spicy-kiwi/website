@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-09T16:46:25+01:00
 description: "Ratatouille-Gnocchi mit gebratenem Halloumi und frischem Basilikum."
 featured_image: "/images/rezepte/ratatouille_gnocchi.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/ratatouille_gnocchi.webp"
 recipeName: "ratatouille_gnocchi"
 trello: "https://trello.com/c/2MPEFkXf"
 
-tags: ["🇫🇷 Französisch", "🌱 Vegetarisch"]
+tags: ["Französisch", "Vegetarisch"]
 title: "Ratatouille-Gnocchi"
 
 stars: 4

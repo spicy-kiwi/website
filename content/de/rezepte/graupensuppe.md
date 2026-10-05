@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-01-17T17:23:06+01:00
 description: "Deftige Graupensuppe mit buntem Wurzelgemüse und Spinat."
 featured_image: "/images/rezepte/graupensuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/graupensuppe.webp"
 recipeName: "graupensuppe"
 trello: "https://trello.com/c/CxJFfEGd"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Suppe", "One-Pot", "Einfach"]
 title: "Graupensuppe mit Gemüse"
 
 stars: 4

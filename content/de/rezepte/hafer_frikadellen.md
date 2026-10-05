@@ -1,14 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-04-10T10:57:24+02:00
 description: "Vegetarische Frikadellen aus Haferflocken, Käse und Curry – knusprig gebraten."
 featured_image: "/images/rezepte/hafer_frikadellen.webp"
 
-tags: ["🌱 Vegetarisch", "🫘 Fleischersatz"]
+tags: ["Vegetarisch", "Fleischersatz"]
 title: "Vegetarische Frikadellen"
-layout: "recipe"
-permalink: "/rezepte/vegetarische_frikadellen/"
-isPublished: true
-post_content_classes: "aaa"
 
 recipeName: "hafer_frikadellen"
 trello: "https://trello.com/c/baGbwUTp"

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-18T16:26:14+01:00
 description: "Klassische Kartoffelsuppe mit Suppengemüse, Crème fraîche und Würstchen."
 featured_image: "/images/rezepte/kartoffelsuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffelsuppe.webp"
 recipeName: "kartoffelsuppe"
 trello: "https://trello.com/c/ByjO1PaH"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch", "🥄 Suppe", "👌 Einfach"]
+tags: ["Deutsch", "Fleisch", "Suppe", "Einfach"]
 title: "Kartoffelsuppe"
 
 stars: 4

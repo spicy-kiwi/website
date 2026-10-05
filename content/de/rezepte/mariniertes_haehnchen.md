@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Vielseitiges Grundrezept für saftig mariniertes Hähnchen, gegrillt oder aus dem Ofen."
 featured_image: "/images/rezepte/mariniertes_haehnchen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/mariniertes_haehnchen.webp"
 recipeName: "mariniertes_haehnchen"
 trello: "https://trello.com/c/8sp5ErIy"
 
-tags: ["🥩 Fleisch", "🍖 Grillen", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Grillen", "Einfach", "Schnell"]
 title: "Mariniertes Hähnchen (gegrillt oder aus dem Ofen)"
 
 stars: 4

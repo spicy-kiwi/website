@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-24T17:33:32+01:00
 description: "Würziges Curry aus roten Linsen und Kichererbsen mit Kokosmilch und Kirschtomaten."
 featured_image: "/images/rezepte/linsen_kichererbsen_curry.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/linsen_kichererbsen_curry.webp"
 recipeName: "linsen_kichererbsen_curry"
 trello: "https://trello.com/c/aeNScYnF"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Indisch", "Vegetarisch", "Vegan", "Curry", "One-Pot", "Einfach"]
 title: "Linsen-Kichererbsen-Curry"
 
 stars: 4

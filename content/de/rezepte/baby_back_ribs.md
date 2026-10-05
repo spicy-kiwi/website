@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Zart geschmorte Rippchen mit süß-würzigem Trockenrub nach Alton Brown."
 featured_image: "/images/rezepte/baby_back_ribs.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/baby_back_ribs.webp"
 recipeName: "baby_back_ribs"
 trello: "https://trello.com/c/qPtdBbW6"
 
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "🍖 Grillen"]
+tags: ["Amerikanisch", "Fleisch", "Grillen"]
 title: "Baby Back Ribs nach Alton Brown"
 
 stars: 4

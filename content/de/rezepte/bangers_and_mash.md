@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:15:29+01:00
 description: "Britischer Klassiker: saftige Bratwürste auf cremigem Kartoffelpüree mit Soße."
 featured_image: "/images/rezepte/bangers_and_mash.webp"
 
-tags: ["🇬🇧 Britisch", "🥩 Fleisch", "🫕 One-Pot"]
+tags: ["Britisch", "Fleisch", "One-Pot"]
 title: "Bangers and mash"
 
 # Absolute required metadata

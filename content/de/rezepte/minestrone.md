@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-01-24T16:22:28+01:00
 description: "Klassische italienische Gemüsesuppe mit Bohnen und Vollkornpasta."
 featured_image: "/images/rezepte/minestrone.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/minestrone.webp"
 recipeName: "minestrone"
 trello: "https://trello.com/c/eN1Sc4ke"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Italienisch", "Vegetarisch", "Vegan", "Suppe", "One-Pot", "Einfach"]
 title: "Minestrone"
 
 stars: 4

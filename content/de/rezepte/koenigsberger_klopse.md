@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:28:38+01:00
 description: "Vegane Königsberger Klopse in cremiger Kapernsoße mit Salzkartoffeln."
 featured_image: "/images/rezepte/koenigsberger_klopse.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/koenigsberger_klopse.webp"
 recipeName: "koenigsberger_klopse"
 trello: "https://trello.com/c/6YhdDPKp"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🫘 Fleischersatz"]
+tags: ["Deutsch", "Vegetarisch", "Fleischersatz"]
 title: "Königsberger Klopse (vegan)"
 
 stars: 4

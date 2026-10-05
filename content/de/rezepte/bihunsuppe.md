@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-01-08T17:27:31+01:00
 description: "Würzig-scharfe indonesische Bihunsuppe mit Glasnudeln und Sojaschnetzeln."
 featured_image: "/images/rezepte/bihunsuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bihunsuppe.webp"
 recipeName: "bihunsuppe"
 trello: "https://trello.com/c/PiuR0GM2"
 
-tags: ["🇮🇩 Indonesisch", "🌱 Vegetarisch", "🌿 Vegan", "🫘 Fleischersatz", "🥄 Suppe", "🌶️ Scharf"]
+tags: ["Indonesisch", "Vegetarisch", "Vegan", "Fleischersatz", "Suppe", "Scharf"]
 title: "Bihunsuppe"
 
 stars: 4

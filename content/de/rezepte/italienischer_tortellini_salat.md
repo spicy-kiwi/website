@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:28:48+02:00
 description: "Italienischer Tortellini-Salat mit Rucola, getrockneten Tomaten und Balsamico-Dressing."
 featured_image: "/images/rezepte/italienischer_tortellini_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/italienischer_tortellini_salat.webp"
 recipeName: "italienischer_tortellini_salat"
 trello: "https://trello.com/c/wEBBkkCh"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Italienischer Tortellini-Salat"
 
 stars: 4

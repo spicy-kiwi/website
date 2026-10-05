@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-10T10:49:29+02:00
 description: "Cremige Nudeln in würziger Gorgonzola-Sahnesoße mit Blattspinat und gerösteten Walnüssen."
 featured_image: "/images/rezepte/nudeln_spinat_gorgonzola.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/nudeln_spinat_gorgonzola.webp"
 recipeName: "nudeln_spinat_gorgonzola"
 trello: "https://trello.com/c/aFZ5oP27"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Nudeln mit Spinat und Gorgonzola"
 
 stars: 4

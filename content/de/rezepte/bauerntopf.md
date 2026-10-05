@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-11-07T16:19:22+01:00
 description: "Deftiger Bauerntopf mit Hackfleisch, Kartoffeln und Paprika in Schmandsoße."
 featured_image: "/images/rezepte/bauerntopf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bauerntopf.webp"
 recipeName: "bauerntopf"
 trello: "https://trello.com/c/efLg6fjl"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch", "🍲 Eintopf", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Deutsch", "Fleisch", "Eintopf", "One-Pot", "Einfach"]
 title: "Bauerntopf"
 
 stars: 4

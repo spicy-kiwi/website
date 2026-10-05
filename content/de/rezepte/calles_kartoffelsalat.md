@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:20+01:00
 description: "Herzhafter Kartoffelsalat mit Radieschen, Gewürzgurken und Wiener Würstchen."
 featured_image: "/images/rezepte/calles_kartoffelsalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/calles_kartoffelsalat.webp"
 recipeName: "calles_kartoffelsalat"
 trello: "https://trello.com/c/ufiSjlul"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Deutsch", "Fleisch", "Salat", "Kalt", "Einfach"]
 title: "Calles Kartoffelsalat"
 
 stars: 4

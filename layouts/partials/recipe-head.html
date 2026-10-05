@@ -1,50 +1,35 @@
-<section>
+<section class="mt4">
     <div class="card">
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6 recipe">
                     <div class="image">
                         <div class="header text-end">
-                            <button rid="{{ .Params.recipeName }}" href="" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen">🖤</button>
+                            <button type="button" data-rid="{{ .Params.recipeName }}" class="btn btn-sm btn-primary btnFavourite" title="Auf die Merkliste setzen" aria-label="{{ .Title }} auf die Merkliste setzen" aria-pressed="false">🖤</button>
                         </div>
-                        <img src="{{ partial "func/FeaturedImageOrPlaceholder.html" . }}" class="featured-image" alt="{{ .Title }}" />
+                        {{/* Maße aus der Bilddatei, damit der Browser den Platz schon vor dem Laden kennt */}}
+                        {{ $src := partial "func/FeaturedImageOrPlaceholder.html" . }}
+                        {{ $dim := dict }}
+                        {{ with resources.Get (strings.TrimPrefix "/" $src) }}{{ $dim = dict "w" .Width "h" .Height }}{{ end }}
+                        <img src="{{ $src }}" class="featured-image" alt="{{ .Title }}"{{ with $dim.w }} width="{{ . }}" height="{{ $dim.h }}"{{ end }} fetchpriority="high" />
 
                         <div class="footer">
                             <small>
-								{{ if .Params.stars }}
-									<span class="badge badge-sm bg-light unitStars">{{ .Params.stars }}</span>
-								{{ end }}
-								{{ if .Params.duration }}
-									<span class="badge badge-sm bg-light unitMinutes">{{ .Params.duration }}</span>
-								{{ end }}
-								{{ if .Params.difficulty }}
-									<span class="badge badge-sm bg-light unitDifficulty">{{ .Params.difficulty }}</span>
-								{{ end }}
-								{{ if .Params.cooked }}
-									<span class="badge badge-sm bg-light unitTimesCooked">{{ .Params.cooked }}</span>
-								{{ end }}
+                                {{ partial "recipe-badges.html" (dict "page" . "cooked" true) }}
                             </small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    {{/* Statisch zur Build-Zeit ermittelt: Ein Sprungmarken-Link
-                         wird nur gerendert, wenn sein Ziel auf der Seite auch
-                         tatsächlich existiert. "Zutaten" kommt immer aus
-                         recipe-calculator.html (siehe single.html), sobald
-                         diese Partial überhaupt eingebunden ist (recipeName
-                         gesetzt) - daher ohne weitere Prüfung. */}}
+                    {{/* "Zutaten" kommt immer aus recipe-calculator.html (siehe
+                         single.html), sobald diese Partial überhaupt eingebunden
+                         ist (recipeName gesetzt) - daher ohne weitere Prüfung.
+                         Danach jede Überschrift aus dem Markdown des Rezepts
+                         (##, ### als Unterpunkt), in der Reihenfolge im Text. */}}
+                    <h2 class="f4 mt0 mb2">Inhalt</h2>
                     <ul>
                         <li><a href="#zutaten">Zutaten</a></li>
-                        {{ if in .Content "id=\"anleitung\"" }}
-                            <li><a href="#anleitung">Anleitung</a></li>
-                        {{ end }}
-                        {{ if in .Content "id=\"variation\"" }}
-                            <li><a href="#variation">Variation</a></li>
-                        {{ end }}
-                        {{ if in .Content "id=\"dekoration\"" }}
-                            <li><a href="#dekoration">Dekoration</a></li>
-                        {{ end }}
+                        {{ partial "recipe-toc-items.html" .Fragments.Headings }}
                         {{ if and .Params.calories .Params.carbonhydrates .Params.protein .Params.fat }}
                             <li><a href="#ernährungsinfos">Ernährungsinfos</a></li>
                         {{ end }}
@@ -52,12 +37,18 @@
                 </div>
             </div>
         </div>
-        <div class="card-footer text-end">
+        <div class="card-footer d-flex flex-wrap justify-content-between align-items-center gap-2">
+            <small class="text-muted">
+                {{- with .Params.author | default .Site.Params.author }}Von {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end -}}
+                {{- if not .Date.IsZero }} am <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>{{ end -}}
+            </small>
+            <div class="ms-auto">
             <button class="btn btn-sm btn-primary text-white">Teilen🔗</button>
             <button class="btn btn-sm btn-primary text-white">Drucken🖨️</button>
 			{{ if .Params.trello }}
-				<a href="{{ .Params.trello }}" class="btn btn-sm btn-primary text-white">Planen🗓️</a>
+				<a href="{{ .Params.trello }}" class="btn btn-sm btn-primary text-white" rel="nofollow noopener" target="_blank">Planen🗓️</a>
 			{{ end }}
+            </div>
         </div>
     </div>
 </section>

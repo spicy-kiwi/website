@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:25+01:00
 description: "Knoblauchnudeln im Aglio-e-Olio-Stil – einfach, würzig, in 15 Minuten fertig."
 featured_image: "/images/rezepte/knoblauchnudeln.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/knoblauchnudeln.webp"
 recipeName: "knoblauchnudeln"
 trello: "https://trello.com/c/tYPW1hGy"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Knoblauchnudeln"
 
 stars: 4

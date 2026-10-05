@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-07-16T13:49:46+02:00
 description: "Risotto Verde mit Grana-Padano-Crisps, Cherrytomaten und Pistazien."
 featured_image: "/images/rezepte/risotto_verde.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_verde.webp"
 recipeName: "risotto_verde"
 
 trello: "https://trello.com/c/ubA8lcXR"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Basilikum und Cherrytomaten"
 
 stars: 4

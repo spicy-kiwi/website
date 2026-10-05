@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:43:06+01:00
 description: "Cremiges Risotto mit Blattspinat und gerösteten Pinienkernen."
 featured_image: "/images/rezepte/risotto_spinat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_spinat.webp"
 recipeName: "risotto_spinat"
 
 trello: "https://trello.com/c/5VuxMybq"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Blattspinat und Pinienkernen"
 
 stars: 4
@@ -34,6 +34,6 @@ servingsCount: 4
 11. [ ] Mit den gerösteten [Pinienkernen](#ing8) bestreut servieren.
 
 
-# Variation
+## Variation
 - Für eine cremigere Note einen Löffel Frischkäse unterrühren.
 - Statt Pinienkernen passen auch geröstete Walnüsse.

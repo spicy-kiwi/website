@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:15:49+01:00
 description: "Deftige Linsensuppe mit Kartoffeln, Speck und Würstchen."
 featured_image: "/images/rezepte/linsensuppe.webp"
 
-tags: ["🥩 Fleisch", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Fleisch", "Suppe", "One-Pot", "Einfach"]
 title: "Linsensuppe"
 
 # Absolute required metadata

@@ -1,5 +1,5 @@
 ---
-date: 2026-09-29T00:00:00+00:00
+date: 2026-09-28T14:21:37+02:00
 description: "Cremiges Risotto mit süßer Birne, würzigem Gorgonzola und gerösteten Walnüssen."
 featured_image: "/images/rezepte/risotto_birne_gorgonzola.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_birne_gorgonzola.webp"
 recipeName: "risotto_birne_gorgonzola"
 
 trello: "https://trello.com/c/nPRnzZga"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Birne und Gorgonzola"
 
 stars: 4

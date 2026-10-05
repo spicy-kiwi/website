@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:29:21+01:00
 description: "Mildes Süßkartoffel-Curry mit Kokosmilch und Blattspinat."
 featured_image: "/images/rezepte/curry_süßkartoffel.webp"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Curry", "One-Pot", "Einfach"]
 title: "Curry Süßkartoffel"
 
 # Absolute required metadata

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-16T18:16:18+02:00
 description: "Vegetarische Lasagne mit Soja-Bolognese und cremiger Béchamel."
 featured_image: "/images/rezepte/veggy_bolognese_lasagne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/veggy_bolognese_lasagne.webp"
 recipeName: "veggy_bolognese_lasagne"
 
 trello: "https://trello.com/c/cEynJh6a"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Auflauf", "Ofen"]
 title: "Veggy Lasagne"
 
 stars: 4

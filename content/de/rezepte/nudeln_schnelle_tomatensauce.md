@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-07T20:08:03+02:00
 description: "Nudeln in einer schnellen Tomatensoße aus geplatzten Cherrytomaten, Butter und Kräutern."
 featured_image: "/images/rezepte/nudeln_schnelle_tomatensauce.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/nudeln_schnelle_tomatensauce.webp"
 recipeName: "nudeln_schnelle_tomatensauce"
 trello: "https://trello.com/c/PPEWeybf"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Nudeln mit schneller Tomatensauce"
 
 stars: 4

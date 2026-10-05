@@ -1,0 +1,37 @@
+{{/*
+  Karte für einen Tag in der Tag-Übersicht (_default/terms.html).
+  Gleiches Markup und CSS wie die Rezept-Karten (_default/summary.html),
+  nur ohne Merken-Button. Foto aus featured_image der Tag-Seite
+  (content/de/tags/<tag>/_index.md), sonst Platzhalter.
+
+  @context dict "page" (Tag-Seite) "count" (Anzahl Rezepte)
+*/}}
+{{ $p := .page }}
+{{ $label := partial "func/TagLabel.html" $p.Title }}
+<div class="recipe recipe-summary">
+    <a href="{{ $p.RelPermalink }}" class="link black dim" title="Alle Rezepte mit {{ $p.Title }}">
+        <div class="image">
+            <img title="Alle Rezepte mit {{ $p.Title }}"
+                 {{- $img := partial "func/CardImage.html" $p -}}src="{{ $img.url }}" width="{{ $img.width }}" height="{{ $img.height }}"
+                 alt="{{ $p.Title }}"
+                 loading="lazy" decoding="async"
+                 class="featured-image">
+            <div class="footer">
+                <small>
+                    <span class="badge bg-light">{{ .count }} {{ cond (eq .count 1) "Rezept" "Rezepte" }}</span>
+                </small>
+            </div>
+        </div>
+        <div class="text">
+            <h2>
+                {{ $label }}
+            </h2>
+            <p>
+                {{ $p.Description }}
+            </p>
+            <p>
+                <span class="read-more">Rezepte ansehen</span>
+            </p>
+        </div>
+    </a>
+</div>

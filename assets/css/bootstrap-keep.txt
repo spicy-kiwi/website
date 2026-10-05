@@ -1,0 +1,7 @@
+# Zusätzliche Bootstrap-Klassen, die in bootstrap-subset.css bleiben sollen,
+# auch wenn sie (noch) nirgends auf der Seite vorkommen.
+# Eine oder mehrere Klassen pro Zeile, ohne Punkt. Danach ausführen:
+#   python3 scripts/bootstrap-subset.py
+#
+# Beispiel:
+# alert alert-warning

@@ -1,0 +1,17 @@
+{{/*
+  Quadratisches Vorschaubild (600 × 600, WebP) für Karten in Übersicht, Tags und Karussell.
+  Nimmt das Foto aus featured_image (oder den Platzhalter) und lässt Hugo es verkleinern.
+  Die Karte zeigt das Bild ohnehin quadratisch (object-fit: cover), der Ausschnitt bleibt gleich.
+
+  @context Page
+  @return dict "url" "width" "height"
+*/}}
+{{ $path := partial "func/FeaturedImageOrPlaceholder.html" . }}
+{{ $result := dict "url" $path "width" 600 "height" 600 }}
+{{ with resources.Get (strings.TrimPrefix "/" $path) }}
+  {{ if in (slice "image/webp" "image/jpeg" "image/png") .MediaType.Type }}
+    {{ $thumb := .Fill "600x600 Center webp q75" }}
+    {{ $result = dict "url" $thumb.RelPermalink "width" $thumb.Width "height" $thumb.Height }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     {{ hugo.Generator }}
-    {{ $production := hugo.IsProduction }}
+    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+    {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
     {{ $public := not .Params.private }}
     {{ if and $production $public }}
       <meta name="robots" content="index, follow">
@@ -38,6 +39,7 @@
       <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
       {{ end }}
     {{ end }}
+    <script src="/js/main.js"></script>
     <link href="/css/units.css" rel="stylesheet" type="text/css"/>
 
     {{ if .Params.canonicalUrl }}
@@ -51,17 +53,7 @@
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
 
-    {{/* Die internen Templates oben lesen .Params.images bzw. Page-Bundle-
-         Resources - beides nutzen wir nicht (unsere Bilder liegen als
-         normale /static-Dateien, referenziert über featured_image). Ohne
-         diesen Block bliebe og:image/twitter:image auf jeder Seite leer,
-         auch wenn ein echtes Foto existiert. GetFeaturedImage.html liefert
-         immer eine absolute URL - echtes Foto oder sonst den Platzhalter. */}}
-    {{ $ogImage := partial "func/GetFeaturedImage.html" . }}
-    <meta property="og:image" content="{{ $ogImage }}">
-    <meta name="twitter:image" content="{{ $ogImage }}">
-
-    {{ if hugo.IsProduction }}
+    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 	{{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
@@ -74,9 +66,5 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>    <script src="/js/main.js"></script>
   </body>
 </html>

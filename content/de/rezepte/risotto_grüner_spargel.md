@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-05-07T10:32:22+02:00
 description: "Cremiges Risotto mit grünem Spargel und Parmesan."
 featured_image: "/images/rezepte/risotto_grüner_spargel.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_grüner_spargel.webp"
 recipeName: "risotto_grüner_spargel"
 
 trello: "https://trello.com/c/ypv9IDqQ"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit grünem Spargel"
 
 stars: 4
@@ -35,6 +35,6 @@ servingsCount: 4
 12. [ ] Mit [Salz](#ing8) und [Pfeffer](#ing9) abschmecken.
 
 
-# Variation
+## Variation
 - Für ein noch intensiveres Spargelaroma kann statt 400g auch die doppelte Menge grüner Spargel (800g) verwendet werden.
 - Mit gehobelten Parmesanspänen und etwas Zitronenabrieb servieren.

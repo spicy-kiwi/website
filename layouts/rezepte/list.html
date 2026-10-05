@@ -14,7 +14,9 @@
     {{ $uniqueTags := $allTags | uniq | sort }}
 
     <div class="mw9 center ph3">
-        <div class="tag-filter-bar" id="tagFilterBar">
+        {{/* data-cards: alle Karten für den Filter (Ausgabeformat "Karten", rezepte/list.karten.html) */}}
+        {{ $cards := .OutputFormats.Get "karten" }}
+        <div class="tag-filter-bar" id="tagFilterBar" data-total="{{ len $recipes }}"{{ with $cards }} data-cards="{{ .RelPermalink }}"{{ end }}>
             <div class="tag-filter-head">
                 <strong id="tagFilterCount">{{ len $recipes }} Rezepte</strong>
                 <button type="button" id="favoriteFilterToggle" class="tag-chip" aria-pressed="false">🖤 Nur Favoriten</button>
@@ -25,7 +27,7 @@
                     {{ $tagName := . }}
                     {{ $count := len (where $recipes "Params.tags" "intersect" (slice $tagName)) }}
                     <button type="button" class="tag-chip" data-tag="{{ $tagName }}">
-                        {{ $tagName }} <span class="tag-chip-count">{{ $count }}</span>
+                        {{ partial "func/TagLabel.html" $tagName }} <span class="tag-chip-count">{{ $count }}</span>
                     </button>
                 {{ end }}
             </div>
@@ -34,12 +36,14 @@
 
     <div class="mw9 center ph3">
         <section class="mt3" id="recipeGrid">
-            {{ range $recipes }}
-                <div class="recipe-filter-item" data-tags="{{ delimit .Params.tags "|" }}" data-recipe="{{ .Params.recipeName }}">
-                    {{ .Render "summary" }}
-                </div>
+            {{/* 9 Rezepte pro Seite (pagination.pagerSize in hugo.toml) */}}
+            {{ range .Paginator.Pages }}
+                {{ partial "recipe-filter-item.html" . }}
             {{ end }}
         </section>
         <p id="tagFilterEmpty" class="tag-filter-empty" hidden>Keine Rezepte mit dieser Filterkombination gefunden.</p>
+        <div id="recipePager">
+            {{- template "_internal/pagination.html" . -}}
+        </div>
     </div>
 {{ end }}

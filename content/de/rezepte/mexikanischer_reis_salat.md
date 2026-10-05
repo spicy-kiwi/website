@@ -1,9 +1,9 @@
 ---
-date: 2026-06-18T12:00:00-05:00
+date: 2024-03-13T15:59:38+01:00
 description: "Frischer mexikanischer Reissalat mit Limette, Bohnen und Mais."
 featured_image: "/images/rezepte/mexikanischer_reis_salat.webp"
 
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🌿 Vegan", "🍚 Reis", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Mexikanisch", "Vegetarisch", "Vegan", "Reis", "Salat", "Kalt", "Einfach"]
 title: "Mexikanischer Reis-Salat"
 
 # Absolute required metadata
@@ -29,7 +29,7 @@ servingsCount: 4
 6. [ ] Alles mit dem [Reis](#reis) zusammen in einer Salatschüssel verrühren.
 
 
-# Variation
+## Variation
 - Soße mit einem Teelöffel Kreuzkümmel abschmecken.
 - Frischer Koriander
 - Abrieb einer halben Limette

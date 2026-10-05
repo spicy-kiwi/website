@@ -1,6 +1,6 @@
 {{ define "main" }}
-    {{/* Intro-Text pro Tag ohne Emoji: "🇩🇪 Deutsch" -> partials/tag-intro/deutsch.html */}}
-    {{ $intro := printf "tag-intro/%s.html" (.Title | lower | replaceRE "^[^\\p{L}]+" "") }}
+    {{/* Intro-Text pro Tag: "Deutsch" -> partials/tag-intro/deutsch.html */}}
+    {{ $intro := printf "tag-intro/%s.html" (.Title | lower | replaceRE "^[^\\p{L}]+" "" | replaceRE " " "-") }}
     {{ if or (templates.Exists (printf "partials/%s" $intro)) .Content }}
         <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
             {{ if templates.Exists (printf "partials/%s" $intro) }}
@@ -14,18 +14,19 @@
     <div class="mw9 center ph3">
         <div class="tag-filter-bar">
             <div class="tag-filter-head">
-                <strong>{{ len .Pages }} Einträge mit „{{ .Title }}“</strong>
+                <strong>{{ len .Pages }} {{ cond (eq (len .Pages) 1) "Eintrag" "Einträge" }} mit „{{ partial "func/TagLabel.html" .Title }}“</strong>
             </div>
         </div>
     </div>
 
     <div class="mw9 center ph3">
         <section class="mt3" id="recipeGrid">
-            {{ range .Pages }}
+            {{ range .Paginator.Pages }}
                 <div class="recipe-filter-item">
                     {{ .Render "summary" }}
                 </div>
             {{ end }}
         </section>
+        {{- template "_internal/pagination.html" . -}}
     </div>
 {{ end }}

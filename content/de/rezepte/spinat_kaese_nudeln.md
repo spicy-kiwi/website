@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-02-02T16:49:35+01:00
 description: "Cremige Nudeln mit Rahmspinat und würzigem Schmelzkäse."
 featured_image: "/images/rezepte/spinat_kaese_nudeln.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spinat_kaese_nudeln.webp"
 recipeName: "spinat_kaese_nudeln"
 
 trello: "https://trello.com/c/tEPgefXB"
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Einfach", "Schnell"]
 title: "Spinat-Käse-Nudeln"
 
 stars: 4

@@ -1,13 +1,13 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-05-07T18:35:32+02:00
 description: "Herzhafte Lasagne mit cremigem Rahmsauerkraut, Portwein und geschmolzenem Gruyère."
 featured_image: "/images/rezepte/rahmsauerkraut_lasagne.webp"
 
 # Absolute required metadata
 recipeName: "rahmsauerkraut_lasagne"
-trello: "https://trello.com/c/LEEDiVvI"
+trello: "https://**z**.com/c/LEEDiVvI"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Deutsch", "Vegetarisch", "Nudeln", "Auflauf", "Ofen"]
 title: "Rahmsauerkraut-Lasagne mit Gruyère"
 
 stars: 4

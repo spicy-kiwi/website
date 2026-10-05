@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Extra cremig aufgeschlagenes amerikanisches Kartoffelpüree mit viel Butter und Milch."
 featured_image: "/images/rezepte/kartoffelpueree_amerikanisch.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kartoffelpueree_amerikanisch.webp"
 recipeName: "kartoffelpueree_amerikanisch"
 trello: "https://trello.com/c/tpRPPdGO"
 
-tags: ["🇺🇸 Amerikanisch", "🌱 Vegetarisch", "🥔 Beilage", "👌 Einfach"]
+tags: ["Amerikanisch", "Vegetarisch", "Beilage", "Einfach"]
 title: "Amerikanisches Kartoffelpüree"
 
 stars: 4

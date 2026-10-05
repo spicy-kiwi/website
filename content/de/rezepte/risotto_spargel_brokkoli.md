@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-22T18:59:18+02:00
 description: "Risotto mit grünem Spargel und Brokkoli."
 featured_image: "/images/rezepte/risotto_spargel_brokkoli.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_spargel_brokkoli.webp"
 recipeName: "risotto_spargel_brokkoli"
 
 trello: "https://trello.com/c/PFVDtIQn"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit grünem Spargel und Brokkoli"
 
 stars: 4
@@ -35,6 +35,6 @@ servingsCount: 4
 12. [ ] Mit [Salz](#ing9) und [Pfeffer](#ing10) abschmecken.
 
 
-# Variation
+## Variation
 - Statt Brokkoli passt auch Romanesco hervorragend.
 - Mit gerösteten Mandelblättchen bestreut servieren.

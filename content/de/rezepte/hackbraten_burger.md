@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Saftige Burger-Patties mit dem würzigen Geschmack eines klassischen Hackbratens."
 featured_image: "/images/rezepte/hackbraten_burger.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/hackbraten_burger.webp"
 recipeName: "hackbraten_burger"
 trello: "https://trello.com/c/hdxgp9Iy"
 
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "🍔 Burger", "👌 Einfach", "⏰ Schnell"]
+tags: ["Amerikanisch", "Fleisch", "Burger", "Einfach", "Schnell"]
 title: "Hackbraten-Burger"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-02-27T13:53:43+01:00
 description: "Überbackener Muschelnudel-Auflauf mit Spinat, Ricotta und Tomatensoße."
 featured_image: "/images/rezepte/muschelnudeln_auflauf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/muschelnudeln_auflauf.webp"
 recipeName: "muschelnudeln_auflauf"
 trello: "https://trello.com/c/KbOiEUyf"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Auflauf", "Ofen"]
 title: "Muschelnudeln-Auflauf"
 
 stars: 4

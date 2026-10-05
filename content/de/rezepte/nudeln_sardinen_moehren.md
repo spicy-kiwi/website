@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:36:02+01:00
 description: "Sizilianisch angehauchte Pasta mit Sardinen, Möhren und gerösteten Semmelbröseln."
 featured_image: "/images/rezepte/nudeln_sardinen_moehren.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/nudeln_sardinen_moehren.webp"
 recipeName: "nudeln_sardinen_moehren"
 trello: "https://trello.com/c/dvLsinzQ"
 
-tags: ["🇮🇹 Italienisch", "🐟 Fisch", "🍝 Nudeln", "⏰ Schnell"]
+tags: ["Italienisch", "Fisch", "Nudeln", "Schnell"]
 title: "Nudeln mit Sardinen und Möhren"
 
 stars: 4

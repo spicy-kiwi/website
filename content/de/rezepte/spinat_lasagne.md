@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:58:03+01:00
 description: "Cremige Lasagne mit Spinat-Frischkäse-Füllung und würziger Tomatensoße."
 featured_image: "/images/rezepte/spinat_lasagne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/spinat_lasagne.webp"
 recipeName: "spinat_lasagne"
 trello: "https://trello.com/c/sWrbryBm"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen"]
+tags: ["Italienisch", "Vegetarisch", "Nudeln", "Auflauf", "Ofen"]
 title: "Spinat-Lasagne"
 
 stars: 4

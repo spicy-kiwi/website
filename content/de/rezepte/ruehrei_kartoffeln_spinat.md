@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:40:21+01:00
 description: "Bratkartoffeln mit Blattspinat und cremigem Rührei – schnelle Hausmannskost."
 featured_image: "/images/rezepte/ruehrei_kartoffeln_spinat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/ruehrei_kartoffeln_spinat.webp"
 recipeName: "ruehrei_kartoffeln_spinat"
 trello: "https://trello.com/c/OjGuRMOu"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Vegetarisch", "Einfach", "Schnell"]
 title: "Rührei mit Kartoffeln und Spinat"
 
 stars: 4

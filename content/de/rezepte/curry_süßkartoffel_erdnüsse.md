@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:43:20+01:00
 description: "Süßkartoffel-Curry mit Erdnüssen für eine nussige, cremige Note."
 featured_image: "/images/rezepte/curry_süßkartoffel_erdnüsse.webp"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Curry", "One-Pot", "Einfach"]
 title: "Curry mit Süßkartoffel und Erdnüssen"
 
 # Absolute required metadata

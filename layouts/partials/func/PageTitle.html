@@ -1,0 +1,40 @@
+{{/*
+  <title> der Seite, unter 60 Zeichen wo möglich.
+  - Startseite: "Spicy Kiwi"
+  - Rezept:     "Bohnensalat – Rezept | Spicy Kiwi"
+  - Tag:        seo_title aus content/de/tags/<tag>/_index.md, sonst "Nudeln: 32 Rezepte"
+  - Rest:       "Titel | Spicy Kiwi"
+  Wird es zu lang, fällt erst " – Rezept", dann die Marke weg.
+
+  @return string
+*/}}
+{{ $brand := site.Params.brand | default "Spicy Kiwi" }}
+{{ $title := $brand }}
+{{ if not .IsHome }}
+  {{ $name := .Title }}
+  {{ $candidates := slice }}
+  {{ if and .IsPage (eq .Section "rezepte") }}
+    {{ $candidates = slice (printf "%s – Rezept | %s" $name $brand) (printf "%s | %s" $name $brand) $name }}
+  {{ else if eq .Kind "term" }}
+    {{ $name = .Params.seo_title | default (printf "%s: %d %s" .Title (len .Pages) (cond (eq (len .Pages) 1) "Rezept" "Rezepte")) }}
+    {{ $candidates = slice (printf "%s | %s" $name $brand) $name }}
+  {{ else }}
+    {{ $candidates = slice (printf "%s | %s" $name $brand) $name }}
+  {{ end }}
+  {{/* Folgeseiten: "Rezepte – Seite 2 | Spicy Kiwi" */}}
+  {{ $pager := partial "func/PagerInfo.html" . }}
+  {{ with $pager.number }}{{ if gt . 1 }}
+    {{ $suffix := printf " – Seite %d" . }}
+    {{ $new := slice }}
+    {{ range $candidates }}{{ $new = $new | append (replaceRE `^(.*?)( \| .*)?$` (printf "${1}%s${2}" $suffix) .) }}{{ end }}
+    {{ $candidates = $new }}
+  {{ end }}{{ end }}
+  {{ $title = index $candidates (sub (len $candidates) 1) }}
+  {{ range $candidates }}
+    {{ if le (strings.RuneCount .) 60 }}
+      {{ $title = . }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $title }}

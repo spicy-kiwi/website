@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-08-27T16:27:26+02:00
 description: "Klassischer grüner Bohnensalat mit Essig-Öl-Dressing und Bohnenkraut."
 featured_image: "/images/rezepte/bohnensalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bohnensalat.webp"
 recipeName: "bohnensalat"
 trello: "https://trello.com/c/BqJ3DLkM"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Deutsch", "Vegetarisch", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Bohnensalat"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Vielseitiges Schmorfleisch mit Salsa und Taco-Gewürz aus dem Slow Cooker."
 featured_image: "/images/rezepte/mexikanischer_schmortopf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/mexikanischer_schmortopf.webp"
 recipeName: "mexikanischer_schmortopf"
 
 trello: "https://trello.com/c/8P0ZFF9s"
-tags: ["🇲🇽 Mexikanisch", "🥩 Fleisch", "⏳ Schmortopf", "🌶️ Scharf", "👌 Einfach"]
+tags: ["Mexikanisch", "Fleisch", "Schmortopf", "Scharf", "Einfach"]
 title: "Mexikanischer Schmortopf"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:46+01:00
 description: "Bunte Wraps mit Hähnchenstreifen, Frischkäse und knackigem Gemüse."
 featured_image: "/images/rezepte/wraps.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/wraps.webp"
 recipeName: "wraps"
 trello: "https://trello.com/c/ybwYc905"
 
-tags: ["🥩 Fleisch", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Einfach", "Schnell"]
 title: "Wraps"
 
 stars: 4

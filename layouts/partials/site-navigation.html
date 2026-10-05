@@ -8,18 +8,33 @@
       {{ end }}
     </a>
     <div class="search-wrap" id="searchWrap">
-      <input type="search" id="searchInput" class="search-input" placeholder="Suche lädt…" autocomplete="off" disabled aria-label="Rezepte und Seiten durchsuchen">
+      {{/* Fuse.js und Suchindex lädt assets/js/search.js erst beim ersten Benutzen */}}
+      {{ $fuse := resources.Get "js/fuse.min.js" | fingerprint }}
+      <input type="search" id="searchInput" class="search-input" placeholder="Rezepte, Zutaten, Tags …" autocomplete="off" aria-label="Rezepte und Seiten durchsuchen" data-fuse="{{ $fuse.RelPermalink }}" data-index="{{ "index.json" | relURL }}">
       <div id="searchResults" class="search-results" hidden></div>
     </div>
     <div class="flex-l items-center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+        <ul class="{{ cond (eq $.Site.Language.Direction "rtl") "pr0 ml3" "pl0 mr3" }}">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+          {{ $tags := cond (eq .Identifier "rezepte") (partialCached "func/TopTags.html" "TopTags") slice }}
+          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }}{{ with $tags }} tagmenu{{ end }}">
             <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
+            {{/* Dropdown mit den größten Tags, siehe partials/func/TopTags.html und params.tagMenu in hugo.toml */}}
+            {{ with $tags }}
+              <button type="button" class="tagmenu-toggle white-90" aria-expanded="false" aria-controls="tagmenu-list" aria-label="Rezept-Kategorien anzeigen">▾</button>
+              <ul class="tagmenu-list" id="tagmenu-list">
+                {{ range . }}
+                  <li>
+                    <a href="{{ .url }}">{{ partial "func/TagLabel.html" .name }} <span class="tagmenu-count">{{ .count }}</span></a>
+                  </li>
+                {{ end }}
+                <li class="tagmenu-all"><a href="{{ "tags/" | relURL }}">Alle Tags →</a></li>
+              </ul>
+            {{ end }}
           </li>
           {{ end }}
         </ul>

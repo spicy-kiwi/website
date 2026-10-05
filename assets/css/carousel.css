@@ -1,0 +1,74 @@
+/* Rezept-Karussell auf der Startseite (layouts/index.html) */
+.recipe-carousel {
+    --carousel-gap: 1rem;
+    position: relative;
+}
+
+.recipe-carousel-track {
+    display: flex;
+    gap: var(--carousel-gap);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: .25rem 0;
+}
+
+.recipe-carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.recipe-carousel-item {
+    display: flex;
+    flex: 0 0 calc((100% - (var(--carousel-visible) - 1) * var(--carousel-gap)) / var(--carousel-visible));
+    min-width: 0;
+    scroll-snap-align: start;
+}
+
+/* Tablet: zwei Karten, Handy: eine Karte (mit Blick auf die nächste) */
+@media (max-width: 959px) {
+    .recipe-carousel-item {
+        flex-basis: calc((100% - var(--carousel-gap)) / 2);
+    }
+}
+
+@media (max-width: 599px) {
+    .recipe-carousel-item {
+        flex-basis: 85%;
+    }
+}
+
+.recipe-carousel-nav {
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .92);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+    font-size: 1.75rem;
+    line-height: 1;
+    color: #333;
+    cursor: pointer;
+}
+
+.recipe-carousel-nav:hover,
+.recipe-carousel-nav:focus-visible {
+    background: #fff;
+}
+
+.recipe-carousel-prev {
+    left: 0;
+}
+
+.recipe-carousel-next {
+    right: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .recipe-carousel-track {
+        scroll-behavior: auto;
+    }
+}

@@ -1,14 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-08-27T16:27:17+02:00
 description: "Cremiges Lauchgemüse in Béchamelsoße – die perfekte Beilage."
 featured_image: "/images/rezepte/lauch_gemüse.webp"
 
-tags: ["🌱 Vegetarisch", "🥔 Beilage"]
+tags: ["Vegetarisch", "Beilage"]
 title: "Lauchgemüse"
-layout: "recipe"
-permalink: "/rezepte/lauch_gemüse/"
-isPublished: true
-post_content_classes: "aaa"
 
 recipeName: "lauch_gemüse"
 trello: "https://trello.com/c/LBmZouIJ"

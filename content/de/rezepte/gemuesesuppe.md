@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:01:19+01:00
 description: "Bunte, klassische Gemüsesuppe mit Karotten, Lauch und Kartoffeln."
 featured_image: "/images/rezepte/gemuesesuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gemuesesuppe.webp"
 recipeName: "gemuesesuppe"
 trello: "https://trello.com/c/IPQjoDh5"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "👌 Einfach"]
+tags: ["Deutsch", "Vegetarisch", "Vegan", "Suppe", "Einfach"]
 title: "Gemüsesuppe"
 
 stars: 4

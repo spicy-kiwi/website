@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Schonend gedämpftes Gemüse nach Wahl - die leichte Beilage für jeden Tag."
 featured_image: "/images/rezepte/gedaempftes_gemuese.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gedaempftes_gemuese.webp"
 recipeName: "gedaempftes_gemuese"
 trello: "https://trello.com/c/og0tyG81"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Beilage", "Einfach", "Schnell"]
 title: "Gedämpftes Gemüse"
 
 stars: 3

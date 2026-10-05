@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-18T12:51:08+01:00
 description: "Risotto mit Süßkartoffel, Bergkäse und getrockneten Tomaten."
 featured_image: "/images/rezepte/risotto_süßkartoffel_bergkäse.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_süßkartoffel_bergkäse.webp"
 recipeName: "risotto_süßkartoffel_bergkäse"
 
 trello: "https://trello.com/c/uVoli45r"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Süßkartoffel und Bergkäse"
 
 stars: 4

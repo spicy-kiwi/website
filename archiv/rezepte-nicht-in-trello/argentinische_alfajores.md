@@ -4,7 +4,7 @@ description: "Eine schnelle und einfache Pasta mit Ajvar und Frischkäse. Perfek
 featured_image: "/images/rezepte/argentinische_alfajores.webp"
 
 
-tags: [ "🇦🇷argentinisch"]
+tags: ["Argentinisch"]
 title: "Alfajores"
 layout: "recipe"
 category: "Pasta"

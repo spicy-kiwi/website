@@ -2,4 +2,24 @@
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{ .Content }}
     </article>
+
+  {{/* Karussell, konfiguriert in content/de/_index.md unter "carousel" */}}
+  {{ with .Params.carousel }}
+    {{ $visible := index . "visible" | default 3 }}
+    <section class="recipe-carousel mw9 center ph3 pb4" aria-label="Rezept-Empfehlungen" aria-roledescription="Karussell" style="{{ printf "--carousel-visible: %d" (int $visible) | safeCSS }}">
+      <button type="button" class="recipe-carousel-nav recipe-carousel-prev" aria-label="Vorherige Rezepte" hidden>‹</button>
+      <div class="recipe-carousel-track" tabindex="0">
+        {{ range index . "recipes" }}
+          {{ with site.GetPage (printf "/rezepte/%s" .) }}
+            <div class="recipe-carousel-item">
+              {{ .Render "summary" }}
+            </div>
+          {{ else }}
+            {{ warnf "Karussell: Rezept %q nicht gefunden (content/de/_index.md)" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <button type="button" class="recipe-carousel-nav recipe-carousel-next" aria-label="Nächste Rezepte" hidden>›</button>
+    </section>
+  {{ end }}
 {{ end }}

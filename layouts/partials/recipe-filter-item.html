@@ -1,0 +1,4 @@
+{{/* Eine Rezept-Karte mit den Daten für den Tag-Filter (rezepte/list.html, rezepte/list.karten.html) */}}
+<div class="recipe-filter-item" data-tags="{{ delimit .Params.tags "|" }}" data-recipe="{{ .Params.recipeName }}">
+    {{ .Render "summary" }}
+</div>

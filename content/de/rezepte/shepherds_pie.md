@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-05T17:20:05+02:00
 description: "Vegetarischer Shepherd's Pie mit würzigem Gemüseragout unter luftigem Kartoffelstampf."
 featured_image: "/images/rezepte/shepherds_pie.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/shepherds_pie.webp"
 recipeName: "shepherds_pie"
 trello: "https://trello.com/c/JvkMJQ6a"
 
-tags: ["🇬🇧 Britisch", "🌱 Vegetarisch", "🔥 Ofen"]
+tags: ["Britisch", "Vegetarisch", "Ofen"]
 title: "Shepherd's Pie"
 
 stars: 4

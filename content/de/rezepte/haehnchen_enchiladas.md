@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Gefüllte Tortillas mit Hähnchen und schwarzen Bohnen, überbacken mit Enchilada-Soße und Käse."
 featured_image: "/images/rezepte/haehnchen_enchiladas.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/haehnchen_enchiladas.webp"
 recipeName: "haehnchen_enchiladas"
 trello: "https://trello.com/c/1ubFISbt"
 
-tags: ["🇲🇽 Mexikanisch", "🥩 Fleisch", "🥘 Auflauf"]
+tags: ["Mexikanisch", "Fleisch", "Auflauf"]
 title: "Hähnchen-Enchiladas"
 
 stars: 4

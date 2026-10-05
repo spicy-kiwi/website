@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Klassische Eiernudeln als schnelle Beilage zu Soßen und Braten."
 featured_image: "/images/rezepte/eiernudeln_beilage.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/eiernudeln_beilage.webp"
 recipeName: "eiernudeln_beilage"
 trello: "https://trello.com/c/IWgm4PuR"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Beilage", "Einfach", "Schnell"]
 title: "Eiernudeln als Beilage"
 
 stars: 3

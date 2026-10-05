@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:36:55+01:00
 description: "Asiatisches One-Pot-Nudelgericht mit Gemüse, Ingwer und Sojasoße – schnell und würzig."
 featured_image: "/images/rezepte/asia_pasta.webp"
 
-tags: ["🥢 Asiatisch", "🌱 Vegetarisch", "🍝 Nudeln", "🍳 Pfanne", "⏰ Schnell"]
+tags: ["Asiatisch", "Vegetarisch", "Nudeln", "Pfanne", "Schnell"]
 title: "Asia Pasta"
 
 # Absolute required metadata

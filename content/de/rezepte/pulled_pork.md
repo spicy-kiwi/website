@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Butterzartes, stundenlang geschmortes Schweinefleisch zum Zerzupfen – der Klassiker für Burger und Tacos."
 featured_image: "/images/rezepte/pulled_pork.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/pulled_pork.webp"
 recipeName: "pulled_pork"
 trello: "https://trello.com/c/3BA2Ll1g"
 
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "⏳ Schmortopf"]
+tags: ["Amerikanisch", "Fleisch", "Schmortopf"]
 title: "Pulled Pork"
 
 stars: 4

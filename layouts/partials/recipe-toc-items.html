@@ -1,0 +1,18 @@
+{{/*
+  Listenpunkte für die Inhalts-Navigation (partials/recipe-head.html).
+  Geht die Überschriften aus .Fragments.Headings durch; Ebenen ohne eigenen
+  Titel (z. B. das fehlende # über den ##) werden übersprungen.
+
+  @context slice of tableofcontents.Heading
+*/}}
+{{- range . -}}
+  {{- if .Title -}}
+    <li><a href="#{{ .ID }}">{{ .Title }}</a>
+      {{- with .Headings }}
+      <ul>{{ partial "recipe-toc-items.html" . }}</ul>
+      {{- end -}}
+    </li>
+  {{- else -}}
+    {{- partial "recipe-toc-items.html" .Headings -}}
+  {{- end -}}
+{{- end -}}

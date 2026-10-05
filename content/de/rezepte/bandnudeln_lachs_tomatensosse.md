@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-10T11:02:15+02:00
 description: "Bandnudeln mit zartem Lachs in cremiger Weißwein-Tomatensoße."
 featured_image: "/images/rezepte/bandnudeln_lachs_tomatensosse.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bandnudeln_lachs_tomatensosse.webp"
 recipeName: "bandnudeln_lachs_tomatensosse"
 trello: "https://trello.com/c/6vpSF56K"
 
-tags: ["🐟 Fisch", "🍝 Nudeln", "⏰ Schnell"]
+tags: ["Fisch", "Nudeln", "Schnell"]
 title: "Bandnudeln mit Lachs-Tomatensoße"
 
 stars: 4

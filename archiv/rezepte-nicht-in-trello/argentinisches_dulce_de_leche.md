@@ -3,7 +3,7 @@ date: 2024-08-08T12:00:00-05:00
 description: "Eine schnelle und einfache Pasta mit Ajvar und Frischkäse. Perfekt für den Feierabend."
 featured_image: "/images/rezepte/argentinisches_dulce_de_leche.webp"
 
-tags: [ "🇦🇷argentinisch"]
+tags: ["Argentinisch"]
 title: "Dulce de leche"
 layout: "recipe"
 category: "Pasta"

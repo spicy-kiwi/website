@@ -1,16 +1,16 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-06-30T20:36:12+02:00
 description: "Erfrischender Glasnudelsalat mit Gemüse, Honig-Limetten-Dressing und Erdnüssen."
 featured_image: "/images/rezepte/asiatischer_glasnudelsalat.webp"
 
-tags: ["🥢 Asiatisch", "🌱 Vegetarisch", "🍝 Nudeln", "🥗 Salat", "🧊 Kalt", "⏰ Schnell"]
+tags: ["Asiatisch", "Vegetarisch", "Nudeln", "Salat", "Kalt", "Schnell"]
 title: "Asiatischer Glasnudelsalat"
 
 # Absolute required metadata
 recipeName: "asiatischer_glasnudelsalat"
 
 trello: "https://trello.com/c/cR6efGj6"
-stars: 4.125
+stars: 4
 duration: 30
 difficulty: 2
 cooked: 42

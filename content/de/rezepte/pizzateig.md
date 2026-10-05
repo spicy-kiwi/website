@@ -1,15 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-03-13T15:17:37+01:00
 description: "Locker-knuspriger Grundteig für selbst gemachte Pizza."
 featured_image: "/images/rezepte/pizzateig.webp"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌿 Vegan", "🍕 Pizza", "🥖 Teig", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Vegan", "Pizza", "Teig", "Einfach", "Schnell"]
 title: "Pizzateig"
-layout: "recipe"
-category: "Backen"
-permalink: "/rezepte/pizzateig/"
-isPublished: true
-post_content_classes: "aaa"
 
 # Ingredients calculator
 servingsCount: 4
@@ -22,33 +17,11 @@ duration: 25
 difficulty: 1
 cooked: 42
 
-meal: [ "Lunch", "Dinner" ]
-# Can be filtered for, make it easier to search for a specific meal type.
-
-nutrition: [ "Vegetarian" ]
-# Can be filtered for, make it easier for people with a specific dietary preference.
-
-preparation_method: [ "Cooking", "Frying", "Simmering", "Baking" ]
-# Can be filtered for
-
-tools: [ "Knife", "Cutting board", "Pan", "Pot", "Vegetable masher", "abdeckbaren Pfanne" ]
-# Just a list of things we may link.
-
-# Flavour-profile information, make it easier to search for a specific taste.
-flavourProfile: {
-  sweet: 0,
-  sour: 0,
-  salty: 0,
-  bitter: 0,
-  umami: 0,
-  spicy: 0
-}
 # Maybe show some kind of spider web graph with the flavour profile?
 
 # Calories calculator?
 # Maybe funnel data from YAZIO into our recipes?
 # Maybe even link to the recipe in YAZIO?
-
 
 # cooperations?
 # Westwing: We use plates and cutlery from Westwing?

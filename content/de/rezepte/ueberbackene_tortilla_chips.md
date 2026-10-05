@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-10T11:03:02+02:00
 description: "Knusprige Tortilla-Chips, überbacken mit Käse, schwarzen Bohnen und Jalapenos."
 featured_image: "/images/rezepte/ueberbackene_tortilla_chips.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/ueberbackene_tortilla_chips.webp"
 recipeName: "ueberbackene_tortilla_chips"
 trello: "https://trello.com/c/TV7JJ176"
 
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🔥 Ofen", "👌 Einfach", "⏰ Schnell"]
+tags: ["Mexikanisch", "Vegetarisch", "Ofen", "Einfach", "Schnell"]
 title: "Überbackene Tortilla-Chips"
 
 stars: 4

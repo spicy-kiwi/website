@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-12-02T10:47:29+01:00
 description: "Aromatische Thai-Curry-Suppe mit Kokosmilch, Gemüse und Reisbandnudeln."
 featured_image: "/images/rezepte/thai_curry_suppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/thai_curry_suppe.webp"
 recipeName: "thai_curry_suppe"
 trello: "https://trello.com/c/4IxXLgek"
 
-tags: ["🇹🇭 Thailändisch", "🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "🍛 Curry", "🌶️ Scharf", "👌 Einfach", "⏰ Schnell"]
+tags: ["Thailändisch", "Vegetarisch", "Vegan", "Suppe", "Curry", "Scharf", "Einfach", "Schnell"]
 title: "Thai-Curry-Suppe"
 
 stars: 4

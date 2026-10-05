@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-05-28T13:58:28+02:00
 description: "Risotto mit Mangold, Knoblauch und Muskat."
 featured_image: "/images/rezepte/risotto_mangold.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_mangold.webp"
 recipeName: "risotto_mangold"
 
 trello: "https://trello.com/c/LBKN7RpP"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Mangold"
 
 stars: 4
@@ -33,6 +33,6 @@ servingsCount: 4
 10. [ ] Mit [Salz](#ing10) und [Pfeffer](#ing11) abschmecken.
 
 
-# Variation
+## Variation
 - Statt Mangold kann auch Spinat oder Grünkohl verwendet werden.
 - Für eine würzigere Note einen Teil des Parmesans durch Pecorino ersetzen.

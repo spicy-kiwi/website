@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:44:52+01:00
 description: "Risotto mit gerösteter Aubergine und Cherrytomaten."
 featured_image: "/images/rezepte/risotto_aubergine_tomaten.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_aubergine_tomaten.webp"
 recipeName: "risotto_aubergine_tomaten"
 
 trello: "https://trello.com/c/9qijmYL1"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Aubergine und Cherrytomaten"
 
 stars: 4
@@ -35,7 +35,7 @@ servingsCount: 4
 12. [ ] Mit [Salz](#ing10) und [Pfeffer](#ing11) abschmecken.
 
 
-# Variation
+## Variation
 - Für eine cremigere Variante kurz vor dem Servieren einen Klecks Ricotta unterheben.
 - Mit gehacktem Basilikum oder Petersilie bestreut servieren.
 - Wer es würziger mag, gibt eine gehackte Chilischote mit zur Aubergine.

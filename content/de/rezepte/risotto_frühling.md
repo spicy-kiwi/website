@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-09T23:48:13+02:00
 description: "Frühlingsrisotto mit grünem Spargel, Erbsen und Frühlingszwiebeln."
 featured_image: "/images/rezepte/risotto_frühling.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_frühling.webp"
 recipeName: "risotto_frühling"
 
 trello: "https://trello.com/c/U8q14Qem"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit grünem Spargel und Erbsen"
 
 stars: 4
@@ -34,7 +34,7 @@ servingsCount: 4
 11. [ ] Mit [Salz](#ing11) und [Pfeffer](#ing12) abschmecken.
 
 
-# Variation
+## Variation
 - Statt Erbsen können auch Zuckerschoten verwendet werden.
 - Mit ein paar frischen Minzblättern verfeinert schmeckt es besonders frisch.
 - Für mehr Frische zusätzlich einen Schuss Zitronensaft unterrühren.

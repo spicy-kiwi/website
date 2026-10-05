@@ -1,15 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2024-03-13T15:12:18+01:00
 description: "Knusprige Tortilla-Wraps gefüllt mit Käse, Bohnen und Gemüse."
 featured_image: "/images/rezepte/quesedillas.webp"
 
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "👌 Einfach", "⏰ Schnell"]
+tags: ["Mexikanisch", "Vegetarisch", "Einfach", "Schnell"]
 title: "Quesedillas"
-layout: "recipe"
-category: "Pasta"
-permalink: "/rezepte/quesedillas/"
-isPublished: true
-post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "quesedillas"

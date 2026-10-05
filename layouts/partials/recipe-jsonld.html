@@ -1,0 +1,74 @@
+{{/*
+  Schema.org "Recipe" als JSON-LD für Google & Co.
+  Liest nur, was ohnehin im Rezept steht: Front Matter, data/<recipeName>.yaml
+  und die Schritte "1. [ ] ..." aus dem Markdown. Am Rezept-Workflow ändert sich nichts.
+*/}}
+{{ $units := hugo.Data.units }}
+
+{{ $ingredients := slice }}
+{{ range index hugo.Data .Params.recipeName }}
+  {{ $unit := "" }}
+  {{ with .unit }}{{ $unit = index $units . | default . }}{{ end }}
+  {{ $parts := slice }}
+  {{ if and .amount (not (eq (printf "%T" .amount) "string")) }}
+    {{ $parts = $parts | append (replace (string .amount) "." ",") }}
+    {{ with $unit }}{{ $parts = $parts | append . }}{{ end }}
+    {{ $parts = $parts | append .ingredient }}
+  {{ else }}
+    {{ $parts = $parts | append .ingredient }}
+    {{ with .amount }}{{ $parts = $parts | append . }}{{ end }}
+  {{ end }}
+  {{ $ingredients = $ingredients | append (delimit $parts " ") }}
+{{ end }}
+
+{{ $steps := slice }}
+{{ range findRE `(?m)^\d+\.\s*\[[ xX]?\]\s*(.+)$` .RawContent }}
+  {{ $text := replaceRE `^\d+\.\s*\[[ xX]?\]\s*` "" . }}
+  {{ $text = replaceRE `\[([^\]]+)\]\([^)]*\)` "$1" $text | strings.TrimSpace }}
+  {{ $steps = $steps | append (dict "@type" "HowToStep" "text" $text) }}
+{{ end }}
+
+{{ $recipe := dict
+  "@context" "https://schema.org"
+  "@type" "Recipe"
+  "name" .Title
+  "description" (.Description | default "")
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02")
+  "author" (dict "@type" "Person" "name" (.Site.Params.author | default "Jan"))
+  "recipeIngredient" $ingredients
+  "recipeInstructions" $steps
+}}
+
+{{ $image := partial "func/GetFeaturedImage.html" . }}
+{{ if not (strings.Contains $image "/platzhalter") }}
+  {{ $recipe = merge $recipe (dict "image" (slice $image)) }}
+{{ end }}
+{{ with .Params.duration }}
+  {{ $recipe = merge $recipe (dict "totalTime" (printf "PT%vM" .)) }}
+{{ end }}
+{{ with .Params.servingsCount }}
+  {{ $recipe = merge $recipe (dict "recipeYield" (printf "%v Portionen" .)) }}
+{{ end }}
+{{ with .Params.tags }}
+  {{ $recipe = merge $recipe (dict "keywords" (delimit . ", ")) }}
+  {{ if in . "Vegan" }}
+    {{ $recipe = merge $recipe (dict "suitableForDiet" "https://schema.org/VeganDiet") }}
+  {{ else if in . "Vegetarisch" }}
+    {{ $recipe = merge $recipe (dict "suitableForDiet" "https://schema.org/VegetarianDiet") }}
+  {{ end }}
+{{ end }}
+
+{{/* Küche aus Länder-Tags (Flaggen-Emoji in data/tag_icons.yaml), Kategorie aus Gericht-Tags */}}
+{{ $cuisines := slice }}
+{{ $categoryMap := dict "Suppe" "Suppe" "Eintopf" "Eintopf" "Salat" "Salat" "Beilage" "Beilage" "Auflauf" "Auflauf" "Curry" "Curry" "Risotto" "Risotto" "Pizza" "Pizza" "Burger" "Burger" "Quiche" "Quiche" "Süß" "Kuchen und Süßes" "Getränk" "Getränk" "Dip" "Dip" "Teig" "Grundrezept" }}
+{{ $category := "" }}
+{{ range .Params.tags }}
+  {{ $icon := index hugo.Data.tag_icons . | default "" }}
+  {{ if gt (len (findRE `[\x{1F1E6}-\x{1F1FF}]` $icon)) 0 }}{{ $cuisines = $cuisines | append . }}{{ end }}
+  {{ if and (not $category) (index $categoryMap .) }}{{ $category = index $categoryMap . }}{{ end }}
+{{ end }}
+{{ with $cuisines }}{{ $recipe = merge $recipe (dict "recipeCuisine" (delimit . ", ")) }}{{ end }}
+{{ $recipe = merge $recipe (dict "recipeCategory" ($category | default "Hauptgericht")) }}
+
+<script type="application/ld+json">{{ $recipe | jsonify | safeJS }}</script>

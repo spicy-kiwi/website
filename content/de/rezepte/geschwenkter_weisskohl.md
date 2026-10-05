@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Zart geschwenkter Weißkohl in Butter - eine schnelle, klassische Beilage."
 featured_image: "/images/rezepte/geschwenkter_weisskohl.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/geschwenkter_weisskohl.webp"
 recipeName: "geschwenkter_weisskohl"
 trello: "https://trello.com/c/Ev8HyRct"
 
-tags: ["🌱 Vegetarisch", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Beilage", "Einfach", "Schnell"]
 title: "Geschwenkter Weißkohl"
 
 stars: 3

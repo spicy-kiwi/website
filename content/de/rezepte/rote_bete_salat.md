@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-10T11:13:10+02:00
 description: "Schnell gemachter Rote-Bete-Salat mit Senf, Balsamico und Agavendicksaft."
 featured_image: "/images/rezepte/rote_bete_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/rote_bete_salat.webp"
 recipeName: "rote_bete_salat"
 trello: "https://trello.com/c/kng6O4Od"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Rote-Bete-Salat"
 
 stars: 4

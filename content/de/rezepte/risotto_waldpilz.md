@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:38:19+01:00
 description: "Aromatisches Risotto mit Waldpilzen, Steinpilzen und Kräutern."
 featured_image: "/images/rezepte/risotto_waldpilz.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_waldpilz.webp"
 recipeName: "risotto_waldpilz"
 
 trello: "https://trello.com/c/JsAEm2Sp"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Champignons und Steinpilzen"
 
 stars: 4
@@ -37,4 +37,4 @@ servingsCount: 4
 14. [ ] Mit [Pfeffer](#ing12) und [Salz](#ing13) abschmecken, nach Bedarf gerne nochmals mit [Estragon](#ing10) und [Rosmarin](#ing11) nachhelfen.
 
 
-# Variation
+## Variation

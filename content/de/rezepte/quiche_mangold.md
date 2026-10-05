@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-06-01T20:26:35+02:00
 description: "Herzhafte Quiche mit Mangold und würzigem Käse."
 featured_image: "/images/rezepte/quiche_mangold.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/quiche_mangold.webp"
 recipeName: "quiche_mangold"
 
 trello: "https://trello.com/c/OgFXi0wM"
-tags: ["🇫🇷 Französisch", "🌱 Vegetarisch", "🥧 Quiche", "🔥 Ofen"]
+tags: ["Französisch", "Vegetarisch", "Quiche", "Ofen"]
 title: "Quiche: Mangold"
 
 stars: 4

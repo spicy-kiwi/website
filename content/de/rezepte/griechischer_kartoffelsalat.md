@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-08-15T17:57:39+02:00
 description: "Griechischer Kartoffelsalat mit Feta, Oliven und Cherrytomaten in Olivenöl-Zitronen-Dressing."
 featured_image: "/images/rezepte/griechischer_kartoffelsalat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/griechischer_kartoffelsalat.webp"
 recipeName: "griechischer_kartoffelsalat"
 trello: "https://trello.com/c/MpbFvFxj"
 
-tags: ["🇬🇷 Griechisch", "🌱 Vegetarisch", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Griechisch", "Vegetarisch", "Salat", "Kalt", "Einfach"]
 title: "Griechischer Kartoffelsalat"
 
 stars: 4

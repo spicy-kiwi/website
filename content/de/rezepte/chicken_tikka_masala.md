@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Cremiges indisches Chicken Tikka Masala mit Blumenkohl und Kokosmilch."
 featured_image: "/images/rezepte/chicken_tikka_masala.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/chicken_tikka_masala.webp"
 recipeName: "chicken_tikka_masala"
 
 trello: "https://trello.com/c/9x8oTjMH"
-tags: ["🇮🇳 Indisch", "🥩 Fleisch", "🍛 Curry", "🫕 One-Pot", "🌶️ Scharf"]
+tags: ["Indisch", "Fleisch", "Curry", "One-Pot", "Scharf"]
 title: "Chicken Tikka Masala"
 
 stars: 4

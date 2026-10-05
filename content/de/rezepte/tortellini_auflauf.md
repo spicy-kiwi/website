@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-09-02T08:52:02+02:00
 description: "Überbackener Tortellini-Auflauf mit Mozzarella, Kirschtomaten und Sahnesoße."
 featured_image: "/images/rezepte/tortellini_auflauf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/tortellini_auflauf.webp"
 recipeName: "tortellini_auflauf"
 trello: "https://trello.com/c/B5w1QxK1"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen", "👌 Einfach"]
+tags: ["Vegetarisch", "Nudeln", "Auflauf", "Ofen", "Einfach"]
 title: "Tortellini-Auflauf"
 
 stars: 4

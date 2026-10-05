@@ -6,7 +6,7 @@ featured_image: "/images/rezepte/pasta_brokkoli_erdnüsse.webp"
 # Absolute required metadata
 recipeName: "pasta_brokkoli_erdnüsse"
 
-tags: [ "Nudeln", "Pasta", "quiche", "vegetarisch" ]
+tags: ["Nudeln", "Pasta", "quiche", "vegetarisch"]
 # Just a taxation of the recipe, can be used to filter and search.
 
 meal: [ "Lunch", "Dinner" ]

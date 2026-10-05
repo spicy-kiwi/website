@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-06-22T12:18:30+02:00
 description: "Klassische kalte spanische Tomatensuppe – erfrischend an heißen Tagen."
 featured_image: "/images/rezepte/gazpacho.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gazpacho.webp"
 recipeName: "gazpacho"
 trello: "https://trello.com/c/eb40EOiE"
 
-tags: ["🇪🇸 Spanisch", "🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Spanisch", "Vegetarisch", "Vegan", "Suppe", "Kalt", "Einfach", "Schnell"]
 title: "Gazpacho"
 
 stars: 4

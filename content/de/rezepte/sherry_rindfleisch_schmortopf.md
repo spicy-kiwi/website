@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Zartes Schmorfleisch aus dem Slow Cooker mit Sherry und Champignoncreme."
 featured_image: "/images/rezepte/sherry_rindfleisch_schmortopf.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/sherry_rindfleisch_schmortopf.webp"
 recipeName: "sherry_rindfleisch_schmortopf"
 
 trello: "https://trello.com/c/rgn6VzTN"
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "⏳ Schmortopf", "👌 Einfach"]
+tags: ["Amerikanisch", "Fleisch", "Schmortopf", "Einfach"]
 title: "Sherry-Rindfleisch aus dem Schmortopf"
 
 stars: 4

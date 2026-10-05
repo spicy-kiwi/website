@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:49+01:00
 description: "Selbstgemachte Weizen-Tortillas gefüllt mit Bohnen, Mais und Kartoffeln."
 featured_image: "/images/rezepte/burritos.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/burritos.webp"
 recipeName: "burritos"
 
 trello: "https://trello.com/c/1DmZxAvL"
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🌿 Vegan"]
+tags: ["Mexikanisch", "Vegetarisch", "Vegan"]
 title: "Burritos"
 
 stars: 4

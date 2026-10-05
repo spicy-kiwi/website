@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-01-09T08:23:22+01:00
 description: "Risotto mit Rosenkohl, Wacholder und veganem Schinken."
 featured_image: "/images/rezepte/risotto_rosenkohl.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_rosenkohl.webp"
 recipeName: "risotto_rosenkohl"
 
 trello: "https://trello.com/c/HHHZ5H0I"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🫘 Fleischersatz", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Fleischersatz", "Risotto", "One-Pot"]
 title: "Risotto mit Rosenkohl"
 
 stars: 4
@@ -34,6 +34,6 @@ servingsCount: 4
 11. [ ] Mit [Salz](#ing12) und [Pfeffer](#ing13) abschmecken.
 
 
-# Variation
+## Variation
 - Statt veggy Schinken kann auch echter Schinken oder geräucherter Tofu verwendet werden.
 - Für eine nussige Note gerösteten Walnüsse oder Haselnüsse darüberstreuen.

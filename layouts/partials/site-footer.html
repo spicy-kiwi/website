@@ -1,0 +1,19 @@
+{{/* project override: dreispaltiger Footer. Links Copyright, Mitte Links, rechts Build-Infos.
+     Auf schmalen Bildschirmen untereinander. CSS: assets/css/units.css (.site-footer-*) */}}
+{{ $build := partial "func/BuildInfo.html" . }}
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="site-footer-grid">
+    <a class="site-footer-copy f4 fw4 hover-white no-underline white-70 pv2 ph3" href="{{ .Site.Home.Permalink }}">
+      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+    </a>
+    <nav class="site-footer-links" aria-label="Weitere Seiten">
+      <a class="hover-white no-underline white-70" href="https://www.instagram.com/andererjan" rel="me noopener" target="_blank">Instagram</a>
+      <a class="hover-white no-underline white-70" href="https://jan.nox.kiwi" rel="me noopener" target="_blank">Jan</a>
+    </nav>
+    <p class="site-footer-build">
+      Build: <time datetime="{{ $build.iso }}">{{ $build.time }}</time>
+      {{- with $build.commit }} · <code title="git HEAD{{ with $build.branch }} ({{ . }}){{ end }}">{{ . }}</code>{{ end }}
+      {{- with $build.branch }} ({{ . }}){{ end }}
+    </p>
+  </div>
+</footer>

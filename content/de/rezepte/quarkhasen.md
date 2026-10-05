@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-03-31T12:05:28+02:00
 description: "Süßes Ostergebäck aus lockerem Quarkteig, mit Butter bestrichen und in Zucker gewälzt."
 featured_image: "/images/rezepte/quarkhasen.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/quarkhasen.webp"
 recipeName: "quarkhasen"
 trello: "https://trello.com/c/Gp9qcB7p"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🍰 Süß", "🔥 Ofen"]
+tags: ["Deutsch", "Vegetarisch", "Süß", "Ofen"]
 title: "Quarkhasen"
 
 stars: 4

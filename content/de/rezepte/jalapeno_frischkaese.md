@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-05-06T09:45:24+02:00
 description: "Würziger Jalapeño-Frischkäse zum Selbermachen – mild scharf und aromatisch."
 featured_image: "/images/rezepte/jalapeno_frischkaese.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/jalapeno_frischkaese.webp"
 recipeName: "jalapeno_frischkaese"
 trello: "https://trello.com/c/DjEKv33N"
 
-tags: ["🌱 Vegetarisch", "🫙 Dip", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Dip", "Einfach", "Schnell"]
 title: "Jalapeño-Frischkäse"
 
 stars: 4

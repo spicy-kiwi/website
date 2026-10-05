@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-01-12T15:51:29+01:00
 description: "Bunte Gemüse-Quinoa-Pfanne mit Cashews, Ingwer und frischem Koriander."
 featured_image: "/images/rezepte/quinoa_pfanne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/quinoa_pfanne.webp"
 recipeName: "quinoa_pfanne"
 trello: "https://trello.com/c/So6UnHkq"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍳 Pfanne", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Pfanne", "Einfach"]
 title: "Quinoa-Pfanne"
 
 stars: 4

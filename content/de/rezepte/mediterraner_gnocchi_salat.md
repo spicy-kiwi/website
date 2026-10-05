@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:12:51+02:00
 description: "Kalter Gnocchi-Salat mit Cherrytomaten, Rucola und Mozzarella im Balsamico-Dressing."
 featured_image: "/images/rezepte/mediterraner_gnocchi_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/mediterraner_gnocchi_salat.webp"
 recipeName: "mediterraner_gnocchi_salat"
 trello: "https://trello.com/c/Oqn6bimr"
 
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Italienisch", "Vegetarisch", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Mediterraner Gnocchi-Salat"
 
 stars: 4

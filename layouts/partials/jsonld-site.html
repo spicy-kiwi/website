@@ -1,0 +1,29 @@
+{{/*
+  Strukturierte Daten für alle Seiten außer dem Rezept selbst (das macht recipe-jsonld.html):
+  - Startseite: WebSite mit Seitenname (Google zeigt ihn im Suchergebnis)
+  - Rezepte und Tag-Seiten: BreadcrumbList (Pfad statt URL im Suchergebnis)
+*/}}
+{{ $brand := site.Params.brand | default "Spicy Kiwi" }}
+{{ if .IsHome }}
+  {{ $site := dict "@context" "https://schema.org" "@type" "WebSite" "name" $brand "url" site.Home.Permalink "inLanguage" site.Language.Locale }}
+  <script type="application/ld+json">{{ $site | jsonify | safeJS }}</script>
+{{ else }}
+  {{ $items := slice (dict "name" "Startseite" "item" site.Home.Permalink) }}
+  {{ if and .IsPage (eq .Section "rezepte") }}
+    {{ with site.GetPage "/rezepte" }}{{ $items = $items | append (dict "name" .Title "item" .Permalink) }}{{ end }}
+    {{ $items = $items | append (dict "name" .Title "item" .Permalink) }}
+  {{ else if eq .Kind "term" }}
+    {{ with site.GetPage "/tags" }}{{ $items = $items | append (dict "name" .Title "item" .Permalink) }}{{ end }}
+    {{ $items = $items | append (dict "name" .Title "item" .Permalink) }}
+  {{ else if in (slice "section" "taxonomy") .Kind }}
+    {{ $items = $items | append (dict "name" .Title "item" .Permalink) }}
+  {{ end }}
+  {{ if gt (len $items) 1 }}
+    {{ $list := slice }}
+    {{ range $i, $e := $items }}
+      {{ $list = $list | append (dict "@type" "ListItem" "position" (add $i 1) "name" $e.name "item" $e.item) }}
+    {{ end }}
+    {{ $crumbs := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $list }}
+    <script type="application/ld+json">{{ $crumbs | jsonify | safeJS }}</script>
+  {{ end }}
+{{ end }}

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:31:05+01:00
 description: "Knusprige Schnitzel mit cremiger Champignon-Rahmsoße."
 featured_image: "/images/rezepte/schnitzel_pilzrahm.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/schnitzel_pilzrahm.webp"
 recipeName: "schnitzel_pilzrahm"
 trello: "https://trello.com/c/ZfRcE71O"
 
-tags: ["🇩🇪 Deutsch", "🥩 Fleisch"]
+tags: ["Deutsch", "Fleisch"]
 title: "Schnitzel mit Pilzrahm"
 
 stars: 4

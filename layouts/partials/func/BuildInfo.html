@@ -1,0 +1,35 @@
+{{/*
+  Build-Zeitpunkt und Git-Stand für den Footer.
+  Git-Stand, in dieser Reihenfolge:
+    1. Umgebungsvariablen HUGO_GIT_COMMIT (und optional HUGO_GIT_BRANCH)
+    2. .git im Projektordner (HEAD → Branch → Commit, auch aus packed-refs)
+    3. sonst leer
+  Im Docker-Build gibt es kein git; dort muss .git mitkopiert oder HUGO_GIT_COMMIT gesetzt werden.
+
+  @return dict "time" (Text) "iso" (für <time datetime>) "commit" (kurz) "branch"
+*/}}
+{{ $built := time.In "Europe/Berlin" now }}
+{{ $commit := getenv "HUGO_GIT_COMMIT" }}
+{{ $branch := getenv "HUGO_GIT_BRANCH" }}
+{{ if and (not $commit) (fileExists ".git/HEAD") }}
+  {{ $head := os.ReadFile ".git/HEAD" | strings.TrimSpace }}
+  {{ if strings.HasPrefix $head "ref: " }}
+    {{ $ref := strings.TrimPrefix "ref: " $head }}
+    {{ $branch = $branch | default (path.Base $ref) }}
+    {{ if fileExists (printf ".git/%s" $ref) }}
+      {{ $commit = os.ReadFile (printf ".git/%s" $ref) | strings.TrimSpace }}
+    {{ else if fileExists ".git/packed-refs" }}
+      {{ with findRESubmatch (printf `(?m)^([0-9a-f]{40}) %s$` $ref) (os.ReadFile ".git/packed-refs") 1 }}
+        {{ $commit = index (index . 0) 1 }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $commit = $head }}
+  {{ end }}
+{{ end }}
+{{ return dict
+  "time" ($built.Format "02.01.2006, 15:04 Uhr")
+  "iso" ($built.Format "2006-01-02T15:04:05-07:00")
+  "commit" (substr $commit 0 7)
+  "branch" $branch
+}}

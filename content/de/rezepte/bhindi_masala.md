@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-04-20T18:30:24+02:00
 description: "Indisches Okra-Curry mit Zwiebeln, Tomaten und würzigen Gewürzen."
 featured_image: "/images/rezepte/bhindi_masala.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/bhindi_masala.webp"
 recipeName: "bhindi_masala"
 trello: "https://trello.com/c/lXTyaCGc"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry"]
+tags: ["Indisch", "Vegetarisch", "Vegan", "Curry"]
 title: "Bhindi Masala"
 
 stars: 4

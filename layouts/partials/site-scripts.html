@@ -1,4 +1,11 @@
-<script defer src="/js/fuse.min.js"></script>
-<script defer src="/js/search.js"></script>
-<script defer src="/js/tag-filter.js"></script>
-<script defer src="/js/wake-lock.js"></script>
+{{/*
+  Alle eigenen Skripte als eine Datei (defer: läuft nach dem Parsen, also auch
+  nach jQuery am Ende vom <body>). Fuse.js lädt search.js erst bei Bedarf nach.
+  Zwischen den Dateien steht ";", damit sie sich nicht gegenseitig stören.
+*/}}
+{{ $files := slice "js/search.js" "js/tag-filter.js" "js/wake-lock.js" "js/tagmenu.js" "js/carousel.js" "js/main.js" }}
+{{ $parts := slice }}
+{{ range $files }}{{ $parts = $parts | append (printf "/* %s */\n%s\n;" . (resources.Get .).Content) }}{{ end }}
+{{ with delimit $parts "\n" | resources.FromString "js/site.js" | minify | fingerprint }}
+  <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}

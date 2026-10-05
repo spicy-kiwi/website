@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Knusprige Kartoffelnuggets aus dem Ofen - die unkomplizierte Beilage für stressige Tage."
 featured_image: "/images/rezepte/mini_tater_tots.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/mini_tater_tots.webp"
 recipeName: "mini_tater_tots"
 trello: "https://trello.com/c/odfWhd9j"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥔 Beilage", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Vegan", "Beilage", "Einfach", "Schnell"]
 title: "Mini Tater Tots (Kartoffelnuggets)"
 
 stars: 3

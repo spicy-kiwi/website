@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:57:28+01:00
 description: "Asiatisch gebratener Reis mit Ei, Ingwer, Knoblauch und Sambal Oelek."
 featured_image: "/images/rezepte/gebratener_reis.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gebratener_reis.webp"
 recipeName: "gebratener_reis"
 
 trello: "https://trello.com/c/4jg8KWLX"
-tags: ["🇨🇳 Chinesisch", "🌱 Vegetarisch", "🍚 Reis", "🍳 Pfanne", "👌 Einfach", "⏰ Schnell"]
+tags: ["Chinesisch", "Vegetarisch", "Reis", "Pfanne", "Einfach", "Schnell"]
 title: "Gebratener Reis"
 
 stars: 4

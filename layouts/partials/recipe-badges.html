@@ -1,0 +1,8 @@
+{{/* Kleine Angaben auf dem Foto: Sterne, Zeit, Schwierigkeit und (optional) wie oft gekocht.
+     Symbol und Einheit als echter Text (vorher nur per CSS, für Screenreader unsichtbar).
+     @context dict "page" (Rezept) "cooked" (bool: "gekocht"-Badge anzeigen) */}}
+{{ $p := .page }}
+{{ with $p.Params.stars }}<span class="badge bg-light" title="Bewertung: {{ . }} von 5 Sternen">⭐{{ . }}</span>{{ end }}
+{{ with $p.Params.duration }}<span class="badge bg-light" title="Zubereitungszeit: {{ . }} Minuten">⏱️{{ . }}min</span>{{ end }}
+{{ with $p.Params.difficulty }}<span class="badge bg-light" title="Schwierigkeit: {{ . }}">🧑‍🍳{{ . }}</span>{{ end }}
+{{ if $.cooked }}{{ with $p.Params.cooked }}<span class="badge bg-light" title="{{ . }}-mal gekocht">🥗{{ . }}x</span>{{ end }}{{ end }}

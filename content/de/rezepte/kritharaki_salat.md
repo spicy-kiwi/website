@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-13T11:27:49+02:00
 description: "Griechischer Nudelsalat mit Kritharaki, Kichererbsen und cremigem Tahini-Dressing."
 featured_image: "/images/rezepte/kritharaki_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kritharaki_salat.webp"
 recipeName: "kritharaki_salat"
 trello: "https://trello.com/c/APxGNzhE"
 
-tags: ["🇬🇷 Griechisch", "🌱 Vegetarisch", "🌿 Vegan", "🍝 Nudeln", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Griechisch", "Vegetarisch", "Vegan", "Nudeln", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Kritharaki-Salat"
 
 stars: 4

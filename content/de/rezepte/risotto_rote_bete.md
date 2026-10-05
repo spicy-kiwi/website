@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:40:07+01:00
 description: "Pinkes Risotto mit Roter Bete und Feta."
 featured_image: "/images/rezepte/risotto_rote_bete.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_rote_bete.webp"
 recipeName: "risotto_rote_bete"
 
 trello: "https://trello.com/c/4GWbheMQ"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Roter Bete und Feta"
 
 stars: 4

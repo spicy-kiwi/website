@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-08-05T23:21:19+02:00
 description: "Samtige pürierte Linsensuppe mit Balsamico, Minze und knusprigen Fladenbrot-Croutons."
 featured_image: "/images/rezepte/pürierte_linsensuppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/pürierte_linsensuppe.webp"
 recipeName: "pürierte_linsensuppe"
 trello: "https://trello.com/c/Yxeg0jfe"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🥄 Suppe", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Suppe", "Einfach"]
 title: "Pürierte Linsensuppe"
 
 stars: 4

@@ -1,0 +1,16 @@
+{{/*
+  Seitennummerierung der aktuellen Seite (nur /rezepte/ und Tag-Seiten).
+  Nutzt denselben Paginator wie die Liste (.Paginator), damit nichts doppelt angelegt wird.
+
+  @return dict "number" (aktuelle Seite) "total" (Seiten) "url" (absolute URL dieser Seite)
+          oder ein leeres dict, wenn die Seite nicht nummeriert ist
+*/}}
+{{ $info := dict }}
+{{ if or (and (eq .Kind "section") (eq .Section "rezepte")) (eq .Kind "term") }}
+  {{ with .Paginator }}
+    {{ if gt .TotalPages 1 }}
+      {{ $info = dict "number" .PageNumber "total" .TotalPages "url" (.URL | absURL) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $info }}

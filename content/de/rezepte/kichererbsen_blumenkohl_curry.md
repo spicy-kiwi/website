@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-07T18:56:09+02:00
 description: "Aloo Gobi: Würziges indisches Curry mit Blumenkohl, Kartoffeln und Kichererbsen."
 featured_image: "/images/rezepte/kichererbsen_blumenkohl_curry.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/kichererbsen_blumenkohl_curry.webp"
 recipeName: "kichererbsen_blumenkohl_curry"
 trello: "https://trello.com/c/XltU09mm"
 
-tags: ["🇮🇳 Indisch", "🌱 Vegetarisch", "🌿 Vegan", "🍛 Curry"]
+tags: ["Indisch", "Vegetarisch", "Vegan", "Curry"]
 title: "Kichererbsen-Blumenkohl-Curry (Aloo Gobi)"
 
 stars: 4

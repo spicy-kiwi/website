@@ -1,0 +1,20 @@
+{{/*
+  Tags für das Dropdown in der Hauptnavigation, sortiert nach Anzahl Rezepte.
+  Ausgelassen werden Länder-Tags (Emoji in data/tag_icons.yaml ist eine Flagge)
+  und alles aus params.tagMenu.exclude in hugo.toml.
+
+  @return slice of dict (name, url, count)
+*/}}
+{{ $cfg := site.Params.tagMenu | default dict }}
+{{ $count := $cfg.count | default 8 }}
+{{ $exclude := $cfg.exclude | default slice }}
+{{ $result := slice }}
+{{ range site.Taxonomies.tags.ByCount }}
+  {{ $name := .Page.Title }}
+  {{ $icon := index hugo.Data.tag_icons $name | default "" }}
+  {{ $isCountry := gt (len (findRE `[\x{1F1E6}-\x{1F1FF}]` $icon)) 0 }}
+  {{ if and (not $isCountry) (not (in $exclude $name)) (lt (len $result) $count) }}
+    {{ $result = $result | append (dict "name" $name "url" .Page.RelPermalink "count" .Count) }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

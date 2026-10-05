@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-12-20T11:02:39+01:00
 description: "Mit Bohnen, Mais und Käse gefüllte Enchiladas, überbacken in roter Soße."
 featured_image: "/images/rezepte/vegetarische_enchiladas.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/vegetarische_enchiladas.webp"
 recipeName: "vegetarische_enchiladas"
 
 trello: "https://trello.com/c/KIhjatSZ"
-tags: ["🇲🇽 Mexikanisch", "🌱 Vegetarisch", "🥘 Auflauf"]
+tags: ["Mexikanisch", "Vegetarisch", "Auflauf"]
 title: "Vegetarische Enchiladas"
 
 stars: 4

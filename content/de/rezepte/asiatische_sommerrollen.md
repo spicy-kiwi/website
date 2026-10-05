@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:59:27+01:00
 description: "Frische vietnamesische Sommerrollen mit Reispapier, Gemüse und Erdnuss-Dip."
 featured_image: "/images/rezepte/asiatische_sommerrollen.webp"
 
-tags: ["🇻🇳 Vietnamesisch", "🐟 Fisch"]
+tags: ["Vietnamesisch", "Fisch"]
 title: "Sommerrollen"
 
 # Absolute required metadata

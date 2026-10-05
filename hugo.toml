@@ -1,20 +1,27 @@
 title = "Spicy 🌶️ Kiwi"
 baseURL = "https://spicy.nox.kiwi/"
-languageCode = "de-de"
+locale = "de-DE"
 theme = ["ananke"]
 
 DefaultContentLanguage = "de"
-SectionPagesMenu = "main"
-Paginate = 16
+# Hauptmenü wird über "menus: main" in der Front Matter gepflegt
+# (content/de/rezepte/_index.md, content/de/ueber-uns.md)
 googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
 [languages.de]
-title = "🌶️Spicy Kiwi🥝 "
+title = "🌶️Spicy Kiwi🥝"
 weight = 1
 contentDir = "content/de"
 
+
+[taxonomies]
+tag = "tags"
+
+[pagination]
+# Rezepte pro Seite auf /rezepte/ und den Tag-Seiten
+pagerSize = 9
 
 [sitemap]
 changefreq = "monthly"
@@ -23,6 +30,18 @@ filename = "sitemap.xml"
 
 [outputs]
 home = ["HTML", "JSON"]
+# Keine eigenen RSS-Feeds je Tag, nur /rezepte/index.xml
+taxonomy = ["HTML"]
+term = ["HTML"]
+# /rezepte/karten.html: alle Rezept-Karten auf einer Seite, nur für den Tag-Filter
+# (assets/js/tag-filter.js lädt sie nach, sobald ein Filter aktiv ist)
+section = ["HTML", "RSS", "Karten"]
+
+[outputFormats.Karten]
+mediaType = "text/html"
+baseName = "karten"
+isHTML = true
+notAlternative = true
 
 [markup]
 [markup.goldmark]
@@ -30,9 +49,36 @@ home = ["HTML", "JSON"]
 unsafe = true
 
 [params]
-author = "Anderer Jan"
+# Markenname in Seitentiteln (ohne Emojis, die kürzt Google oft weg)
+brand = "Spicy Kiwi"
+# true = komplettes Bootstrap laden statt der gekürzten Fassung (assets/css/bootstrap-subset.css).
+# Nur zum Ausprobieren neuer Bootstrap-Elemente; danach scripts/bootstrap-subset.py ausführen.
+bootstrapFull = false
+author = "Jan"
 favicon = "/favicon.ico"
 site_logo = ""
-description = "The last theme you'll ever need. Maybe."
+description = "Rezepte, die wir selbst gern kochen. Meistens vegetarisch, ab und zu mit Fleisch oder Fisch."
 background_color_class = "bg-dark-gray"
 recent_posts_number = 1
+
+# Dropdown unter "Rezepte" in der Hauptnavigation.
+# Zeigt die Tags mit den meisten Rezepten. Länder-Tags (Emoji ist eine Flagge
+# in data/tag_icons.yaml) werden automatisch ausgelassen.
+[params.tagMenu]
+count = 8
+# weitere Tags, die nie im Menü erscheinen sollen, z. B. ["Asiatisch"]
+exclude = ["Asiatisch"]
+
+# static/images zusätzlich als Asset einbinden: so kann Hugo aus den Fotos
+# Vorschaubilder für die Karten erzeugen (partials/func/CardImage.html).
+# Die Fotos bleiben in static/images, am Ablauf ändert sich nichts.
+# Eigene Mounts ersetzen die Standard-Mounts, deshalb stehen assets/static mit drin.
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static/images"
+target = "assets/images"
+[[module.mounts]]
+source = "static"
+target = "static"

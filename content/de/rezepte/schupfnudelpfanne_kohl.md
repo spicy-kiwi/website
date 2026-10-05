@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:06:00+01:00
 description: "Knusprig gebratene Schupfnudeln mit zartem Wirsing in cremigem Schmand."
 featured_image: "/images/rezepte/schupfnudelpfanne_kohl.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/schupfnudelpfanne_kohl.webp"
 recipeName: "schupfnudelpfanne_kohl"
 trello: "https://trello.com/c/ybDIdtXG"
 
-tags: ["🇩🇪 Deutsch", "🌱 Vegetarisch", "🫕 One-Pot", "🍳 Pfanne", "👌 Einfach"]
+tags: ["Deutsch", "Vegetarisch", "One-Pot", "Pfanne", "Einfach"]
 title: "Schupfnudelpfanne mit Kohl"
 
 stars: 4

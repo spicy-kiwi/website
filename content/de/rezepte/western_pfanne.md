@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-03-19T12:27:21+01:00
 description: "Ofenkartoffeln mit grünen Bohnen, Kidneybohnen und Mais in würziger Tomatensoße."
 featured_image: "/images/rezepte/western_pfanne.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/western_pfanne.webp"
 recipeName: "western_pfanne"
 trello: "https://trello.com/c/6elCioaQ"
 
-tags: ["🌱 Vegetarisch", "🌿 Vegan", "🍳 Pfanne", "🔥 Ofen", "👌 Einfach"]
+tags: ["Vegetarisch", "Vegan", "Pfanne", "Ofen", "Einfach"]
 title: "Western-Pfanne"
 
 stars: 4

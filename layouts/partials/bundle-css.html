@@ -1,0 +1,10 @@
+{{/*
+  Alle eigenen Stylesheets als eine Datei, verkleinert und mit Fingerprint im Namen
+  (weniger Requests, kein Cache-Problem nach Änderungen). Reihenfolge = Kaskade.
+*/}}
+{{ $files := slice "css/units.css" "css/search.css" "css/tag-filter.css" "css/tagmenu.css" "css/carousel.css" }}
+{{ $res := slice }}
+{{ range $files }}{{ $res = $res | append (resources.Get .) }}{{ end }}
+{{ with $res | resources.Concat "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}

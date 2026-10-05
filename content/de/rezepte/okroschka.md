@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-07-28T12:01:40+02:00
 description: "Erfrischende kalte russische Sommersuppe auf Kefir-Basis mit Gurke und Ei."
 featured_image: "/images/rezepte/okroschka.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/okroschka.webp"
 recipeName: "okroschka"
 trello: "https://trello.com/c/QXU7gJim"
 
-tags: ["🇷🇺 Russisch", "🌱 Vegetarisch", "🥄 Suppe", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Russisch", "Vegetarisch", "Suppe", "Kalt", "Einfach", "Schnell"]
 title: "Okroschka"
 
 stars: 4

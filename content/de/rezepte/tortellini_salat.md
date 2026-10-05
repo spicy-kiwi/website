@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2025-05-18T13:36:05+02:00
 description: "Bunter Tortellini-Salat mit Paprika, Mais und einem cremigen Sauerrahm-Dressing."
 featured_image: "/images/rezepte/tortellini_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/tortellini_salat.webp"
 recipeName: "tortellini_salat"
 trello: "https://trello.com/c/OUwZRMEF"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "🥗 Salat", "🧊 Kalt", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Salat", "Kalt", "Einfach", "Schnell"]
 title: "Tortellini-Salat"
 
 stars: 4

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Tiefkühlpizza aufgepimpt mit eigenen Toppings und extra Käse."
 featured_image: "/images/rezepte/tiefkuehlpizza_upgrade.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/tiefkuehlpizza_upgrade.webp"
 recipeName: "tiefkuehlpizza_upgrade"
 
 trello: "https://trello.com/c/pBfmEwlN"
-tags: ["🌱 Vegetarisch", "🍕 Pizza", "🔥 Ofen", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Pizza", "Ofen", "Einfach", "Schnell"]
 title: "Tiefkühlpizza-Upgrade"
 
 stars: 3

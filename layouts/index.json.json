@@ -18,12 +18,12 @@
         "ingredients" (delimit $ingredients ", ")
       ) -}}
 {{- end -}}
-{{- range where site.RegularPages "Section" "zutaten" -}}
+{{- range site.Taxonomies.tags -}}
   {{- $items = $items | append (dict
-        "title" .Title
-        "url" .RelPermalink
-        "section" "Zutat"
-        "description" (.Params.description | default "")
+        "title" (partial "func/TagLabel.html" .Page.Title)
+        "url" .Page.RelPermalink
+        "section" "Tag"
+        "description" (.Page.Description | default "")
         "tags" ""
         "ingredients" ""
       ) -}}

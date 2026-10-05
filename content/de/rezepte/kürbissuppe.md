@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T16:01:17+01:00
 description: "Cremige Hokkaido-Kürbissuppe mit Kokosmilch und Crème fraîche."
 featured_image: "/images/rezepte/kürbissuppe.webp"
 
-tags: ["🌱 Vegetarisch", "🥄 Suppe", "🫕 One-Pot", "👌 Einfach"]
+tags: ["Vegetarisch", "Suppe", "One-Pot", "Einfach"]
 title: "Kürbissuppe"
 
 # Absolute required metadata

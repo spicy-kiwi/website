@@ -1,9 +1,9 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:13:25+01:00
 description: "Griechischer Nudelauflauf mit Kritharaki, Feta, Oliven und Cherrytomaten."
 featured_image: "/images/rezepte/kritharaki_feta_auflauf.webp"
 
-tags: ["🌱 Vegetarisch", "🍝 Nudeln", "🥘 Auflauf", "🔥 Ofen", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Nudeln", "Auflauf", "Ofen", "Einfach", "Schnell"]
 title: "Kritharaki-Auflauf mit Feta"
 
 # Absolute required metadata

@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Cremige Suppe mit Brokkoli, Möhren und geschmolzenem Cheddar."
 featured_image: "/images/rezepte/brokkoli_cheddar_suppe.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/brokkoli_cheddar_suppe.webp"
 recipeName: "brokkoli_cheddar_suppe"
 
 trello: "https://trello.com/c/t4L28fVj"
-tags: ["🇺🇸 Amerikanisch", "🌱 Vegetarisch", "🥄 Suppe", "👌 Einfach"]
+tags: ["Amerikanisch", "Vegetarisch", "Suppe", "Einfach"]
 title: "Brokkoli-Cheddar-Suppe"
 
 stars: 4

@@ -1,0 +1,18 @@
+<!doctype html>
+{{/* Alle Rezept-Karten auf einer Seite. Wird nicht direkt besucht, sondern von
+     assets/js/tag-filter.js nachgeladen, sobald auf /rezepte/ ein Filter aktiv ist. */}}
+<html lang="{{ site.Language.Locale }}">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<title>Alle Rezepte | {{ site.Params.brand | default "Spicy Kiwi" }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+</head>
+<body>
+<div id="allRecipes">
+{{ range where .Pages "Params.recipeName" "!=" nil }}
+  {{ partial "recipe-filter-item.html" . }}
+{{ end }}
+</div>
+</body>
+</html>

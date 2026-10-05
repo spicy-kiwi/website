@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-03-13T15:06:06+01:00
 description: "Saftiger Hackbraten mit süßer Glasur, in Rekordzeit im Schnellkochtopf gegart."
 featured_image: "/images/rezepte/schnellkochtopf_hackbraten.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/schnellkochtopf_hackbraten.webp"
 recipeName: "schnellkochtopf_hackbraten"
 
 trello: "https://trello.com/c/r3MvMAAe"
-tags: ["🇺🇸 Amerikanisch", "🥩 Fleisch", "💨 Schnellkochtopf"]
+tags: ["Amerikanisch", "Fleisch", "Schnellkochtopf"]
 title: "Schnellkochtopf-Hackbraten"
 
 stars: 4

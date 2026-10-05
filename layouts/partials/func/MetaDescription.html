@@ -1,0 +1,52 @@
+{{/*
+  Meta-Beschreibung, Ziel 120–160 Zeichen.
+  - Rezept: description + "Zutaten: A, B und C. Fertig in 25 Minuten." aus data/<rezept>.yaml
+  - Tag:    Anfang des Intro-Texts (partials/tag-intro/<tag>.html), sonst description
+  - Rest:   description, sonst Seitenbeschreibung aus hugo.toml
+
+  @return string
+*/}}
+{{ $max := 160 }}
+{{ $desc := .Description | default "" | strings.TrimSpace }}
+
+{{ if and .IsPage .Params.recipeName }}
+  {{ if and $desc (not (strings.HasSuffix $desc ".")) (not (strings.HasSuffix $desc "!")) }}{{ $desc = printf "%s." $desc }}{{ end }}
+  {{/* Hauptzutaten: die ersten aus der Liste, ohne Grundzutaten */}}
+  {{ $basics := slice "Salz" "Pfeffer" "Öl" "Olivenöl" "Rapsöl" "Wasser" "Zucker" "Butter" "Gemüsebrühe" "Mehl" "Knoblauch" "Knoblauchzehe" "Knoblauchzehen" "Zwiebel" "Zwiebeln" "Schalotte" "Schalotten" "Tomatenmark" "Paprikapulver" "Sahne" "Milch" "Ei" "Eier" }}
+  {{ $main := slice }}
+  {{ range index hugo.Data .Params.recipeName }}
+    {{/* "Hähnchen (Brust oder Schenkel)" -> "Hähnchen" */}}
+    {{ $name := .ingredient | default "" | replaceRE `\s*\(.*?\)` "" | strings.TrimSpace }}
+    {{ if and $name (not (in $basics $name)) (lt (len $main) 3) (not (in (lower $desc) (lower $name))) }}
+      {{ $main = $main | append $name }}
+    {{ end }}
+  {{ end }}
+  {{ $extras := slice }}
+  {{ with $main }}
+    {{ $list := index . 0 }}
+    {{ if eq (len .) 2 }}{{ $list = printf "%s und %s" (index . 0) (index . 1) }}{{ end }}
+    {{ if eq (len .) 3 }}{{ $list = printf "%s, %s und %s" (index . 0) (index . 1) (index . 2) }}{{ end }}
+    {{ $extras = $extras | append (printf "Zutaten: %s." $list) }}
+  {{ end }}
+  {{ with $.Params.duration }}
+    {{ $extras = $extras | append (printf "Fertig in %v Minuten." .) }}
+  {{ end }}
+  {{ range $extras }}
+    {{ $next := strings.TrimSpace (printf "%s %s" $desc .) }}
+    {{ if le (strings.RuneCount $next) $max }}{{ $desc = $next }}{{ end }}
+  {{ end }}
+{{ else if eq .Kind "term" }}
+  {{ $intro := printf "tag-intro/%s.html" (.Title | lower | replaceRE " " "-") }}
+  {{ if templates.Exists (printf "partials/%s" $intro) }}
+    {{ $desc = partial $intro . | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate (sub $max 2) }}
+  {{ end }}
+{{ end }}
+
+{{ if not $desc }}{{ $desc = site.Params.description }}{{ end }}
+
+{{/* Folgeseiten der Seitennummerierung: "Seite 2 von 19. …" voranstellen */}}
+{{ $pager := partial "func/PagerInfo.html" . }}
+{{ with $pager.number }}{{ if gt . 1 }}
+  {{ $desc = printf "Seite %d von %d. %s" . $pager.total $desc | truncate (sub $max 2) }}
+{{ end }}{{ end }}
+{{ return $desc }}

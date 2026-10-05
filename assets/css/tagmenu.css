@@ -1,0 +1,83 @@
+/* Dropdown unter "Rezepte" in der Hauptnavigation (partials/site-navigation.html) */
+.tagmenu {
+    position: relative;
+}
+
+.tagmenu-toggle {
+    background: none;
+    border: 0;
+    padding: 0 .25rem;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.tagmenu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    min-width: 15rem;
+    margin: .5rem 0 0;
+    padding: .5rem 0;
+    list-style: none;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+    text-align: left;
+}
+
+/* Brücke über den Abstand, damit das Menü beim Hovern nicht zuklappt */
+.tagmenu-list::before {
+    content: "";
+    position: absolute;
+    top: -.5rem;
+    left: 0;
+    right: 0;
+    height: .5rem;
+}
+
+.tagmenu.is-open .tagmenu-list {
+    display: block;
+}
+
+@media (hover: hover) {
+    .tagmenu:hover .tagmenu-list {
+        display: block;
+    }
+}
+
+.tagmenu-list a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.tagmenu-list a:hover,
+.tagmenu-list a:focus-visible {
+    background: #f1f1f1;
+}
+
+.tagmenu-count {
+    color: #888;
+    font-size: .875rem;
+}
+
+.tagmenu-all {
+    border-top: 1px solid #eee;
+    margin-top: .25rem;
+    padding-top: .25rem;
+}
+
+/* Handy/Tablet: Navigation ist linksbündig gestapelt, Menü links ausrichten */
+@media (max-width: 59.99em) {
+    .tagmenu-list {
+        left: 0;
+        right: auto;
+    }
+}

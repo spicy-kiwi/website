@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-07-07T21:23:23+02:00
 description: "Bunte Gemüse-Quiche mit knusprigem Mürbeteig und würzigem Bergkäse."
 featured_image: "/images/rezepte/gemuese_quiche.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/gemuese_quiche.webp"
 recipeName: "gemuese_quiche"
 trello: "https://trello.com/c/k8jlRJmz"
 
-tags: ["🌱 Vegetarisch", "🥧 Quiche", "🔥 Ofen"]
+tags: ["Vegetarisch", "Quiche", "Ofen"]
 title: "Gemüse-Quiche"
 
 stars: 4

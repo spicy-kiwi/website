@@ -1,16 +1,10 @@
 ---
-date: 2024-08-08T12:00:00-05:00
+date: 2025-01-08T17:42:00+01:00
 description: "Mit Hackfleisch, Reis und Gemüse gefüllte Paprika, überbacken mit Käse."
 featured_image: "/images/rezepte/gefüllte_paprika.webp"
 
-
-tags: ["🥩 Fleisch", "🔥 Ofen", "👌 Einfach", "⏰ Schnell"]
+tags: ["Fleisch", "Ofen", "Einfach", "Schnell"]
 title: "Gefüllte Paprika"
-layout: "recipe"
-category: "Backen"
-permalink: "/rezepte/gefüllte-paprika/"
-isPublished: true
-post_content_classes: "aaa"
 
 # Absolute required metadata
 recipeName: "gefüllte_paprika"
@@ -23,19 +17,9 @@ cooked: 42
 # Ingredients calculator
 servingsCount: 4
 
-nutrition: [ "Vegetarian" ]
-# Can be filtered for, make it easier for people with a specific dietary preference.
-
-preparation_method: [ "Cooking", "Frying", "Simmering", "Baking" ]
-# Can be filtered for
-
-tools: [ "Knife", "Cutting board", "Pan", "Pot", "Vegetable masher", "abdeckbaren Pfanne" ]
-# Just a list of things we may link.
-
 # Calories calculator?
 # Maybe funnel data from YAZIO into our recipes?
 # Maybe even link to the recipe in YAZIO?
-
 
 # cooperations?
 # Westwing: We use plates and cutlery from Westwing?

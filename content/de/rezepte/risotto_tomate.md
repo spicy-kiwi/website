@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2024-08-20T10:40:33+02:00
 description: "Fruchtiges Tomaten-Risotto mit frischen und passierten Tomaten."
 featured_image: "/images/rezepte/risotto_tomate.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/risotto_tomate.webp"
 recipeName: "risotto_tomate"
 
 trello: "https://trello.com/c/BF39najN"
-tags: ["🇮🇹 Italienisch", "🌱 Vegetarisch", "🌾 Risotto", "🫕 One-Pot"]
+tags: ["Italienisch", "Vegetarisch", "Risotto", "One-Pot"]
 title: "Risotto mit Tomaten"
 
 stars: 4

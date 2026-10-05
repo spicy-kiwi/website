@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-08-10T10:50:55+02:00
 description: "Frischer Belugalinsen-Salat mit Paprika, Feta und Zitronen-Honig-Dressing."
 featured_image: "/images/rezepte/belugalinsen_salat.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/belugalinsen_salat.webp"
 recipeName: "belugalinsen_salat"
 trello: "https://trello.com/c/fdeLgC9p"
 
-tags: ["🌱 Vegetarisch", "🥗 Salat", "🧊 Kalt", "👌 Einfach"]
+tags: ["Vegetarisch", "Salat", "Kalt", "Einfach"]
 title: "Belugalinsen-Salat"
 
 stars: 4

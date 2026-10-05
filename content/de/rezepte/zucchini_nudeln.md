@@ -1,5 +1,5 @@
 ---
-date: 2023-07-30T12:00:00-05:00
+date: 2026-08-07T18:09:43+02:00
 description: "Schnelle Zucchini-Nudeln mit Knoblauch, Zitrone und Grana Padano."
 featured_image: "/images/rezepte/zucchini_nudeln.webp"
 
@@ -7,7 +7,7 @@ featured_image: "/images/rezepte/zucchini_nudeln.webp"
 recipeName: "zucchini_nudeln"
 trello: "https://trello.com/c/KjyCoKu2"
 
-tags: ["🌱 Vegetarisch", "👌 Einfach", "⏰ Schnell"]
+tags: ["Vegetarisch", "Einfach", "Schnell"]
 title: "Zucchini-Nudeln"
 
 stars: 4
