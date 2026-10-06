@@ -19,20 +19,20 @@ servingsCount: 4
 ---
 
 ## Anleitung
-1. [ ] Die eine [Tortilla](#ing1) ausbreiten und mit [Frischkäse](#ing2) beschichten
+1. [ ] Die eine [Tortilla](#ing1) ausbreiten und mit [Frischkäse](#ing2) bestreichen. Nach belieben würzen.
 2. [ ] Nach Belieben mit [Bohnen](#ing8), [Mais](ing3), [Zwiebeln](#ing4), [Paprika](#ing5), [Chilis](#ing6) und [Koriander](#ing9) belegen.
-2. [ ] Anschließend mit [geriebenem Käse](#ing7) bestreuen.
-3. [ ] Nun nach Bedarf mit der [mexikanischen Gewürzmischung](#ing10) würzen.
-4. [ ] Abschließend mit der zweiten [Tortilla Wrap](#ing1) abdecken und etwas andrücken.
-5. [ ] Die gefüllte Quesedilla in einer Beschichteten Pfanne auf höchster Stufe anbacken.
-6. [ ] Nach etwa vier Minuten wenden und ebenfalls vier Minuten auf der anderen Seite erhitzen.
+3. [ ] Anschließend mit [geriebenem Käse](#ing7) bestreuen.
+4. [ ] Nun nach Bedarf mit der [mexikanischen Gewürzmischung](#ing10) würzen.
+5. [ ] Abschließend mit der zweiten [Tortilla Wrap](#ing1) abdecken und etwas andrücken.
+6. [ ] Die gefüllte Quesedilla in einer Beschichteten Pfanne auf höchster Stufe anbacken.
+7. [ ] Nach etwa vier Minuten wenden und ebenfalls vier Minuten auf der anderen Seite erhitzen.
 
-## Dekoration
-
+## Vorbereitung
+- Die [mexikanische Gewürzmischung](/rezepte/mexikanische_gewürzmischung) könnt ihr hier einfach selbst vorbereiten.
+- Statt regulärem Frischkäse, schmeckt auch unser [Jalapeno Frischkäse](/rezepte/jalapeno_frischkaese).
 
 ## Warum wir das gerne essen
-Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
-
+Quesedillas haben alles, was es für ein schnelles Abendessen braucht. Trotz geringer Vorbereitungszeit macht sie satt, ist voller Wärme und sie kann nach Belieben simpel oder umfangreich gefüllt werden.
 
 
 
