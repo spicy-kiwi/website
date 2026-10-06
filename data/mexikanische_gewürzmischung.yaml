@@ -1,0 +1,44 @@
+- ingredient: Paprikapulver scharf
+  amount: 3
+  unit: tbsp
+  link: ing1
+- ingredient: Paprikapulver edelsüß
+  amount: 1
+  unit: tbsp
+  link: ing2
+- ingredient: Cayennepfeffer
+  amount: 1
+  unit: tsp
+  link: ing3
+- ingredient: Chilipulver geräuchert
+  amount: 1
+  unit: tsp
+  link: ing4
+- ingredient: Chilipulver
+  amount: 1
+  unit: tbsp
+  link: ing5
+- ingredient: Knoblauchpulver
+  amount: 1
+  unit: tsp
+  link: ing6
+- ingredient: Zwiebelpulver
+  amount: 1
+  unit: tbsp
+  link: ing7
+- ingredient: Kreuzkümmel
+  amount: 1
+  unit: tbsp
+  link: ing8
+- ingredient: Oregano
+  amount: 1
+  unit: tbsp
+  link: ing9
+- ingredient: Salz
+  amount: 1
+  unit: tbsp
+  link: ing10
+- ingredient: Pfefferkörner bunt
+  amount: 1
+  unit: tbsp
+  link: ing11
