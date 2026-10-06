@@ -13,11 +13,11 @@ cascade:
 carousel:
   visible: 3
   recipes:
+    - risotto_tomate_kapern
     - risotto_birne_gorgonzola
     - pürierte_linsensuppe
     - erdnuss_brokkoli_nudeln
     - ajvar_pasta
-    - cigköfte
     - kritharaki_feta_auflauf
     - minestrone
 ---
@@ -32,4 +32,4 @@ Alle Rezepte findest du unter [Rezepte](/rezepte).
 
 Samuel L. Jackson als Jules Winfield in "Pulp Fiction"
 
-Jan
+---
