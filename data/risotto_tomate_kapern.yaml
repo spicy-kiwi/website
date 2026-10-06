@@ -6,6 +6,10 @@
   amount: 1
   unit: tbsp
   link: ing9
+- ingredient: Knoblauch
+  amount: 2
+  unit: Zehen
+  link: ing10
 - ingredient: Schalotten
   amount: 2
   unit: p
